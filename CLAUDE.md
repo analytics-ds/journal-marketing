@@ -70,8 +70,18 @@ Le 2026-08-03, l'article "Apparaître dans ChatGPT" (FR + EN) a été retrouvé 
 
 **Contrôle à faire après chaque batch d'agents rédacteurs** : `git ls-files | grep -v "^content/" | grep "\.md$"` doit ne renvoyer que les fichiers attendus (CLAUDE.md, README...), et le nombre d'articles buildés doit correspondre au nombre de fichiers dans `content/*/blog/`.
 
+## Batch du 2026-08-04 : 8 classements d'agences
+
+Reprise des 8 derniers comparatifs evergreen d'ai.datashake.fr (visuels IA, marketing 360, programmatique, SEO applications mobiles, SEO migration, SEO PME, SEO Webflow, web analytics). Le site passe à **40 articles par langue**. Il ne reste plus rien d'exploitable sur ai.datashake.fr : seul "meilleurs événements marketing mai 2026" a été écarté, c'est un article daté, pas un evergreen.
+
+**Ce que le contrôle a rattrapé sur ce batch** (à refaire systématiquement après des agents rédacteurs) :
+- **Liens internes cassés** : les agents recopient les liens de l'article source, qui pointent vers des articles d'ai.datashake inexistants ici (7 liens dans le seul article Webflow). Contrôle : vérifier que chaque `](/blog/xxx/)` correspond à un fichier de `content/`.
+- **Format du lien datashake** : plusieurs agents ont laissé l'URL brute (`https://datashake.fr offre...`) au lieu d'un lien markdown avec ancre. Compter les liens avec `\]\(https://datashake\.fr\)` et non l'URL seule (un lien markdown contient l'URL deux fois, ce qui fausse le comptage).
+- Cadratins et nombre de liens internes (minimum 3) : idem batch précédent.
+- Le piège du dossier `src/` n'a PAS eu lieu grâce aux **chemins absolus complets** dans le brief. À conserver.
+
 ## À venir
 
-- Compléter les rubriques Social / Publicité / Data (2 articles chacune seulement)
+- Compléter les rubriques Social / Publicité / Data
 - Connexion GA4 datashake
 - Routine cloud de publication evergreen (1 article / semaine / rubrique), à configurer depuis un autre compte Claude que celui de Damien
