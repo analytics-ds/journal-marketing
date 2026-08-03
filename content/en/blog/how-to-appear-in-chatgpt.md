@@ -8,9 +8,16 @@ categories: ["AI and GEO"]
 tags: ["chatgpt", "geo", "generative ai", "content optimization", "source visibility"]
 author: "karim-benali"
 auteurs: ["karim-benali"]
-image: "/images/blog/apparaitre-dans-chatgpt-techniques.webp"
+image: "/images/blog/apparaitre-dans-chatgpt-techniques.svg"
 imageAlt: "ChatGPT interface displaying cited sources in a response with links back to their original websites"
 imageCredit: ""
+faq:
+  - question: "How long does it take to appear in ChatGPT after publishing an article?"
+    answer: "Timelines vary considerably based on several factors: domain authority, content quality, and Bing indexing. For already-established domains, articles can be cited in ChatGPT responses within weeks. For less-known sites, expect several months. A complete GEO strategy typically takes 3 to 6 months to generate measurable and lasting results."
+  - question: "Does ChatGPT really use Schema.org structured data?"
+    answer: "Yes, ChatGPT uses structured data to improve content understanding. Schema.org markup helps the model identify key entities, relationships, and factual information. This significantly increases the chances that your content is not only cited, but also extracted with accuracy in responses."
+  - question: "What is the difference between GEO and traditional SEO?"
+    answer: "Traditional SEO optimizes for visibility in search engine results pages like Google. GEO optimizes for being selected and cited by AI answer engines. While SEO focuses on keywords and backlinks, GEO prioritizes content structure, verifiability, author expertise, and presence on Bing. Both approaches complement each other: good SEO facilitates GEO, but excellent Google visibility does not guarantee presence in ChatGPT."
 ---
 
 > **In short:**

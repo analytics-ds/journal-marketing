@@ -8,9 +8,16 @@ categories: ["IA et GEO"]
 tags: ["chatgpt", "geo", "ia generative", "optimisation contenu", "visibilite source"]
 author: "karim-benali"
 auteurs: ["karim-benali"]
-image: "/images/blog/apparaitre-dans-chatgpt-techniques.webp"
+image: "/images/blog/apparaitre-dans-chatgpt-techniques.svg"
 imageAlt: "Interface ChatGPT affichant des sources citées dans une réponse avec des liens vers les sites d'origine"
 imageCredit: ""
+faq:
+  - question: "Combien de temps faut-il pour apparaître dans ChatGPT après la publication d'un article ?"
+    answer: "Les délais varient considérablement selon plusieurs facteurs : l'autorité du domaine, la qualité du contenu et l'indexation par Bing. Pour les domaines déjà établis, les articles peuvent être cités dans les réponses de ChatGPT en quelques semaines. Pour les sites moins connus, il faut compter plusieurs mois. Une stratégie GEO complète demande généralement 3 à 6 mois pour générer des résultats mesurables et durables."
+  - question: "ChatGPT utilise-t-il réellement les données structurées Schema.org ?"
+    answer: "Oui, ChatGPT utilise les données structurées pour améliorer sa compréhension du contenu. Le balisage Schema.org aide le modèle à identifier les entités clés, les relations et les informations factuelles. Cela augmente significativement les chances que votre contenu soit non seulement cité, mais aussi extrait avec précision dans les réponses."
+  - question: "Quelle est la différence entre le GEO et le SEO traditionnel ?"
+    answer: "Le SEO traditionnel optimise pour la visibilité dans les pages de résultats de moteurs comme Google. Le GEO optimise pour être sélectionné et cité par les moteurs de réponse IA. Alors que le SEO se concentre sur les mots-clés et les backlinks, le GEO privilégie la structure du contenu, la vérifiabilité, l'expertise de l'auteur et la présence sur Bing. Les deux approches se complètent : un bon SEO facilite le GEO, mais une excellente visibilité sur Google ne garantit pas une présence dans ChatGPT."
 ---
 
 > **En bref :**
