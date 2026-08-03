@@ -1,6 +1,6 @@
-# Leviers (média vitrine marketing digital)
+# Journal Marketing (média vitrine marketing digital)
 
-Site média vitrine sur le marketing digital, opéré en interne par datashake mais **totalement débrandé** (aucune mention datashake dans le site publié : ni nom, ni lien, ni CTA agence). Marque publique : **Leviers, le média des leviers d'acquisition**. Hugo statique, destiné à GitHub Pages.
+Site média vitrine sur le marketing digital, opéré en interne par datashake mais **totalement débrandé** (aucune mention datashake dans le site publié : ni nom, ni lien, ni CTA agence). Marque publique : **Journal Marketing, le journal du marketing digital** (ndd **journal-marketing.fr** acheté par Ruben le 2026-08-03, ex-nom de travail "Leviers"). Hugo statique, en ligne via GitHub Pages : repo `analytics-ds/journal-marketing`, workflow Actions (push sur main = deploy, cron mardi/vendredi 3h Paris), CNAME journal-marketing.fr.
 
 ## Statut et particularités (V1, 2026-07-24)
 
@@ -9,7 +9,7 @@ Site média vitrine sur le marketing digital, opéré en interne par datashake m
 - **V1 = travail du style uniquement** : les 12 articles actuels sont des contenus courts bidon, générés pour juger la typographie des pages. Ne pas les prendre pour du contenu réel.
 - **Bilingue FR + EN depuis le 2026-07-24** (aligné sur la règle réseau) : FR à la racine (`content/fr/`), EN sous `/en/` (`content/en/`), `translationKey` partagé entre les paires, switcher FR/EN dans le header, hreflang auto dans le head, textes d'UI via `i18n/fr.toml` + `i18n/en.toml`. Catégories traduites (mapping dans les menus de `hugo.toml` : IA et GEO / AI and GEO, Publicité en ligne / Online advertising...). Auteurs : `role`/`bio` en `fr:` + `en:` dans `data/authors.yaml`. Règle de template : liens de navigation en `relLangURL`, assets (images, css) en `relURL`.
 - **Nom de domaine : `journal-marketing.fr`** (acheté par Ruben, 2026-08-03). Déploiement prévu sur GitHub Pages (org `analytics-ds`), pas encore fait.
-- **Local d'abord** : preview via `hugo server` (voir ci-dessous).
+- **En ligne depuis le 2026-08-03** : https://journal-marketing.fr (via GitHub Pages, DNS GoDaddy). Preview locale toujours possible via `hugo server`. Workflow git réseau : PULL avant modifs, push direct sur main.
 
 ## Design system (V2, portail tech news)
 
