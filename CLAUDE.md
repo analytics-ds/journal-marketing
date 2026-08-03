@@ -54,7 +54,24 @@ hugo -d /tmp/mag-build
 - **Règles de production** : réécrire TOUJOURS les contenus repris d'ai.datashake.fr (site en ligne, duplicate sinon) en gardant les données ; datashake #1 des classements agences avec 1 lien https://datashake.fr max par article (uniquement dans les classements) ; brief agents rédacteurs dans le pattern du 2026-07-24 (charte typo à re-vérifier derrière eux : les agents laissent des cadratins et du tutoiement, et inventent des ratios, contrôler puis corriger).
 - **Archives style UDLT (2026-07-24)** : pages de terme = liste verticale de cards horizontales + compteur d'articles + sidebar "Plus d'articles" (autres rubriques). Templates `layouts/{_default,categories,tags}/term.html` identiques.
 
+## Socle SEO et GEO technique (2026-08-03)
+
+- **JSON-LD en `@graph` unique** : `layouts/partials/schema.html`, inclus par `head.html`. Génère Organization + WebSite partout, puis selon le type de page : BlogPosting (avec author, publisher, wordCount, timeRequired, articleSection, keywords) + Person + FAQPage + BreadcrumbList sur les articles, Person + ProfilePage sur les pages auteur, CollectionPage + BreadcrumbList sur les rubriques et sujets. Construit avec des `dict` Hugo passés à `jsonify` (échappement automatique, jamais de JSON écrit à la main).
+- **Champ `faq` obligatoire dans le frontmatter** : il alimente le schema FAQPage. Les accordéons `<details>` du body ne suffisent pas. Un script d'extraction a été passé sur l'existant ; **tout nouvel article doit avoir son bloc `faq:` en frontmatter en plus des `<details>`** (questions et réponses identiques).
+- **robots.txt dynamique** (`layouts/robots.txt`, `enableRobotsTXT = true`) : tout ouvert + **crawlers IA explicitement autorisés** (GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot, Google-Extended, Applebot-Extended, CCBot, MistralAI-User...). C'est un choix GEO assumé : on veut être crawlé par les moteurs génératifs.
+- **head.html** : meta robots `max-image-preview:large` (nécessaire pour Discover et les AI Overviews), og:image par défaut, Twitter card, `article:published_time`/`modified_time`/`section`/`tag`, hreflang + `x-default` vers le FR, polices Google en non bloquant (`media="print"` + swap), favicon SVG.
+- **Assets de marque** : `static/favicon.svg`, `static/images/logo.png` (512x512, utilisé par le schema Organization et l'apple-touch-icon), `static/images/og-default.png` (1200x630, image de partage par défaut). Générés par capture Playwright d'un gabarit HTML.
+- **Plan du site** : `/plan-du-site/` (FR) et `/en/site-map/`, layout `layouts/_default/sitemap-html.html`, lié depuis le footer.
+- **Search Console** : fichier de vérification `static/googled8eabe3c50a839fc.html` (ne pas supprimer). Sitemap à soumettre : `https://journal-marketing.fr/sitemap.xml` (index FR + EN).
+
+## Piège vécu : article écrit hors de `content/`
+
+Le 2026-08-03, l'article "Apparaître dans ChatGPT" (FR + EN) a été retrouvé dans `src/content/blog/` au lieu de `content/`, écrit là par un agent rédacteur qui avait mal interprété le `<racine>` du brief. Hugo ne buildait donc pas l'article : **404 en production pendant plusieurs jours, sans aucune erreur de build**. Il avait aussi échappé aux passes de contrôle (charte typo, extraction FAQ) qui ne scannaient que `content/`.
+
+**Contrôle à faire après chaque batch d'agents rédacteurs** : `git ls-files | grep -v "^content/" | grep "\.md$"` doit ne renvoyer que les fichiers attendus (CLAUDE.md, README...), et le nombre d'articles buildés doit correspondre au nombre de fichiers dans `content/*/blog/`.
+
 ## À venir
 
 - Compléter les rubriques Social / Publicité / Data (2 articles chacune seulement)
-- Ndd charté + `github-setup` (repo `analytics-ds` + Pages) + mise à jour de `liste pbn geo.md`
+- Connexion GA4 datashake
+- Routine cloud de publication evergreen (1 article / semaine / rubrique), à configurer depuis un autre compte Claude que celui de Damien
