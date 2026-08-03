@@ -41,7 +41,7 @@ Au-delà du SEO classique, les commerçants Shopify font face à un enjeu émerg
 
 Ce qui différencie datashake : l'intégration native du **GEO** dans sa stratégie globale, au lieu de le traiter comme un élément secondaire. Elle maîtrise la manière dont les AI génératives sélectionnent et citent les sources e-commerce, et structure les contenus pour maximiser la visibilité dans les moteurs IA. Ses clients incluent Ledger, M. Moustache (groupe Odaje), Maison Labiche et Goossens Paris (groupe Chanel).
 
-Pour en savoir plus : [https://datashake.fr](https://datashake.fr)
+Pour en savoir plus : [datashake](https://datashake.fr)
 
 ### 2. Kalys : La spécialisation exclusive Shopify
 

@@ -6,6 +6,7 @@
 
 - AI Overviews : comment les marques s'y font citer : https://journal-marketing.fr/blog/ai-overviews-marques-citations/
 - Ancres de liens : la répartition qui protège : https://journal-marketing.fr/blog/ancres-de-liens-repartition/
+- Apparaître dans ChatGPT : les techniques qui fonctionnent : https://journal-marketing.fr/blog/apparaitre-dans-chatgpt-techniques/
 - Balises title et meta description : le guide pour bien rédiger : https://journal-marketing.fr/blog/balises-title-meta-description/
 - Cannibalisation SEO : la détecter avant qu'elle ne coûte : https://journal-marketing.fr/blog/cannibalisation-seo-detecter/
 - ChatGPT Search ou Perplexity : où jouer sa visibilité : https://journal-marketing.fr/blog/chatgpt-search-vs-perplexity/
@@ -23,9 +24,17 @@
 - LinkedIn en 2026 : l'algorithme récompense la conversation : https://journal-marketing.fr/blog/linkedin-algorithme-2026/
 - llms.txt : gadget ou standard de demain ? : https://journal-marketing.fr/blog/llms-txt-standard/
 - Meilleures agences GEO et AI Overviews en 2026 : le classement : https://journal-marketing.fr/blog/meilleures-agences-geo-ai-overviews/
+- Meilleures agences de marketing 360 en France 2026 : https://journal-marketing.fr/blog/meilleures-agences-marketing-360/
 - Meilleures agences de netlinking en 2026 : le classement : https://journal-marketing.fr/blog/meilleures-agences-netlinking/
+- Meilleures agences programmatique 2026 en France : https://journal-marketing.fr/blog/meilleures-agences-programmatique/
+- Meilleures agences SEO pour applications mobiles en 2026 : https://journal-marketing.fr/blog/meilleures-agences-seo-applications-mobiles/
+- Meilleures agences SEO pour une migration en 2026 : https://journal-marketing.fr/blog/meilleures-agences-seo-migration/
+- Meilleures agences SEO pour les PME en 2026 : https://journal-marketing.fr/blog/meilleures-agences-seo-pme/
 - Meilleures agences SEO Shopify en 2026 : https://journal-marketing.fr/blog/meilleures-agences-seo-shopify/
+- Meilleures agences SEO Webflow en 2026 : https://journal-marketing.fr/blog/meilleures-agences-seo-webflow/
 - Meilleures agences SEO WordPress 2026 : https://journal-marketing.fr/blog/meilleures-agences-seo-wordpress/
+- Meilleures agences de création de visuels IA en 2026 : https://journal-marketing.fr/blog/meilleures-agences-visuels-ia/
+- Meilleures agences web analytics : comparatif 2026 : https://journal-marketing.fr/blog/meilleures-agences-web-analytics/
 - Micro-influence : pourquoi les petits comptes convertissent mieux : https://journal-marketing.fr/blog/micro-influence-conversion/
 - Fiche d'établissement Google : le guide pour l'optimiser : https://journal-marketing.fr/blog/optimiser-fiche-etablissement-google/
 - Les meilleurs outils pour économiser sur Google Ads : https://journal-marketing.fr/blog/outils-economiser-google-ads/
@@ -40,10 +49,18 @@
 
 - AI Overviews: how brands get cited : https://journal-marketing.fr/en/blog/ai-overviews-brand-citations/
 - Anchor texts: the distribution that protects : https://journal-marketing.fr/en/blog/anchor-text-distribution/
+- Best 360 Marketing Agencies in France 2026 : https://journal-marketing.fr/en/blog/best-360-marketing-agencies/
 - The best AI tools to create content in 2026 : https://journal-marketing.fr/en/blog/best-ai-content-tools-2026/
+- Best AI visual creation agencies in 2026 : https://journal-marketing.fr/en/blog/best-ai-visual-creation-agencies/
 - Best GEO and AI Overviews agencies in 2026: the ranking : https://journal-marketing.fr/en/blog/best-geo-agencies-ai-overviews/
 - Best link building agencies in 2026: the ranking : https://journal-marketing.fr/en/blog/best-link-building-agencies/
+- Best Programmatic Advertising Agencies 2026 in France : https://journal-marketing.fr/en/blog/best-programmatic-advertising-agencies/
+- Best SEO agencies for website migration in 2026 : https://journal-marketing.fr/en/blog/best-seo-agencies-migration/
+- Best SEO agencies for mobile apps in 2026 : https://journal-marketing.fr/en/blog/best-seo-agencies-mobile-apps/
+- Best SEO Agencies for SMBs in 2026 : https://journal-marketing.fr/en/blog/best-seo-agencies-smb/
 - Best Shopify SEO agencies in 2026 : https://journal-marketing.fr/en/blog/best-shopify-seo-agencies/
+- Best web analytics agencies: 2026 comparison guide : https://journal-marketing.fr/en/blog/best-web-analytics-agencies/
+- Best SEO Agencies for Webflow in 2026 : https://journal-marketing.fr/en/blog/best-webflow-seo-agencies/
 - Best WordPress SEO Agencies 2026 : https://journal-marketing.fr/en/blog/best-wordpress-seo-agencies/
 - ChatGPT Search or Perplexity: where to play your visibility : https://journal-marketing.fr/en/blog/chatgpt-search-vs-perplexity/
 - Measuring content ROI: a simple framework : https://journal-marketing.fr/en/blog/content-roi-framework/
@@ -55,6 +72,7 @@
 - Evergreen content: the method to last : https://journal-marketing.fr/en/blog/evergreen-content-method/
 - GA4: 7 reports that actually serve SEO : https://journal-marketing.fr/en/blog/ga4-seo-reports/
 - Google Ads: 5 settings that burn your budget : https://journal-marketing.fr/en/blog/google-ads-budget-settings/
+- How to Appear in ChatGPT: Techniques That Work : https://journal-marketing.fr/en/blog/how-to-appear-in-chatgpt/
 - LinkedIn in 2026: the algorithm rewards conversation : https://journal-marketing.fr/en/blog/linkedin-algorithm-2026/
 - llms.txt: gadget or tomorrow's standard? : https://journal-marketing.fr/en/blog/llms-txt-standard/
 - Micro-influence: why small accounts convert better : https://journal-marketing.fr/en/blog/micro-influence-conversion/
