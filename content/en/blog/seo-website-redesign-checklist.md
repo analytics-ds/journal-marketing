@@ -11,6 +11,13 @@ auteurs: ["thomas-durand"]
 image: "/images/blog/checklist-seo-refonte-site.webp"
 imageAlt: "SEO checklist for website redesign with before, during and after phases"
 imageCredit: "Photo par Kristin Hardwick via StockSnap (CC0 1.0)"
+faq:
+  - question: "Can you do a redesign without 301 redirects?"
+    answer: "Technically yes, but it is very risky. Without redirects, Google sees the old pages as gone and the new ones as duplicate or new content. Traffic can take 6 to 12 months to recover, if it recovers at all. Backlinks do not transfer their power to the new URLs. Unless a very minor redesign, 301s are non-negotiable."
+  - question: "How long before I see my traffic return to normal?"
+    answer: "It depends on site size and complexity. For a site of 100 to 500 pages with good SEO execution, plan for 4 to 8 weeks. For a site with several thousand pages, expect 3 to 6 months. Sites with many external backlinks may be slower to recover because Google must validate that links still point to valid content."
+  - question: "Should you redesign before or after a major technical migration?"
+    answer: "If possible, combine both in one operation. Doing two major migrations (CMS change plus design change) one after the other prolongs confusion for Google and doubles the risks. One well-planned migration is simpler to manage. If you must separate them, start with the technical migration (to stabilize architecture), then redesign a few weeks after Google has re-stabilized indexation."
 ---
 
 > **In short:**

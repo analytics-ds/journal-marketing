@@ -155,3 +155,6 @@ other = "Ouvrir le menu"
 
 [scrollTop]
 other = "Remonter en haut de page"
+
+[sitemapLink]
+other = "Plan du site"

@@ -11,6 +11,13 @@ auteurs: ["thomas-durand"]
 image: "/images/blog/optimiser-fiche-etablissement-google.webp"
 imageAlt: "Capture d'écran d'une fiche d'établissement Google optimisée avec infos complètes, photos et avis clients visibles."
 imageCredit: "Photo par La Citta Vita via Flickr (CC BY-SA 2.0)"
+faq:
+  - question: "Combien de temps pour voir des résultats après optimisation de ma fiche ?"
+    answer: "Les changements dans les informations de base (horaires, description, NAP) peuvent être visibles en quelques jours. Cependant, Google doit recrawler et réévaluer votre pertinence locale. Comptez 2 à 4 semaines pour une amélioration de classement visible. L'ajout de photos et de posts accélère le processus. Un établissement vraiment pénalisé (fiches dupliquées) peut prendre plus longtemps à se rétablir."
+  - question: "Dois-je répondre à tous les avis négatifs ?"
+    answer: "Oui. Les avis négatifs restent visibles. Ne pas y répondre montre de l'indifférence. Une réponse courtoise, reconnaissant le problème et proposant une résolution, montre votre professionnalisme. Cela rassure les futurs clients qui verront que vous prenez en compte les retours. Google valorise aussi cette réactivité dans son algorithme local."
+  - question: "Puis-je avoir plusieurs fiches pour mon établissement si j'ai deux entrées ?"
+    answer: "Non. Une entreprise = une seule fiche Google, même avec deux entrées. Fusionnez les fiches ou gardez-en une seule avec tous les détails. Si vous avez vraiment deux localisations distinctes (deux adresses différentes, deux codes postaux), créez une fiche pour chaque adresse. Mais une même adresse avec deux fiches casse votre visibilité. Consolidez."
 ---
 
 > **En bref :**

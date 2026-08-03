@@ -16,6 +16,7 @@
         <a href="{{ "categories/" | relLangURL }}">{{ i18n "rubriques" }}</a>
         <a href="{{ "tags/" | relLangURL }}">{{ i18n "topics" }}</a>
         <a href="{{ "index.xml" | relLangURL }}">{{ i18n "rssFeed" }}</a>
+        <a href="{{ (cond (eq .Site.Language.Lang "fr") "plan-du-site/" "site-map/") | relLangURL }}">{{ i18n "sitemapLink" }}</a>
       </div>
       <div class="footer-col newsletter">
         <h4>{{ i18n "joinCommunity" }}</h4>

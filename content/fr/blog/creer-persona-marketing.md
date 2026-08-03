@@ -11,6 +11,13 @@ auteurs: ["lea-fontaine"]
 image: "/images/blog/creer-persona-marketing.webp"
 imageAlt: "Modèle de fiche persona marketing avec informations démographiques et comportementales"
 imageCredit: "Photo par @resultsjunkie via Flickr (CC BY-SA 2.0)"
+faq:
+  - question: "Comment faire un persona en marketing ?"
+    answer: "La création d'un persona suit quatre étapes : collecte de données auprès de clients existants (interviews, sondages, données analytiques), organisation et analyse pour identifier des patterns, segmentation en groupes distincts et nommage, puis formalisation dans une fiche structurée. La clé est de baser le persona sur des données réelles plutôt que sur l'intuition."
+  - question: "Quels sont les 3 types de persona ?"
+    answer: "Les trois types principaux sont le persona acheteur (celui qui décide de l'achat), le persona utilisateur (celui qui utilise la solution au quotidien, souvent différent en B2B) et le persona négatif (le profil à éviter pour économiser les ressources marketing). Chacun joue un rôle dans votre stratégie."
+  - question: "Que doit contenir un persona ?"
+    answer: "Une fiche persona complète inclut l'identité de base (prénom, poste, secteur), des données démographiques, les objectifs professionnels ou personnels, les points de douleur spécifiques, les motivations, les sources d'information consultées, le processus d'achat et des citations tirées de vos interviews. Un tableau structuré aide à la clarté."
 ---
 
 > **En bref :**

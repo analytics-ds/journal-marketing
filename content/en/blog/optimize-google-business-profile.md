@@ -11,6 +11,13 @@ auteurs: ["thomas-durand"]
 image: "/images/blog/optimiser-fiche-etablissement-google.webp"
 imageAlt: "Screenshot of an optimized Google Business Profile with complete information, photos, and customer reviews visible."
 imageCredit: "Photo par La Citta Vita via Flickr (CC BY-SA 2.0)"
+faq:
+  - question: "How long before I see results after optimizing my profile?"
+    answer: "Changes to basic information (hours, description, NAP) may be visible within days. However, Google must recrawl and re-evaluate your local relevance. Expect 2 to 4 weeks for visible ranking improvement. Adding photos and posts speeds the process. A severely penalized business (duplicate profiles) may take longer to recover."
+  - question: "Should I respond to all negative reviews?"
+    answer: "Yes. Negative reviews remain visible. Not responding shows indifference. A courteous response acknowledging the problem and offering resolution demonstrates professionalism. It reassures future customers seeing that you take feedback seriously. Google also values this responsiveness in its local algorithm."
+  - question: "Can I have multiple profiles for my business if I have two entrances?"
+    answer: "No. One business equals one Google profile, even with multiple entrances. Merge the profiles or keep one with all details. If you genuinely have two distinct locations (two different addresses, two postal codes), create one profile per address. But one address with two profiles breaks your visibility. Consolidate."
 ---
 
 > **In short:**

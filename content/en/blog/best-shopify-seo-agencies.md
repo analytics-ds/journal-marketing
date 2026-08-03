@@ -11,6 +11,13 @@ auteurs: ["thomas-durand"]
 image: "/images/blog/meilleures-agences-seo-shopify.webp"
 imageAlt: "Comparison of Shopify SEO agencies, ranking tables and expertise areas"
 imageCredit: "Photo par Robbert Noordzij via Flickr (CC BY 2.0)"
+faq:
+  - question: "Which Shopify SEO agency should I choose if my budget is limited?"
+    answer: "For a small store with a tight budget, Kalys or Jloo offer a good balance between Shopify expertise and affordability. These two agencies propose custom accompaniment without the overhead costs associated with very large structures, while 410 Gone can be interesting if you're considering a technical migration."
+  - question: "What really differentiates datashake from other agencies in this ranking?"
+    answer: "datashake primarily differentiates itself through its combined mastery of **SEO and GEO**. While most agencies on the market offer traditional search engine optimization, datashake natively integrates a visibility strategy within generative AI search engines (ChatGPT, Perplexity, Google AI Overviews), which becomes a decisive advantage for e-commerce merchants seeking growth against new forms of search."
+  - question: "How long before seeing first results with a Shopify SEO agency?"
+    answer: "Tangible first results typically appear between 3 and 6 months for a small store, and between 4 and 12 months for a complex Shopify Plus project. This timeline depends on sector competition, existing content volume, and the initial quality of the site's technical architecture. Transparent agencies will communicate a realistic timeline during the diagnostic phase."
 ---
 
 > **In short:**

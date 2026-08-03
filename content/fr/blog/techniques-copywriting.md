@@ -11,6 +11,13 @@ auteurs: ["lea-fontaine"]
 image: "/images/blog/techniques-copywriting.webp"
 imageAlt: "Illustration montrant différentes techniques de rédaction persuasive pour augmenter les conversions"
 imageCredit: "Photo par Markus Spiske via Rawpixel (CC0 1.0)"
+faq:
+  - question: "Le copywriting fonctionne-t-il aussi pour le contenu long ou seulement pour la vente directe ?"
+    answer: "Le copywriting s'applique à tout contenu qui vise une action. Un article blog bien écrit en copywriting convertit les lecteurs en leads. Un email newsletter doit posséder un appel à l'action clair. Une page \"À propos\" qui raconte des problèmes clients réellement résolus attire les bonnes personnes. Ce n'est pas le format qui change, c'est l'intention."
+  - question: "Comment éviter que le copywriting parraisse trop commercialisé ou manipulation ?"
+    answer: "En restant honnête. Chaque affirmation doit être vérifiable, chaque témoignage réel. S'il faut cacher quelque chose ou mentir pour rendre une offre attractive, c'est que l'offre n'est pas bonne. Le bon copywriting rend les vraies forces d'un produit irrésistibles, c'est tout."
+  - question: "Puis-je appliquer les techniques du copywriting à un contenu B2B technique ou très spécialisé ?"
+    answer: "Absolument. Même un document technique adressé à des ingénieurs bénéficie d'une accroche claire, de l'anticipation des objections et d'un appel à l'action précis. Le jargon reste jargon, mais l'empathie et la clarté sont universelles. Un copywriter B2B parle le langage des clients sans perdre l'efficacité persuasive."
 ---
 
 > **En bref :**

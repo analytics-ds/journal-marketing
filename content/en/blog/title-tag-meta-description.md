@@ -11,6 +11,13 @@ auteurs: ["thomas-durand"]
 image: "/images/blog/balises-title-meta-description.webp"
 imageAlt: "Example of a title tag and meta description in a Google search result with optimal dimension annotations"
 imageCredit: "Photo par Sebastian Fuss via Flickr (CC BY-SA 2.0)"
+faq:
+  - question: "Can Google rewrite my meta description?"
+    answer: "Yes. Google creates a new description if yours doesn't match the user's query well, if your content has changed, or if it detects a better summary in your page. This is normal behavior. A clear and relevant description reduces these interventions. The important thing is not to let this risk paralyze you: a good homemade description beats no description at all."
+  - question: "Does putting my keyword 5 times in the title help with ranking?"
+    answer: "No. In fact, it hurts user experience and Google may view it as spam. One main keyword, well-placed at the beginning, is enough. Vary related keywords in your content, not in the title. It is also more natural for the reader, who is your first judge."
+  - question: "Should I change my title and meta description if Google rewrites them?"
+    answer: "Not necessarily. First analyze: is Google rewriting because your version lacks relevance to the query, or because it finds a better summary in your content? If your description is poor, yes, improve it. If Google is simply adapting it to each query, it's not a problem. Monitor your clicks and positions for a few weeks before taking action. The evergreen content strategy itself, combined with solid tags, creates the foundation of lasting ranking, as [explained in our evergreen content guide](/en/blog/evergreen-content-method/). If you want to go further in on-page optimization, read our article on [proving expertise with E-E-A-T](/en/blog/eeat-proving-expertise/), which strengthens the impact of your titles and descriptions with search engines. Finally, to measure the real impact of your optimizations on content ROI, consult [our ROI analysis framework](/en/blog/content-roi-framework/)."
 ---
 
 > **In short:**

@@ -11,6 +11,13 @@ auteurs: ["thomas-durand"]
 image: "/images/blog/erreurs-seo-a-eviter.webp"
 imageAlt: "Liste des erreurs SEO courantes avec icônes de correction et symboles de diagnostic"
 imageCredit: "Photo par CarbonNYC via Flickr (CC BY 2.0)"
+faq:
+  - question: "Combien de temps pour corriger une erreur SEO et voir des résultats ?"
+    answer: "Cela dépend de l'erreur et de son ampleur. Une correction de title ou une optimisation Core Web Vitals peut apporter des résultats en quelques semaines. Corriger une cannibalisation importante ou un profil de liens toxique peut prendre 2 à 3 mois. Plus l'erreur est ancienne et répandue, plus la correction est lente."
+  - question: "Comment détecter mes erreurs SEO si mon site est très gros ?"
+    answer: "Utilisez un crawler (Screaming Frog, Semrush Site Audit, Sitebulb) pour auditer en masse : titles dupliqués, canonicals cassés, balises robots, temps de chargement par page. Croissez ces données avec la Search Console pour voir ce que Google explore réellement, et avec GA4 pour identifier les pages sans trafic malgré des impressions."
+  - question: "Quelle erreur SEO est la plus grave ?"
+    answer: "Il n'y a pas UNE erreur la plus grave, mais les plus impactantes sont : un profil de liens très toxique (pénalité manuelle), une architecture de site chaotique (cannibalisation massive), ou une vitesse extrêmement lente (pénalité expérience utilisateur). Une unique erreur isolée est rarement catastrophique, mais plusieurs accumulation crée un écosystème non viable."
 ---
 
 > **En bref :**

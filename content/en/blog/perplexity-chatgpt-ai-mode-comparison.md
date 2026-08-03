@@ -11,6 +11,13 @@ auteurs: ["karim-benali"]
 image: "/images/blog/perplexity-chatgpt-ai-mode-comparatif.webp"
 imageAlt: "Visual comparison of three AI search engines: Perplexity, ChatGPT, and Google AI Mode"
 imageCredit: "Photo par shaire productions via Flickr (CC BY 2.0)"
+faq:
+  - question: "Which AI engine currently drives the most traffic?"
+    answer: "Google AI Overviews dominates in absolute volume, thanks to Google's search position globally. Perplexity, though smaller, reaches a highly qualified audience that frequently clicks through to sources. ChatGPT, via its conversational assistant, generates growing but less predictable traffic than Google."
+  - question: "Should I create distinct content for each AI engine?"
+    answer: "No. Cardinal principles (quality, depth, structure, reliable sources) are shared by all three. Excellent, well-organized content will naturally perform well across all platforms. Avoid over-optimization: invest instead in substance."
+  - question: "Will AI engines replace traditional SEO rankings?"
+    answer: "Full replacement is unlikely in the short term. The probable scenario is coexistence: Google integrates more AI (AI Overviews) while maintaining traditional results, while Perplexity and ChatGPT progressively capture a share of queries (especially conversational or in-depth research queries) Google hasn't historically dominated."
 ---
 
 > **In short:**

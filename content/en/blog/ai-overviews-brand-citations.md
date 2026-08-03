@@ -11,6 +11,13 @@ auteurs: ["karim-benali"]
 image: "/images/blog/ai-overviews-marques-citations.webp"
 imageAlt: "Google search on a tablet, illustrating AI Overviews"
 imageCredit: "Photo par Auteur inconnu via Rawpixel (CC0 1.0)"
+faq:
+  - question: "How long does it take to get cited in an AI Overview?"
+    answer: "On niche queries, citations sometimes appear within weeks. On competitive queries, expect several months of combined content and authority work."
+  - question: "Do you need content dedicated to AI engines?"
+    answer: "No. Good GEO content remains good SEO content: structured, factual, sourced. Only the starting intent changes, you start from the prompt rather than the keyword."
+  - question: "Are AI Overviews killing organic traffic?"
+    answer: "They reduce it on purely informational queries, but the remaining clicks are more qualified. Brand citations make up in awareness what is lost in volume."
 ---
 
 > **In short:**

@@ -11,6 +11,13 @@ auteurs: ["thomas-durand"]
 image: "/images/blog/checklist-seo-refonte-site.webp"
 imageAlt: "Checklist SEO pour refonte de site avec phases avant, pendant et apres"
 imageCredit: "Photo par Kristin Hardwick via StockSnap (CC0 1.0)"
+faq:
+  - question: "Peut-on faire une refonte sans redirect 301 ?"
+    answer: "Techniquement oui, mais c'est très risqué. Sans redirections, Google voit les anciennes pages comme disparues et les nouvelles comme du contenu dupliqué ou nouveau. Le trafic peut mettre 6 à 12 mois à se rétablir, s'il se rétablit. Les backlinks ne transfèrent pas leur pouvoir vers les nouvelles URLs. À moins d'une refonte très mineure, les 301 sont non négociables."
+  - question: "Combien de temps avant de revoir mon trafic normal ?"
+    answer: "Cela dépend de la taille et la complexité du site. Pour un site de 100 à 500 pages avec une bonne exécution SEO, comptez 4 à 8 semaines. Pour un site de plusieurs milliers de pages, prévoyez 3 à 6 mois. Les sites avec beaucoup de backlinks externes peuvent être plus lents à récupérer car Google doit valider que les liens pointent toujours vers du contenu valide."
+  - question: "Doit-on refondre le site avant ou après une migration technique majeure ?"
+    answer: "Si possible, combinez les deux en une seule opération. Faire deux migrations majeures (changement de CMS + changement de design) l'une après l'autre prolonge la confusion pour Google et double les risques. Une migration unique, bien planifiée, est plus simple à gérer. Si vous devez les séparer, commencez par la migration technique (pour stabiliser l'architecture), puis le redesign quelques semaines après que Google ait ré-stabilisé l'indexation."
 ---
 
 > **En bref :**

@@ -11,6 +11,13 @@ auteurs: ["karim-benali"]
 image: "/images/blog/geo-definition-guide.webp"
 imageAlt: "Person querying an AI assistant on a laptop"
 imageCredit: "Photo par DeaPeaJay via Flickr (CC BY-SA 2.0)"
+faq:
+  - question: "Does GEO replace SEO?"
+    answer: "No. SEO fundamentals remain the prerequisite: sound technical foundations, relevant content, authority. GEO adds an optimization layer specific to generative engines, with its own formats and its own citation metrics."
+  - question: "Which engines does GEO concern?"
+    answer: "Google's AI Overviews and AI Mode, ChatGPT and its web search, Perplexity, Gemini, Microsoft Copilot, and more broadly any assistant that composes web-sourced answers."
+  - question: "How long before GEO delivers results?"
+    answer: "On niche queries, citations can appear within weeks. On competitive topics, expect several months of combined work on content, markup and authority, just like SEO."
 ---
 
 > **In short:**

@@ -39,6 +39,11 @@ summaryLength = 24
       description = "Analysis, guides and comparisons on SEO, AI, content, social, advertising and data. The independent digital marketing media."
       baseline = "SEO, AI, content, social, ads, data: every lever of your visibility."
 
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
 [taxonomies]
   categorie = "categories"
   tag = "tags"

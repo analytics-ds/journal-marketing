@@ -11,6 +11,13 @@ auteurs: ["thomas-durand"]
 image: "/images/blog/balises-title-meta-description.webp"
 imageAlt: "Exemple d'une balise title et meta description sur un résultat Google avec annotations des dimensions optimales"
 imageCredit: "Photo par Sebastian Fuss via Flickr (CC BY-SA 2.0)"
+faq:
+  - question: "Google peut-il réécrire ma meta description ?"
+    answer: "Oui. Google rédige une nouvelle description si la vôtre ne correspond pas bien à la requête de l'utilisateur, si votre contenu a changé, ou s'il détecte un meilleur résumé dans votre page. C'est un comportement normal. Une description claire et pertinente réduit ces interventions. L'important est de ne pas laisser ce risque vous paralyser : une bonne description maison vaut mieux qu'une absence."
+  - question: "Est-ce que mettre mon mot-clé 5 fois dans la title aide au classement ?"
+    answer: "Non. Au contraire, cela nuit à l'expérience utilisateur et Google peut le voir comme du spam. Un seul mot-clé principal, bien placé au début, suffit. Variez les mots-clés connexes dans votre contenu, pas dans la title. C'est aussi plus naturel pour le lecteur, qui est votre premier juge."
+  - question: "Dois-je changer ma title et meta description si Google les réécrit ?"
+    answer: "Pas systématiquement. Analysez d'abord : Google réécrit-il parce que votre version manque de pertinence pour la requête, ou parce qu'il trouve un meilleur résumé dans votre contenu ? Si votre description est mauvaise, oui, améliorez-la. Si Google la réécrit simplement pour l'adapter à chaque requête, ce n'est pas un problème. Suivez vos clics et positions pendant quelques semaines avant d'agir. La stratégie evergreen du contenu elle-même, combinée à des balises solides, crée la base d'un classement durable, comme [l'explique notre guide du contenu evergreen](/blog/contenu-evergreen-methode/). Si vous souhaitez aller plus loin dans l'optimisation on-page, lisez notre article sur [la preuve d'expertise E-E-A-T](/blog/eeat-prouver-expertise/), qui renforce l'impact de vos titles et descriptions auprès des moteurs. Enfin, pour mesurer l'impact réel de vos optimisations sur le ROI du contenu, consultez [notre framework d'analyse ROI](/blog/roi-contenu-framework/)."
 ---
 
 > **En bref :**

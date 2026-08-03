@@ -487,3 +487,14 @@ a.lang-item:hover { color: var(--primary); }
 a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visible {
   outline: 2px solid var(--primary); outline-offset: 3px; border-radius: 4px;
 }
+
+/* ---------- Plan du site ---------- */
+.plan { display: grid; grid-template-columns: 1fr 1fr; gap: var(--gap); margin-bottom: 40px; }
+.plan-col h2, .plan-section h2 { font-size: 22px; margin-bottom: 14px; }
+.plan-col ul, .plan-list { list-style: none; padding: 0; margin: 0; }
+.plan-col li, .plan-list li { padding: 8px 0; border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; gap: 16px; align-items: baseline; }
+.plan-col a, .plan-list a { font-weight: 600; color: var(--ink); }
+.plan-col a:hover, .plan-list a:hover { color: var(--primary); }
+.plan-date { font-size: 13px; color: var(--muted); white-space: nowrap; }
+.plan-section { margin-bottom: 34px; }
+@media (max-width: 640px) { .plan { grid-template-columns: 1fr; } }

@@ -11,6 +11,13 @@ auteurs: ["karim-benali"]
 image: "/images/blog/geo-definition-guide.webp"
 imageAlt: "Personne interrogeant un assistant IA sur un ordinateur portable"
 imageCredit: "Photo par DeaPeaJay via Flickr (CC BY-SA 2.0)"
+faq:
+  - question: "Le GEO remplace-t-il le SEO ?"
+    answer: "Non. Les fondamentaux du SEO restent le prérequis : technique saine, contenu pertinent, autorité. Le GEO ajoute une couche d'optimisation spécifique aux moteurs génératifs, avec ses propres formats et ses propres métriques de citation."
+  - question: "Quels moteurs sont concernés par le GEO ?"
+    answer: "Les AI Overviews et le mode IA de Google, ChatGPT et sa recherche web, Perplexity, Gemini, Copilot de Microsoft, et plus largement tout assistant qui compose des réponses sourcées depuis le web."
+  - question: "En combien de temps le GEO produit-il des résultats ?"
+    answer: "Sur des requêtes de niche, des citations peuvent apparaître en quelques semaines. Sur des thématiques concurrentielles, comptez plusieurs mois de travail combiné sur le contenu, le balisage et l'autorité, comme pour le SEO."
 ---
 
 > **En bref :**

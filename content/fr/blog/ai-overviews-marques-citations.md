@@ -11,6 +11,13 @@ auteurs: ["karim-benali"]
 image: "/images/blog/ai-overviews-marques-citations.webp"
 imageAlt: "Illustration abstraite de l'article AI Overviews : comment les marques s'y font citer"
 imageCredit: "Photo par Auteur inconnu via Rawpixel (CC0 1.0)"
+faq:
+  - question: "Combien de temps pour être cité dans une AI Overview ?"
+    answer: "Sur des requêtes de niche, des citations apparaissent parfois en quelques semaines. Sur des requêtes concurrentielles, il faut compter plusieurs mois de travail combiné contenu et autorité."
+  - question: "Faut-il un contenu dédié aux moteurs IA ?"
+    answer: "Non. Un bon contenu GEO reste un bon contenu SEO : structuré, factuel, sourcé. Seule l'intention de départ change, on part du prompt plutôt que du mot-clé."
+  - question: "Les AI Overviews tuent-elles le trafic organique ?"
+    answer: "Elles le réduisent sur les requêtes purement informationnelles, mais les clics qui restent sont plus qualifiés. La citation de marque compense en notoriété ce qui se perd en volume."
 ---
 
 > **En bref :**

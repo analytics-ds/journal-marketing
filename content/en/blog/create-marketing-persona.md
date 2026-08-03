@@ -11,6 +11,13 @@ auteurs: ["lea-fontaine"]
 image: "/images/blog/creer-persona-marketing.webp"
 imageAlt: "Marketing persona template form with demographic and behavioral information"
 imageCredit: "Photo par @resultsjunkie via Flickr (CC BY-SA 2.0)"
+faq:
+  - question: "How to create a persona in marketing?"
+    answer: "Creating a persona follows four steps: collecting data from existing customers (interviews, surveys, analytics data), organizing and analyzing to identify patterns, segmenting into distinct groups and naming, then formalizing in a structured template. The key is to base the persona on real data rather than intuition."
+  - question: "What are the 3 types of persona?"
+    answer: "The three main types are the buyer persona (the one who decides on the purchase), the user persona (the one who uses the solution daily, often different in B2B) and the negative persona (the profile to avoid to save marketing resources). Each plays a role in your strategy."
+  - question: "What should a persona contain?"
+    answer: "A complete persona template includes basic identity (first name, job title, industry), demographic data, professional or personal objectives, specific pain points, motivations, information sources consulted, the purchase process and quotes from your interviews. A structured table helps with clarity."
 ---
 
 > **In short:**

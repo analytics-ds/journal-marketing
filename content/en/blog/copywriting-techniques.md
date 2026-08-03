@@ -11,6 +11,13 @@ auteurs: ["lea-fontaine"]
 image: "/images/blog/techniques-copywriting.webp"
 imageAlt: "Illustration showing various persuasive writing techniques to increase conversions"
 imageCredit: "Photo par Markus Spiske via Rawpixel (CC0 1.0)"
+faq:
+  - question: "Does copywriting work for long-form content or only direct sales?"
+    answer: "Copywriting applies to any content with an intended action. A well-written blog post in copywriting converts readers into leads. A newsletter email needs a clear call-to-action. An \"About\" page that shows how you solved your customers' problems attracts the right people. It's not the format, it's the intention that changes."
+  - question: "How do I avoid copywriting sounding too commercial or manipulative?"
+    answer: "By staying honest. Every claim must be verifiable. Every testimonial, real. If you have to hide something or lie to make your offer attractive, your offer isn't good. Good copywriting makes the true strengths of your product irresistible, that's all."
+  - question: "Can I apply copywriting techniques to highly technical or specialized B2B content?"
+    answer: "Absolutely. Even a technical document for engineers benefits from a clear hook, anticipating objections, and a precise call-to-action. Jargon stays jargon, but empathy and clarity are universal. A B2B copywriter speaks the language of customers without losing persuasive power."
 ---
 
 > **In short:**

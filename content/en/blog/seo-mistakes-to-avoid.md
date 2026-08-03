@@ -11,6 +11,13 @@ auteurs: ["thomas-durand"]
 image: "/images/blog/erreurs-seo-a-eviter.webp"
 imageAlt: "List of common SEO mistakes with correction icons and diagnostic symbols"
 imageCredit: "Photo par CarbonNYC via Flickr (CC BY 2.0)"
+faq:
+  - question: "How long does it take to fix an SEO error and see results?"
+    answer: "It depends on the error and its scope. Title fixes or Core Web Vitals optimization can show results in weeks. Fixing significant cannibalization or a toxic link profile can take 2-3 months. The older and more widespread the error, the slower the recovery."
+  - question: "How do I detect my SEO errors if my site is very large?"
+    answer: "Use a crawler (Screaming Frog, Semrush Site Audit, Sitebulk) to audit in bulk: duplicate titles, broken canonicals, robot tags, page load times. Cross-reference with Search Console to see what Google actually crawls, and with GA4 to find pages with impressions but no traffic."
+  - question: "What is the most serious SEO mistake?"
+    answer: "There's no single most serious error, but the most impactful are: a heavily toxic link profile (manual penalty), chaotic site architecture (massive cannibalization), or extremely slow speed (user experience penalty). A single isolated error is rarely catastrophic, but multiple accumulations create an unviable ecosystem."
 ---
 
 > **In short:**
