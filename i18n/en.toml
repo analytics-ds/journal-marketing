@@ -1,0 +1,157 @@
+[skipToContent]
+other = "Skip to content"
+
+[topbarNote]
+other = "Digital marketing made accessible to every team"
+
+[getNewsletter]
+other = "Get the newsletter"
+
+[tickerBadge]
+other = "Don't miss"
+
+[trends]
+other = "Trending"
+
+[editorsPicks]
+other = "Editors' picks"
+
+[seeMore]
+other = "See more"
+
+[home]
+other = "Home"
+
+[theMedia]
+other = "The media"
+
+[rubrique]
+other = "Section"
+
+[rubriques]
+other = "Sections"
+
+[ourRubriques]
+other = "Our sections"
+
+[browseByTheme]
+other = "Browse the media by theme."
+
+[allTopics]
+other = "All topics"
+
+[browseByTopic]
+other = "Browse the media by specific topic."
+
+[topics]
+other = "Topics"
+
+[allArticles]
+other = "All articles"
+
+[articlesToExplore]
+one = "{{ .Count }} article to explore."
+other = "{{ .Count }} articles to explore."
+
+[articleCount]
+one = "{{ .Count }} article"
+other = "{{ .Count }} articles"
+
+[minRead]
+other = "min read"
+
+[by]
+other = "By"
+
+[share]
+other = "Share"
+
+[summary]
+other = "Contents"
+
+[moreArticles]
+other = "More articles"
+
+[aboutAuthor]
+other = "About the author"
+
+[expertiseLabel]
+other = "Expertise:"
+
+[readAlso]
+other = "Also read"
+
+[previous]
+other = "Previous"
+
+[next]
+other = "Next"
+
+[editorial]
+other = "The editorial team"
+
+[ourAuthors]
+other = "Our authors"
+
+[authorsIntro]
+other = "The writers behind the journal: SEO, AI and GEO, content, social, advertising and data."
+
+[author]
+other = "Author"
+
+[theirArticles]
+other = "Their articles"
+
+[authorsLink]
+other = "Authors"
+
+[rssFeed]
+other = "RSS feed"
+
+[joinCommunity]
+other = "Join the community"
+
+[newsletterPitch]
+other = "Useful analysis, independent comparisons and actionable advice, every week in your inbox."
+
+[emailLabel]
+other = "Your email address"
+
+[emailPlaceholder]
+other = "name@company.com"
+
+[send]
+other = "Send"
+
+[allRights]
+other = "all rights reserved."
+
+[madeIn]
+other = "made in Paris"
+
+[ctaTitle]
+other = "Never miss a lever"
+
+[ctaText]
+other = "Analysis, comparisons and actionable methods on every acquisition lever, every week in your inbox."
+
+[notFoundTitle]
+other = "Oops! This page cannot be found"
+
+[notFoundText]
+other = "The page you are looking for does not exist, or it has been moved. Go back home or explore the media."
+
+[backHome]
+other = "Back to home"
+
+[breadcrumbAria]
+other = "Breadcrumb"
+
+[mainNavAria]
+other = "Main navigation"
+
+[openMenu]
+other = "Open menu"
+
+[scrollTop]
+other = "Back to top"

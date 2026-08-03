@@ -1,0 +1,463 @@
+- generic [active] [ref=e1]:
+  - link "Aller au contenu" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: Le marketing digital accessible à toutes les équipes
+      - link "Recevoir la newsletter" [ref=e7] [cursor=pointer]:
+        - /url: "#newsletter"
+        - text: Recevoir la newsletter
+        - img [ref=e8]
+    - generic [ref=e10]:
+      - generic [ref=e11]: Paris
+      - generic [ref=e12]: vendredi 24 juillet 2026
+  - banner [ref=e13]:
+    - generic [ref=e14]:
+      - link "datashake, le mag, accueil" [ref=e15] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e16]: datashake.
+        - generic [ref=e17]: le mag
+      - navigation "Navigation principale" [ref=e18]:
+        - link "SEO" [ref=e19] [cursor=pointer]:
+          - /url: /categories/seo/
+        - link "GEO et IA" [ref=e20] [cursor=pointer]:
+          - /url: /categories/geo-et-ia/
+        - link "Contenu" [ref=e21] [cursor=pointer]:
+          - /url: /categories/contenu/
+        - link "Netlinking" [ref=e22] [cursor=pointer]:
+          - /url: /categories/netlinking/
+        - link "Data et Analytics" [ref=e23] [cursor=pointer]:
+          - /url: /categories/data-et-analytics/
+        - link "Auteurs" [ref=e24] [cursor=pointer]:
+          - /url: /auteurs/
+  - generic [ref=e26]:
+    - generic [ref=e27]: À ne pas rater
+    - generic [ref=e29]:
+      - link [ref=e30] [cursor=pointer]:
+        - /url: /blog/ai-overviews-marques-citations/
+        - text: "AI Overviews : comment les marques s'y font citer"
+      - link [ref=e31] [cursor=pointer]:
+        - /url: /blog/core-web-vitals-2026/
+        - text: "Core Web Vitals : ce qui compte vraiment en 2026"
+      - link [ref=e32] [cursor=pointer]:
+        - /url: /blog/ga4-rapports-seo/
+        - text: "GA4 : 7 rapports qui servent vraiment le SEO"
+      - link [ref=e33] [cursor=pointer]:
+        - /url: /blog/contenu-evergreen-methode/
+        - text: "Contenu evergreen : la méthode pour durer"
+      - link [ref=e34] [cursor=pointer]:
+        - /url: /blog/chatgpt-search-vs-perplexity/
+        - text: "ChatGPT Search ou Perplexity : où jouer sa visibilité"
+      - link [ref=e35] [cursor=pointer]:
+        - /url: /blog/ancres-de-liens-repartition/
+        - text: "Ancres de liens : la répartition qui protège"
+      - link [ref=e36] [cursor=pointer]:
+        - /url: /blog/ai-overviews-marques-citations/
+        - text: "AI Overviews : comment les marques s'y font citer"
+      - link [ref=e37] [cursor=pointer]:
+        - /url: /blog/core-web-vitals-2026/
+        - text: "Core Web Vitals : ce qui compte vraiment en 2026"
+      - link [ref=e38] [cursor=pointer]:
+        - /url: /blog/ga4-rapports-seo/
+        - text: "GA4 : 7 rapports qui servent vraiment le SEO"
+      - link [ref=e39] [cursor=pointer]:
+        - /url: /blog/contenu-evergreen-methode/
+        - text: "Contenu evergreen : la méthode pour durer"
+      - link [ref=e40] [cursor=pointer]:
+        - /url: /blog/chatgpt-search-vs-perplexity/
+        - text: "ChatGPT Search ou Perplexity : où jouer sa visibilité"
+      - link [ref=e41] [cursor=pointer]:
+        - /url: /blog/ancres-de-liens-repartition/
+        - text: "Ancres de liens : la répartition qui protège"
+  - main [ref=e42]:
+    - generic [ref=e44]:
+      - article [ref=e45]:
+        - generic [ref=e47]:
+          - link "GEO et IA" [ref=e49] [cursor=pointer]:
+            - /url: /categories/geo-et-ia/
+            - text: GEO et IA
+          - 'heading "AI Overviews : comment les marques s''y font citer" [level=1] [ref=e51]':
+            - 'link "AI Overviews : comment les marques s''y font citer" [ref=e52] [cursor=pointer]':
+              - /url: /blog/ai-overviews-marques-citations/
+          - paragraph [ref=e53]: Les AI Overviews redistribuent la visibilité. Voici ce qui pousse Google à citer une marque dans ses réponses génératives.
+          - generic [ref=e54]:
+            - img "Karim Benali" [ref=e55]
+            - link "Karim Benali" [ref=e56] [cursor=pointer]:
+              - /url: /auteurs/karim-benali/
+            - generic [ref=e57]:
+              - img [ref=e58]
+              - text: 2 min de lecture
+      - complementary [ref=e61]:
+        - generic [ref=e62]: Tendances ❯
+        - 'link "Core Web Vitals : ce qui compte vraiment en 2026 1 min de lecture" [ref=e63] [cursor=pointer]':
+          - /url: /blog/core-web-vitals-2026/
+          - generic [ref=e65]:
+            - 'heading "Core Web Vitals : ce qui compte vraiment en 2026" [level=3] [ref=e66]'
+            - generic [ref=e67]:
+              - img [ref=e68]
+              - text: 1 min de lecture
+        - 'link "GA4 : 7 rapports qui servent vraiment le SEO 1 min de lecture" [ref=e71] [cursor=pointer]':
+          - /url: /blog/ga4-rapports-seo/
+          - generic [ref=e73]:
+            - 'heading "GA4 : 7 rapports qui servent vraiment le SEO" [level=3] [ref=e74]'
+            - generic [ref=e75]:
+              - img [ref=e76]
+              - text: 1 min de lecture
+        - 'link "Contenu evergreen : la méthode pour durer 1 min de lecture" [ref=e79] [cursor=pointer]':
+          - /url: /blog/contenu-evergreen-methode/
+          - generic [ref=e81]:
+            - 'heading "Contenu evergreen : la méthode pour durer" [level=3] [ref=e82]'
+            - generic [ref=e83]:
+              - img [ref=e84]
+              - text: 1 min de lecture
+    - navigation "Rubriques" [ref=e88]:
+      - link "SEO 3 articles" [ref=e89] [cursor=pointer]:
+        - /url: /categories/seo/
+        - text: SEO 3 articles
+      - link "GEO et IA 3 articles" [ref=e91] [cursor=pointer]:
+        - /url: /categories/geo-et-ia/
+        - text: GEO et IA 3 articles
+      - link "Contenu 2 articles" [ref=e93] [cursor=pointer]:
+        - /url: /categories/contenu/
+        - text: Contenu 2 articles
+      - link "Netlinking 2 articles" [ref=e95] [cursor=pointer]:
+        - /url: /categories/netlinking/
+        - text: Netlinking 2 articles
+      - link "Data et Analytics 2 articles" [ref=e97] [cursor=pointer]:
+        - /url: /categories/data-et-analytics/
+        - text: Data et Analytics 2 articles
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Choix de la rédaction ❯" [level=2] [ref=e102]
+        - link "En voir plus" [ref=e103] [cursor=pointer]:
+          - /url: /blog/
+          - text: En voir plus
+          - img [ref=e104]
+      - generic [ref=e106]:
+        - article [ref=e107]:
+          - link [ref=e108] [cursor=pointer]:
+            - /url: /blog/chatgpt-search-vs-perplexity/
+          - generic [ref=e109]:
+            - link "GEO et IA" [ref=e111] [cursor=pointer]:
+              - /url: /categories/geo-et-ia/
+              - text: GEO et IA
+            - 'heading "ChatGPT Search ou Perplexity : où jouer sa visibilité" [level=3] [ref=e113]':
+              - 'link "ChatGPT Search ou Perplexity : où jouer sa visibilité" [ref=e114] [cursor=pointer]':
+                - /url: /blog/chatgpt-search-vs-perplexity/
+            - paragraph [ref=e115]: Les deux moteurs IA ne citent pas les mêmes sources ni les mêmes formats. Comparatif pour prioriser ses efforts GEO.
+            - generic [ref=e116]:
+              - img "Karim Benali" [ref=e117]
+              - link "Karim Benali" [ref=e118] [cursor=pointer]:
+                - /url: /auteurs/karim-benali/
+              - generic [ref=e119]:
+                - img [ref=e120]
+                - text: 1 min de lecture
+        - article [ref=e123]:
+          - link [ref=e124] [cursor=pointer]:
+            - /url: /blog/ancres-de-liens-repartition/
+          - generic [ref=e125]:
+            - link "Netlinking" [ref=e127] [cursor=pointer]:
+              - /url: /categories/netlinking/
+              - text: Netlinking
+            - 'heading "Ancres de liens : la répartition qui protège" [level=3] [ref=e129]':
+              - 'link "Ancres de liens : la répartition qui protège" [ref=e130] [cursor=pointer]':
+                - /url: /blog/ancres-de-liens-repartition/
+            - paragraph [ref=e131]: Trop d'ancres optimisées attirent les pénalités, trop peu diluent le signal. Les ratios de référence par profil.
+            - generic [ref=e132]:
+              - img "Sophie Marchand" [ref=e133]
+              - link "Sophie Marchand" [ref=e134] [cursor=pointer]:
+                - /url: /auteurs/sophie-marchand/
+              - generic [ref=e135]:
+                - img [ref=e136]
+                - text: 1 min de lecture
+        - article [ref=e139]:
+          - link [ref=e140] [cursor=pointer]:
+            - /url: /blog/crawl-budget-5-signaux/
+          - generic [ref=e141]:
+            - link "SEO" [ref=e143] [cursor=pointer]:
+              - /url: /categories/seo/
+              - text: SEO
+            - 'heading "Crawl budget : 5 signaux à surveiller" [level=3] [ref=e145]':
+              - 'link "Crawl budget : 5 signaux à surveiller" [ref=e146] [cursor=pointer]':
+                - /url: /blog/crawl-budget-5-signaux/
+            - paragraph [ref=e147]: Le crawl budget se gaspille en silence. Cinq signaux dans les logs et la Search Console pour le détecter à temps.
+            - generic [ref=e148]:
+              - img "Thomas Durand" [ref=e149]
+              - link "Thomas Durand" [ref=e150] [cursor=pointer]:
+                - /url: /auteurs/thomas-durand/
+              - generic [ref=e151]:
+                - img [ref=e152]
+                - text: 1 min de lecture
+        - article [ref=e155]:
+          - link [ref=e156] [cursor=pointer]:
+            - /url: /blog/eeat-prouver-expertise/
+          - generic [ref=e157]:
+            - link "Contenu" [ref=e159] [cursor=pointer]:
+              - /url: /categories/contenu/
+              - text: Contenu
+            - 'heading "E-E-A-T : prouver l''expertise plutôt que la déclarer" [level=3] [ref=e161]':
+              - 'link "E-E-A-T : prouver l''expertise plutôt que la déclarer" [ref=e162] [cursor=pointer]':
+                - /url: /blog/eeat-prouver-expertise/
+            - paragraph [ref=e163]: Google ne lit pas les promesses, il lit les preuves. Comment matérialiser l'expérience et l'expertise dans les pages.
+            - generic [ref=e164]:
+              - img "Léa Fontaine" [ref=e165]
+              - link "Léa Fontaine" [ref=e166] [cursor=pointer]:
+                - /url: /auteurs/lea-fontaine/
+              - generic [ref=e167]:
+                - img [ref=e168]
+                - text: 1 min de lecture
+    - generic [ref=e172]:
+      - generic [ref=e173]:
+        - heading "SEO ❯" [level=2] [ref=e174]
+        - link "En voir plus" [ref=e175] [cursor=pointer]:
+          - /url: /categories/seo/
+          - text: En voir plus
+          - img [ref=e176]
+      - generic [ref=e178]:
+        - article [ref=e179]:
+          - link [ref=e180] [cursor=pointer]:
+            - /url: /blog/core-web-vitals-2026/
+          - generic [ref=e181]:
+            - link "SEO" [ref=e183] [cursor=pointer]:
+              - /url: /categories/seo/
+              - text: SEO
+            - 'heading "Core Web Vitals : ce qui compte vraiment en 2026" [level=3] [ref=e185]':
+              - 'link "Core Web Vitals : ce qui compte vraiment en 2026" [ref=e186] [cursor=pointer]':
+                - /url: /blog/core-web-vitals-2026/
+            - paragraph [ref=e187]: "INP, LCP, CLS : le point sur les seuils qui pèsent réellement dans les classements et ceux qui relèvent du confort."
+            - generic [ref=e188]:
+              - img "Thomas Durand" [ref=e189]
+              - link "Thomas Durand" [ref=e190] [cursor=pointer]:
+                - /url: /auteurs/thomas-durand/
+              - generic [ref=e191]:
+                - img [ref=e192]
+                - text: 1 min de lecture
+        - article [ref=e195]:
+          - link [ref=e196] [cursor=pointer]:
+            - /url: /blog/crawl-budget-5-signaux/
+          - generic [ref=e197]:
+            - link "SEO" [ref=e199] [cursor=pointer]:
+              - /url: /categories/seo/
+              - text: SEO
+            - 'heading "Crawl budget : 5 signaux à surveiller" [level=3] [ref=e201]':
+              - 'link "Crawl budget : 5 signaux à surveiller" [ref=e202] [cursor=pointer]':
+                - /url: /blog/crawl-budget-5-signaux/
+            - paragraph [ref=e203]: Le crawl budget se gaspille en silence. Cinq signaux dans les logs et la Search Console pour le détecter à temps.
+            - generic [ref=e204]:
+              - img "Thomas Durand" [ref=e205]
+              - link "Thomas Durand" [ref=e206] [cursor=pointer]:
+                - /url: /auteurs/thomas-durand/
+              - generic [ref=e207]:
+                - img [ref=e208]
+                - text: 1 min de lecture
+        - article [ref=e211]:
+          - link [ref=e212] [cursor=pointer]:
+            - /url: /blog/cannibalisation-seo-detecter/
+          - generic [ref=e213]:
+            - link "SEO" [ref=e215] [cursor=pointer]:
+              - /url: /categories/seo/
+              - text: SEO
+            - 'heading "Cannibalisation SEO : la détecter avant qu''elle ne coûte" [level=3] [ref=e217]':
+              - 'link "Cannibalisation SEO : la détecter avant qu''elle ne coûte" [ref=e218] [cursor=pointer]':
+                - /url: /blog/cannibalisation-seo-detecter/
+            - paragraph [ref=e219]: Deux pages qui visent la même requête se neutralisent. Les méthodes de détection rapide et les remèdes classiques.
+            - generic [ref=e220]:
+              - img "Thomas Durand" [ref=e221]
+              - link "Thomas Durand" [ref=e222] [cursor=pointer]:
+                - /url: /auteurs/thomas-durand/
+              - generic [ref=e223]:
+                - img [ref=e224]
+                - text: 1 min de lecture
+    - generic [ref=e228]:
+      - generic [ref=e229]:
+        - heading "GEO et IA ❯" [level=2] [ref=e230]
+        - link "En voir plus" [ref=e231] [cursor=pointer]:
+          - /url: /categories/geo-et-ia/
+          - text: En voir plus
+          - img [ref=e232]
+      - generic [ref=e234]:
+        - article [ref=e235]:
+          - generic [ref=e237]:
+            - link "GEO et IA" [ref=e239] [cursor=pointer]:
+              - /url: /categories/geo-et-ia/
+              - text: GEO et IA
+            - 'heading "AI Overviews : comment les marques s''y font citer" [level=3] [ref=e241]':
+              - 'link "AI Overviews : comment les marques s''y font citer" [ref=e242] [cursor=pointer]':
+                - /url: /blog/ai-overviews-marques-citations/
+            - generic [ref=e243]:
+              - img [ref=e244]
+              - text: 2 min de lecture
+        - generic [ref=e247]:
+          - article [ref=e248]:
+            - generic [ref=e250]:
+              - 'heading "ChatGPT Search ou Perplexity : où jouer sa visibilité" [level=3] [ref=e251]':
+                - 'link "ChatGPT Search ou Perplexity : où jouer sa visibilité" [ref=e252] [cursor=pointer]':
+                  - /url: /blog/chatgpt-search-vs-perplexity/
+              - generic [ref=e253]:
+                - img [ref=e254]
+                - text: 1 min de lecture
+          - article [ref=e257]:
+            - generic [ref=e259]:
+              - 'heading "llms.txt : gadget ou standard de demain ?" [level=3] [ref=e260]':
+                - 'link "llms.txt : gadget ou standard de demain ?" [ref=e261] [cursor=pointer]':
+                  - /url: /blog/llms-txt-standard/
+              - generic [ref=e262]:
+                - img [ref=e263]
+                - text: 1 min de lecture
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Contenu ❯" [level=2] [ref=e269]
+        - link "En voir plus" [ref=e270] [cursor=pointer]:
+          - /url: /categories/contenu/
+          - text: En voir plus
+          - img [ref=e271]
+      - generic [ref=e273]:
+        - 'link "Contenu Contenu evergreen : la méthode pour durer 1 min de lecture" [ref=e274] [cursor=pointer]':
+          - /url: /blog/contenu-evergreen-methode/
+          - generic [ref=e276]:
+            - generic [ref=e278]: Contenu
+            - 'heading "Contenu evergreen : la méthode pour durer" [level=3] [ref=e280]'
+            - generic [ref=e281]:
+              - img [ref=e282]
+              - text: 1 min de lecture
+        - 'link "Contenu E-E-A-T : prouver l''expertise plutôt que la déclarer 1 min de lecture" [ref=e285] [cursor=pointer]':
+          - /url: /blog/eeat-prouver-expertise/
+          - generic [ref=e287]:
+            - generic [ref=e289]: Contenu
+            - 'heading "E-E-A-T : prouver l''expertise plutôt que la déclarer" [level=3] [ref=e291]'
+            - generic [ref=e292]:
+              - img [ref=e293]
+              - text: 1 min de lecture
+    - generic [ref=e297]:
+      - generic [ref=e298]:
+        - heading "Netlinking ❯" [level=2] [ref=e299]
+        - link "En voir plus" [ref=e300] [cursor=pointer]:
+          - /url: /categories/netlinking/
+          - text: En voir plus
+          - img [ref=e301]
+      - generic [ref=e303]:
+        - article [ref=e304]:
+          - link [ref=e305] [cursor=pointer]:
+            - /url: /blog/ancres-de-liens-repartition/
+          - generic [ref=e306]:
+            - link "Netlinking" [ref=e308] [cursor=pointer]:
+              - /url: /categories/netlinking/
+              - text: Netlinking
+            - 'heading "Ancres de liens : la répartition qui protège" [level=3] [ref=e310]':
+              - 'link "Ancres de liens : la répartition qui protège" [ref=e311] [cursor=pointer]':
+                - /url: /blog/ancres-de-liens-repartition/
+            - paragraph [ref=e312]: Trop d'ancres optimisées attirent les pénalités, trop peu diluent le signal. Les ratios de référence par profil.
+            - generic [ref=e313]:
+              - img "Sophie Marchand" [ref=e314]
+              - link "Sophie Marchand" [ref=e315] [cursor=pointer]:
+                - /url: /auteurs/sophie-marchand/
+              - generic [ref=e316]:
+                - img [ref=e317]
+                - text: 1 min de lecture
+        - article [ref=e320]:
+          - link [ref=e321] [cursor=pointer]:
+            - /url: /blog/puissance-dilution-budget/
+          - generic [ref=e322]:
+            - link "Netlinking" [ref=e324] [cursor=pointer]:
+              - /url: /categories/netlinking/
+              - text: Netlinking
+            - 'heading "Liens de puissance ou de dilution : arbitrer son budget" [level=3] [ref=e326]':
+              - 'link "Liens de puissance ou de dilution : arbitrer son budget" [ref=e327] [cursor=pointer]':
+                - /url: /blog/puissance-dilution-budget/
+            - paragraph [ref=e328]: Deux familles de liens, deux rôles distincts. La méthode datashake pour répartir un budget netlinking qui performe.
+            - generic [ref=e329]:
+              - img "Sophie Marchand" [ref=e330]
+              - link "Sophie Marchand" [ref=e331] [cursor=pointer]:
+                - /url: /auteurs/sophie-marchand/
+              - generic [ref=e332]:
+                - img [ref=e333]
+                - text: 1 min de lecture
+    - generic [ref=e337]:
+      - generic [ref=e338]:
+        - heading "Data et Analytics ❯" [level=2] [ref=e339]
+        - link "En voir plus" [ref=e340] [cursor=pointer]:
+          - /url: /categories/data-et-analytics/
+          - text: En voir plus
+          - img [ref=e341]
+      - generic [ref=e343]:
+        - article [ref=e344]:
+          - generic [ref=e346]:
+            - link "Data et Analytics" [ref=e348] [cursor=pointer]:
+              - /url: /categories/data-et-analytics/
+              - text: Data et Analytics
+            - 'heading "GA4 : 7 rapports qui servent vraiment le SEO" [level=3] [ref=e350]':
+              - 'link "GA4 : 7 rapports qui servent vraiment le SEO" [ref=e351] [cursor=pointer]':
+                - /url: /blog/ga4-rapports-seo/
+            - generic [ref=e352]:
+              - img [ref=e353]
+              - text: 1 min de lecture
+        - article [ref=e357]:
+          - generic [ref=e359]:
+            - 'heading "Mesurer le ROI du contenu : un framework simple" [level=3] [ref=e360]':
+              - 'link "Mesurer le ROI du contenu : un framework simple" [ref=e361] [cursor=pointer]':
+                - /url: /blog/roi-contenu-framework/
+            - generic [ref=e362]:
+              - img [ref=e363]
+              - text: 1 min de lecture
+    - generic [ref=e368]:
+      - generic [ref=e369]:
+        - heading "Envie de résultats comme ceux qu'on analyse ici ?" [level=2] [ref=e370]
+        - paragraph [ref=e371]: datashake accompagne les marques sur le SEO, la GEO, le contenu et la data. Parlons de votre visibilité.
+      - link "Contacter l'agence" [ref=e372] [cursor=pointer]:
+        - /url: https://datashake.fr
+        - text: Contacter l'agence
+        - img [ref=e373]
+  - contentinfo [ref=e375]:
+    - generic [ref=e376]:
+      - generic [ref=e377]:
+        - generic [ref=e378]:
+          - generic [ref=e379]: datashake.
+          - paragraph [ref=e380]: Analyses, guides et comparatifs sur le SEO, la GEO, le contenu, le netlinking et la data. Le média marketing digital de datashake.
+          - generic "Réseaux sociaux" [ref=e381]:
+            - link "LinkedIn" [ref=e382] [cursor=pointer]:
+              - /url: https://www.linkedin.com/
+              - img [ref=e383]
+            - link "X" [ref=e385] [cursor=pointer]:
+              - /url: https://x.com/
+              - img [ref=e386]
+            - link "YouTube" [ref=e388] [cursor=pointer]:
+              - /url: https://www.youtube.com/
+              - img [ref=e389]
+        - generic [ref=e391]:
+          - heading "Rubriques" [level=4] [ref=e392]
+          - link "SEO" [ref=e393] [cursor=pointer]:
+            - /url: /categories/seo/
+          - link "GEO et IA" [ref=e394] [cursor=pointer]:
+            - /url: /categories/geo-et-ia/
+          - link "Contenu" [ref=e395] [cursor=pointer]:
+            - /url: /categories/contenu/
+          - link "Netlinking" [ref=e396] [cursor=pointer]:
+            - /url: /categories/netlinking/
+          - link "Data et Analytics" [ref=e397] [cursor=pointer]:
+            - /url: /categories/data-et-analytics/
+        - generic [ref=e398]:
+          - heading "Le mag" [level=4] [ref=e399]
+          - link "Tous les articles" [ref=e400] [cursor=pointer]:
+            - /url: /blog/
+          - link "Nos auteurs" [ref=e401] [cursor=pointer]:
+            - /url: /auteurs/
+          - link "Rubriques" [ref=e402] [cursor=pointer]:
+            - /url: /categories/
+          - link "Sujets" [ref=e403] [cursor=pointer]:
+            - /url: /tags/
+          - link "Flux RSS" [ref=e404] [cursor=pointer]:
+            - /url: /index.xml
+        - generic [ref=e405]:
+          - heading "Rejoignez la communauté" [level=4] [ref=e406]
+          - paragraph [ref=e407]: Des analyses utiles, des comparatifs indépendants et des conseils concrets, chaque semaine dans votre boîte mail.
+          - generic [ref=e408]:
+            - generic [ref=e409]: Votre adresse e-mail
+            - textbox "Votre adresse e-mail" [ref=e410]:
+              - /placeholder: prenom@entreprise.fr
+            - button "Envoyer" [ref=e411] [cursor=pointer]
+      - generic [ref=e412]:
+        - generic [ref=e413]: © 2026 datashake, tous droits réservés.
+        - generic [ref=e414]:
+          - link "Agence SEO datashake" [ref=e415] [cursor=pointer]:
+            - /url: https://datashake.fr
+          - text: ", fait à Paris"

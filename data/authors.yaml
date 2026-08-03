@@ -1,0 +1,187 @@
+# Auteurs : Journal Marketing (journal-marketing.fr)
+# Indexe par ID (slug), utilise dans le frontmatter : author: thomas-durand + auteurs: ["thomas-durand"]
+
+thomas-durand:
+  id: thomas-durand
+  name: Thomas Durand
+  type: person
+  avatar: /images/authors/thomas-durand.svg
+  linkedinUrl: ""
+  jobTitle:
+    fr: Rédacteur en chef & stratège SEO
+    en: Editor-in-chief & SEO strategist
+  role:
+    fr: Rédacteur en chef & stratège SEO
+    en: Editor-in-chief & SEO strategist
+  bio:
+    fr: "Thomas pilote la ligne éditoriale du journal. Quinze ans à décortiquer les algorithmes de Google, il traduit la technique SEO en décisions business concrètes pour les marques."
+    en: "Thomas leads the journal's editorial line. Fifteen years dissecting Google's algorithms, he turns technical SEO into concrete business decisions for brands."
+  expertise:
+    - Stratégie SEO
+    - SEO technique
+    - Netlinking
+    - Architecture de site
+    - Core Web Vitals
+  topics: [seo, technique, algorithme, google, crawl, indexation, netlinking]
+
+lea-fontaine:
+  id: lea-fontaine
+  name: Léa Fontaine
+  type: person
+  avatar: /images/authors/lea-fontaine.svg
+  linkedinUrl: ""
+  jobTitle:
+    fr: Responsable contenu & éditorial
+    en: Head of content & editorial
+  role:
+    fr: Responsable contenu & éditorial
+    en: Head of content & editorial
+  bio:
+    fr: "Léa conçoit des stratégies de contenu qui rankent sans jamais sacrifier la lecture. Elle est convaincue qu'un bon article se lit d'abord, s'optimise ensuite."
+    en: "Léa designs content strategies that rank without ever sacrificing the reading experience. She believes a good article is read first, optimized second."
+  expertise:
+    - Content marketing
+    - Ligne éditoriale
+    - Cocon sémantique
+    - Copywriting
+    - E-E-A-T
+  topics: [contenu, editorial, redaction, semantique, copywriting]
+
+karim-benali:
+  id: karim-benali
+  name: Karim Benali
+  type: person
+  avatar: /images/authors/karim-benali.svg
+  linkedinUrl: ""
+  jobTitle:
+    fr: Spécialiste IA & GEO
+    en: AI & GEO specialist
+  role:
+    fr: Spécialiste IA & GEO
+    en: AI & GEO specialist
+  bio:
+    fr: "Karim explore la visibilité dans ChatGPT, Perplexity et les AI Overviews. Il aide les marques à exister là où se prennent désormais les décisions : dans les réponses des IA."
+    en: "Karim explores visibility in ChatGPT, Perplexity and AI Overviews. He helps brands exist where decisions are now made: inside AI answers."
+  expertise:
+    - GEO
+    - IA générative
+    - ChatGPT & Perplexity
+    - AI Overviews
+    - Citations LLM
+  topics: [geo, ia, llm, chatgpt, perplexity, ai overviews, generatif]
+
+sophie-marchand:
+  id: sophie-marchand
+  name: Sophie Marchand
+  type: person
+  avatar: /images/authors/sophie-marchand.svg
+  linkedinUrl: ""
+  jobTitle:
+    fr: Consultante netlinking & autorité
+    en: Link building & authority consultant
+  role:
+    fr: Consultante netlinking & autorité
+    en: Link building & authority consultant
+  bio:
+    fr: "Sophie construit des profils de liens qui tiennent dans le temps. Elle privilégie la pertinence et la puissance réelle à la course aux métriques."
+    en: "Sophie builds link profiles that last. She favors relevance and real authority over the metrics race."
+  expertise:
+    - Netlinking
+    - Analyse de profil de liens
+    - Autorité de domaine
+    - Ancres
+    - Relations presse SEO
+  topics: [netlinking, backlink, lien, autorite, ancre, popularite]
+
+julien-roy:
+  id: julien-roy
+  name: Julien Roy
+  type: person
+  avatar: /images/authors/julien-roy.svg
+  linkedinUrl: ""
+  jobTitle:
+    fr: Analyste data & performance
+    en: Data & performance analyst
+  role:
+    fr: Analyste data & performance
+    en: Data & performance analyst
+  bio:
+    fr: "Julien transforme la donnée en décisions. GA4, Search Console, Looker : il mesure ce qui compte vraiment et débranche les vanity metrics."
+    en: "Julien turns data into decisions. GA4, Search Console, Looker: he measures what really matters and unplugs vanity metrics."
+  expertise:
+    - Web analytics
+    - GA4
+    - Search Console
+    - Looker Studio
+    - Attribution
+  topics: [data, analytics, ga4, gsc, looker, mesure, performance, roi]
+
+nina-alves:
+  id: nina-alves
+  name: Nina Alves
+  type: person
+  avatar: /images/authors/nina-alves.svg
+  linkedinUrl: ""
+  jobTitle:
+    fr: Journaliste social media & influence
+    en: Social media & influence journalist
+  role:
+    fr: Journaliste social media & influence
+    en: Social media & influence journalist
+  bio:
+    fr: "Nina couvre les plateformes sociales et l'économie des créateurs. Elle traque les algorithmes de LinkedIn, TikTok et Instagram pour comprendre ce qui fait vraiment la portée."
+    en: "Nina covers social platforms and the creator economy. She tracks the LinkedIn, TikTok and Instagram algorithms to understand what truly drives reach."
+  expertise:
+    - Social media
+    - Influence
+    - LinkedIn
+    - TikTok
+    - Créateurs de contenu
+  topics: [social, reseaux sociaux, linkedin, tiktok, instagram, influence, communaute]
+
+marc-keller:
+  id: marc-keller
+  name: Marc Keller
+  type: person
+  avatar: /images/authors/marc-keller.svg
+  linkedinUrl: ""
+  jobTitle:
+    fr: Expert publicité en ligne & paid media
+    en: Online advertising & paid media expert
+  role:
+    fr: Expert publicité en ligne & paid media
+    en: Online advertising & paid media expert
+  bio:
+    fr: "Marc audite des comptes publicitaires depuis douze ans. Google Ads, social ads, retail media : il chasse le budget gaspillé et les métriques qui flattent sans convertir."
+    en: "Marc has been auditing ad accounts for twelve years. Google Ads, social ads, retail media: he hunts wasted budget and metrics that flatter without converting."
+  expertise:
+    - Google Ads
+    - Social ads
+    - Programmatique
+    - Retail media
+    - Mesure publicitaire
+  topics: [publicite, ads, google ads, sea, paid, retail media, programmatique]
+
+la-redaction:
+  id: la-redaction
+  name: La rédaction
+  type: organization
+  avatar: /images/authors/la-redaction.svg
+  linkedinUrl: ""
+  jobTitle:
+    fr: La rédaction du journal
+    en: The journal's editorial team
+  role:
+    fr: La rédaction du journal
+    en: The journal's editorial team
+  bio:
+    fr: "La rédaction du journal partage analyses, méthodes et retours de terrain sur tous les leviers d'acquisition du marketing digital."
+    en: "The journal's editorial team shares analysis, methods and field feedback on every digital marketing acquisition lever."
+  expertise:
+    - SEO
+    - IA et GEO
+    - Contenu
+    - Social
+    - Publicité
+    - Data
+  topics: [marketing digital, acquisition, visibilite]

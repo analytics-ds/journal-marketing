@@ -1,0 +1,130 @@
+baseURL = "https://journal-marketing.fr/"
+defaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = false
+title = "Journal Marketing"
+enableRobotsTXT = true
+enableEmoji = true
+capitalizeListTitles = false
+removePathAccents = true
+summaryLength = 24
+
+[pagination]
+  pagerSize = 9
+
+[params]
+  brand = "journal marketing"
+
+[languages]
+  [languages.fr]
+    locale = "fr-FR"
+    label = "Français"
+    weight = 1
+    title = "Journal Marketing"
+    contentDir = "content/fr"
+    [languages.fr.params]
+      brandSuffix = "média marketing digital"
+      tagline = "Le journal du marketing digital"
+      description = "Analyses, guides et comparatifs sur le SEO, l'IA, le contenu, le social, la publicité et la data. Le média indépendant du marketing digital."
+      baseline = "SEO, IA, contenu, social, ads, data : tous les leviers de votre visibilité."
+
+  [languages.en]
+    locale = "en-US"
+    label = "English"
+    weight = 2
+    title = "Journal Marketing"
+    contentDir = "content/en"
+    [languages.en.params]
+      brandSuffix = "digital marketing media"
+      tagline = "The digital marketing journal"
+      description = "Analysis, guides and comparisons on SEO, AI, content, social, advertising and data. The independent digital marketing media."
+      baseline = "SEO, AI, content, social, ads, data: every lever of your visibility."
+
+[taxonomies]
+  categorie = "categories"
+  tag = "tags"
+  auteur = "auteurs"
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+    ordered = false
+  [markup.highlight]
+    noClasses = false
+
+[related]
+  includeNewer = true
+  threshold = 40
+  toLower = true
+  [[related.indices]]
+    name = "categories"
+    weight = 100
+  [[related.indices]]
+    name = "tags"
+    weight = 60
+
+# ---- Menus FR ----
+[[languages.fr.menus.main]]
+  name = "SEO"
+  pageRef = "/categories/seo"
+  weight = 10
+[[languages.fr.menus.main]]
+  name = "IA et GEO"
+  pageRef = "/categories/ia-et-geo"
+  weight = 20
+[[languages.fr.menus.main]]
+  name = "Contenu"
+  pageRef = "/categories/contenu"
+  weight = 30
+[[languages.fr.menus.main]]
+  name = "Social"
+  pageRef = "/categories/social-et-influence"
+  weight = 40
+[[languages.fr.menus.main]]
+  name = "Publicité"
+  pageRef = "/categories/publicité-en-ligne"
+  weight = 50
+[[languages.fr.menus.main]]
+  name = "Data"
+  pageRef = "/categories/data-et-mesure"
+  weight = 60
+[[languages.fr.menus.main]]
+  name = "Outils"
+  pageRef = "/categories/outils-et-comparatifs"
+  weight = 70
+
+# ---- Menus EN ----
+[[languages.en.menus.main]]
+  name = "SEO"
+  pageRef = "/categories/seo"
+  weight = 10
+[[languages.en.menus.main]]
+  name = "AI and GEO"
+  pageRef = "/categories/ai-and-geo"
+  weight = 20
+[[languages.en.menus.main]]
+  name = "Content"
+  pageRef = "/categories/content"
+  weight = 30
+[[languages.en.menus.main]]
+  name = "Social"
+  pageRef = "/categories/social-and-influence"
+  weight = 40
+[[languages.en.menus.main]]
+  name = "Advertising"
+  pageRef = "/categories/online-advertising"
+  weight = 50
+[[languages.en.menus.main]]
+  name = "Data"
+  pageRef = "/categories/data-and-measurement"
+  weight = 60
+[[languages.en.menus.main]]
+  name = "Tools"
+  pageRef = "/categories/tools-and-comparisons"
+  weight = 70
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]

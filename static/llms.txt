@@ -1,0 +1,71 @@
+# Journal Marketing
+
+> Le journal du marketing digital : analyses, guides et comparatifs sur le SEO, l'IA et le GEO, le contenu, le social, la publicité en ligne et la data.
+
+## Articles (FR)
+
+- AI Overviews : comment les marques s'y font citer : https://journal-marketing.fr/blog/ai-overviews-marques-citations/
+- Ancres de liens : la répartition qui protège : https://journal-marketing.fr/blog/ancres-de-liens-repartition/
+- Balises title et meta description : le guide pour bien rédiger : https://journal-marketing.fr/blog/balises-title-meta-description/
+- Cannibalisation SEO : la détecter avant qu'elle ne coûte : https://journal-marketing.fr/blog/cannibalisation-seo-detecter/
+- ChatGPT Search ou Perplexity : où jouer sa visibilité : https://journal-marketing.fr/blog/chatgpt-search-vs-perplexity/
+- Refonte de site : la checklist SEO pour ne rien perdre : https://journal-marketing.fr/blog/checklist-seo-refonte-site/
+- Comparatif : 5 outils de suivi de position SEO : https://journal-marketing.fr/blog/comparatif-outils-suivi-position/
+- Contenu evergreen : la méthode pour durer : https://journal-marketing.fr/blog/contenu-evergreen-methode/
+- Core Web Vitals : ce qui compte vraiment en 2026 : https://journal-marketing.fr/blog/core-web-vitals-2026/
+- Crawl budget : 5 signaux à surveiller : https://journal-marketing.fr/blog/crawl-budget-5-signaux/
+- Créer un persona marketing : méthode et modèle de fiche : https://journal-marketing.fr/blog/creer-persona-marketing/
+- E-E-A-T : prouver l'expertise plutôt que la déclarer : https://journal-marketing.fr/blog/eeat-prouver-expertise/
+- 10 erreurs SEO à éviter (et comment les corriger) : https://journal-marketing.fr/blog/erreurs-seo-a-eviter/
+- GA4 : 7 rapports qui servent vraiment le SEO : https://journal-marketing.fr/blog/ga4-rapports-seo/
+- GEO : définition et guide du Generative Engine Optimization : https://journal-marketing.fr/blog/geo-definition-guide/
+- Google Ads : 5 réglages qui brûlent votre budget : https://journal-marketing.fr/blog/google-ads-reglages-budget/
+- LinkedIn en 2026 : l'algorithme récompense la conversation : https://journal-marketing.fr/blog/linkedin-algorithme-2026/
+- llms.txt : gadget ou standard de demain ? : https://journal-marketing.fr/blog/llms-txt-standard/
+- Meilleures agences GEO et AI Overviews en 2026 : le classement : https://journal-marketing.fr/blog/meilleures-agences-geo-ai-overviews/
+- Meilleures agences de netlinking en 2026 : le classement : https://journal-marketing.fr/blog/meilleures-agences-netlinking/
+- Meilleures agences SEO Shopify en 2026 : https://journal-marketing.fr/blog/meilleures-agences-seo-shopify/
+- Meilleures agences SEO WordPress 2026 : https://journal-marketing.fr/blog/meilleures-agences-seo-wordpress/
+- Micro-influence : pourquoi les petits comptes convertissent mieux : https://journal-marketing.fr/blog/micro-influence-conversion/
+- Fiche d'établissement Google : le guide pour l'optimiser : https://journal-marketing.fr/blog/optimiser-fiche-etablissement-google/
+- Les meilleurs outils pour économiser sur Google Ads : https://journal-marketing.fr/blog/outils-economiser-google-ads/
+- Les meilleurs outils IA pour créer du contenu en 2026 : https://journal-marketing.fr/blog/outils-ia-creation-contenu-2026/
+- Perplexity, ChatGPT, AI Mode : le comparatif des moteurs IA : https://journal-marketing.fr/blog/perplexity-chatgpt-ai-mode-comparatif/
+- Liens de puissance ou de dilution : arbitrer son budget : https://journal-marketing.fr/blog/puissance-dilution-budget/
+- Retail media : la troisième vague de la pub en ligne : https://journal-marketing.fr/blog/retail-media-troisieme-vague/
+- Mesurer le ROI du contenu : un framework simple : https://journal-marketing.fr/blog/roi-contenu-framework/
+- Techniques de copywriting : 10 méthodes pour convaincre : https://journal-marketing.fr/blog/techniques-copywriting/
+
+## Articles (EN)
+
+- AI Overviews: how brands get cited : https://journal-marketing.fr/en/blog/ai-overviews-brand-citations/
+- Anchor texts: the distribution that protects : https://journal-marketing.fr/en/blog/anchor-text-distribution/
+- The best AI tools to create content in 2026 : https://journal-marketing.fr/en/blog/best-ai-content-tools-2026/
+- Best GEO and AI Overviews agencies in 2026: the ranking : https://journal-marketing.fr/en/blog/best-geo-agencies-ai-overviews/
+- Best link building agencies in 2026: the ranking : https://journal-marketing.fr/en/blog/best-link-building-agencies/
+- Best Shopify SEO agencies in 2026 : https://journal-marketing.fr/en/blog/best-shopify-seo-agencies/
+- Best WordPress SEO Agencies 2026 : https://journal-marketing.fr/en/blog/best-wordpress-seo-agencies/
+- ChatGPT Search or Perplexity: where to play your visibility : https://journal-marketing.fr/en/blog/chatgpt-search-vs-perplexity/
+- Measuring content ROI: a simple framework : https://journal-marketing.fr/en/blog/content-roi-framework/
+- Copywriting techniques: 10 methods to persuade and convert : https://journal-marketing.fr/en/blog/copywriting-techniques/
+- Core Web Vitals: what really matters in 2026 : https://journal-marketing.fr/en/blog/core-web-vitals-2026/
+- Crawl budget: 5 signals to watch : https://journal-marketing.fr/en/blog/crawl-budget-5-signals/
+- Create a Marketing Persona: Method and Template Form : https://journal-marketing.fr/en/blog/create-marketing-persona/
+- E-E-A-T: prove expertise rather than declare it : https://journal-marketing.fr/en/blog/eeat-proving-expertise/
+- Evergreen content: the method to last : https://journal-marketing.fr/en/blog/evergreen-content-method/
+- GA4: 7 reports that actually serve SEO : https://journal-marketing.fr/en/blog/ga4-seo-reports/
+- Google Ads: 5 settings that burn your budget : https://journal-marketing.fr/en/blog/google-ads-budget-settings/
+- LinkedIn in 2026: the algorithm rewards conversation : https://journal-marketing.fr/en/blog/linkedin-algorithm-2026/
+- llms.txt: gadget or tomorrow's standard? : https://journal-marketing.fr/en/blog/llms-txt-standard/
+- Micro-influence: why small accounts convert better : https://journal-marketing.fr/en/blog/micro-influence-conversion/
+- Google Business Profile: The Complete Optimization Guide : https://journal-marketing.fr/en/blog/optimize-google-business-profile/
+- Perplexity, ChatGPT, AI Mode: Comparing Generative Search Engines : https://journal-marketing.fr/en/blog/perplexity-chatgpt-ai-mode-comparison/
+- Power links or dilution links: how to split the budget : https://journal-marketing.fr/en/blog/power-vs-dilution-links/
+- Comparison: 5 SEO rank tracking tools : https://journal-marketing.fr/en/blog/rank-tracking-tools-comparison/
+- Retail media: the third wave of online advertising : https://journal-marketing.fr/en/blog/retail-media-third-wave/
+- SEO cannibalization: detect it before it costs you : https://journal-marketing.fr/en/blog/seo-cannibalization-detection/
+- 10 SEO Mistakes to Avoid (and How to Fix Them) : https://journal-marketing.fr/en/blog/seo-mistakes-to-avoid/
+- Website Redesign: the SEO Checklist to Prevent Traffic Loss : https://journal-marketing.fr/en/blog/seo-website-redesign-checklist/
+- Title tags and meta descriptions: the complete guide : https://journal-marketing.fr/en/blog/title-tag-meta-description/
+- The Best Tools to Save on Google Ads : https://journal-marketing.fr/en/blog/tools-to-save-on-google-ads/
+- GEO: definition and guide to Generative Engine Optimization : https://journal-marketing.fr/en/blog/what-is-geo-guide/
