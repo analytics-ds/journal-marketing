@@ -113,6 +113,10 @@ jq '{
 
 ### 1.3 Repli en cascade (ne jamais echouer sur cette etape)
 
+**Etat connu au 2026-08-05 : dans l'environnement cloud VM-Damien, l'egress rejette `crazyserp.com` en 403 immediat (mesure a 0,31 s).** Ce n'est ni un timeout ni un souci de cle, le meme appel passe en 6 s depuis un Mac. Le champ "Acces reseau" de l'environnement est sur "De confiance", une liste blanche qui ne contient pas ce domaine. Tant que ce n'est pas ouvert, **la routine cloud tourne en mode WebSearch**. En local, CrazySERP fonctionne normalement.
+
+Consequence pratique : tenter CrazySERP quand meme (il sera peut-etre debloque), mais **basculer des le premier echec, sans insister ni retenter**.
+
 1. **CrazySERP repond** : cas nominal.
 2. **CrazySERP renvoie 402 (credits insuffisants)** : ne pas basculer silencieusement. Loguer `CRAZYSERP 402 credits epuises`, continuer en repli WebSearch, et le signaler dans le commit message pour que Damien le voie.
 3. **CrazySERP injoignable** (timeout, DNS, 403 de l'egress proxy du sandbox cloud) : basculer sur `WebSearch` sur le `kw` (outil natif, execute cote serveur Anthropic, donc non soumis a la politique reseau du sandbox). Maximum 3 recherches. Exploiter uniquement titres et snippets.
