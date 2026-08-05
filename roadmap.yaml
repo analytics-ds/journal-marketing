@@ -9,20 +9,28 @@
 # .claude/ sont traites comme sensibles par Claude Code et declenchent un popup
 # a chaque edit, non contournable, qui bloquerait les runs cron de nuit.
 #
-# CADENCE
-# -------
-# Routine cloud quotidienne, 1h du matin (Paris). L'agent publie UNE entree par
-# run : la plus ancienne dont status == todo et scheduled_date <= today.
-# La rotation des categories est calee sur la semaine calendaire :
-#   lundi     SEO
-#   mardi     Contenu
-#   mercredi  Publicite en ligne
-#   jeudi     IA et GEO
-#   vendredi  Data et mesure
-#   samedi    Social et influence
-#   dimanche  Outils et comparatifs
-# Soit exactement 1 article par semaine et par categorie, comme demande.
-# Deux articles consecutifs ne sont donc jamais de la meme categorie.
+# CADENCE : 5 articles par semaine, rotation continue des 7 rubriques
+# -------------------------------------------------------------------
+# Routine cloud du lundi au vendredi a 1h UTC (3h Paris en ete). L'agent publie
+# UNE entree par run : la plus ancienne dont status == todo et
+# scheduled_date <= today.
+#
+# Les 7 rubriques tournent dans un cycle continu qui **enjambe les semaines**.
+# Le cycle ne se remet pas a zero le lundi : avec 5 jours ouvres et 7 rubriques,
+# une semaine ne couvre jamais tout le site, et la semaine suivante reprend la
+# rotation la ou elle s'etait arretee. Chaque rubrique revient donc tous les
+# 7 articles, soit une fois toutes les une semaine et demie environ.
+#
+# Ordre du cycle :
+#   SEO -> Contenu -> Publicite en ligne -> IA et GEO -> Data et mesure
+#       -> Social et influence -> Outils et comparatifs -> SEO -> ...
+#
+# Consequence sur les 10 premieres semaines :
+#   semaine 1  SEO, Contenu, Publicite, IA et GEO, Data
+#   semaine 2  Social, Outils, SEO, Contenu, Publicite
+#   semaine 3  IA et GEO, Data, Social, Outils, SEO
+#   ... et ainsi de suite.
+# Deux articles consecutifs ne sont jamais de la meme rubrique.
 #
 # ANALYSE SERP : CRAZYSERP (et pas SerpAPI)
 # -----------------------------------------
@@ -51,8 +59,9 @@
 # COMMENT AJOUTER UNE ENTREE (humain)
 # -----------------------------------
 # 1. Copier un bloc, le placer a la fin de la liste `articles`
-# 2. Renseigner kw, category (doit matcher une categorie de hugo.toml),
-#    scheduled_date, et respecter la rotation jour/categorie ci-dessus
+# 2. Renseigner kw, category (doit matcher une categorie de hugo.toml) et
+#    scheduled_date (un jour ouvre), en poursuivant le cycle des rubriques la
+#    ou la derniere entree l'a laisse
 # 3. volume et kd sont informatifs, ignores par l'agent
 # 4. Laisser les autres champs a null
 # 5. Commit + push : le prochain run eligible prend l'entree
@@ -121,11 +130,13 @@ articles:
     published_url_en: null
     error: null
 
+  # ============ Semaine 34 (17/08 - 23/08) ============
+
   - kw: "loi influenceur"
     category: "Social et influence"
     volume: 1000
     kd: 14
-    scheduled_date: "2026-08-15"
+    scheduled_date: "2026-08-17"
     status: todo
     published_date: null
     published_url_fr: null
@@ -136,20 +147,18 @@ articles:
     category: "Outils et comparatifs"
     volume: 4500
     kd: 33
-    scheduled_date: "2026-08-16"
+    scheduled_date: "2026-08-18"
     status: todo
     published_date: null
     published_url_fr: null
     published_url_en: null
     error: null
 
-  # ============ Semaine 34 (17/08 - 23/08) ============
-
   - kw: "audit seo"
     category: "SEO"
     volume: 1600
     kd: 32
-    scheduled_date: "2026-08-17"
+    scheduled_date: "2026-08-19"
     status: todo
     published_date: null
     published_url_fr: null
@@ -160,7 +169,7 @@ articles:
     category: "Contenu"
     volume: 2000
     kd: 14
-    scheduled_date: "2026-08-18"
+    scheduled_date: "2026-08-20"
     status: todo
     published_date: null
     published_url_fr: null
@@ -171,18 +180,20 @@ articles:
     category: "Publicité en ligne"
     volume: 400
     kd: 31
-    scheduled_date: "2026-08-19"
+    scheduled_date: "2026-08-21"
     status: todo
     published_date: null
     published_url_fr: null
     published_url_en: null
     error: null
 
+  # ============ Semaine 35 (24/08 - 30/08) ============
+
   - kw: "meilleur prompt chatgpt"
     category: "IA et GEO"
     volume: 554
     kd: 27
-    scheduled_date: "2026-08-20"
+    scheduled_date: "2026-08-24"
     status: todo
     published_date: null
     published_url_fr: null
@@ -193,7 +204,7 @@ articles:
     category: "Data et mesure"
     volume: 880
     kd: 30
-    scheduled_date: "2026-08-21"
+    scheduled_date: "2026-08-25"
     status: todo
     published_date: null
     published_url_fr: null
@@ -204,7 +215,7 @@ articles:
     category: "Social et influence"
     volume: 880
     kd: null
-    scheduled_date: "2026-08-22"
+    scheduled_date: "2026-08-26"
     status: todo
     published_date: null
     published_url_fr: null
@@ -215,31 +226,31 @@ articles:
     category: "Outils et comparatifs"
     volume: 1182
     kd: 27
-    scheduled_date: "2026-08-23"
+    scheduled_date: "2026-08-27"
     status: todo
     published_date: null
     published_url_fr: null
     published_url_en: null
     error: null
-
-  # ============ Semaine 35 (24/08 - 30/08) ============
 
   - kw: "référencement site web"
     category: "SEO"
     volume: 1300
     kd: 33
-    scheduled_date: "2026-08-24"
+    scheduled_date: "2026-08-28"
     status: todo
     published_date: null
     published_url_fr: null
     published_url_en: null
     error: null
 
+  # ============ Semaine 36 (31/08 - 06/09) ============
+
   - kw: "calendrier éditorial"
     category: "Contenu"
     volume: 1500
     kd: 41
-    scheduled_date: "2026-08-25"
+    scheduled_date: "2026-08-31"
     status: todo
     published_date: null
     published_url_fr: null
@@ -250,7 +261,7 @@ articles:
     category: "Publicité en ligne"
     volume: 320
     kd: 25
-    scheduled_date: "2026-08-26"
+    scheduled_date: "2026-09-01"
     status: todo
     published_date: null
     published_url_fr: null
@@ -261,7 +272,7 @@ articles:
     category: "IA et GEO"
     volume: 355
     kd: 31
-    scheduled_date: "2026-08-27"
+    scheduled_date: "2026-09-02"
     status: todo
     published_date: null
     published_url_fr: null
@@ -272,7 +283,7 @@ articles:
     category: "Data et mesure"
     volume: 260
     kd: 24
-    scheduled_date: "2026-08-28"
+    scheduled_date: "2026-09-03"
     status: todo
     published_date: null
     published_url_fr: null
@@ -283,31 +294,31 @@ articles:
     category: "Social et influence"
     volume: 720
     kd: 25
-    scheduled_date: "2026-08-29"
+    scheduled_date: "2026-09-04"
     status: todo
     published_date: null
     published_url_fr: null
     published_url_en: null
     error: null
+
+  # ============ Semaine 37 (07/09 - 13/09) ============
 
   - kw: "logiciel intelligence artificielle gratuit"
     category: "Outils et comparatifs"
     volume: 720
     kd: 35
-    scheduled_date: "2026-08-30"
+    scheduled_date: "2026-09-07"
     status: todo
     published_date: null
     published_url_fr: null
     published_url_en: null
     error: null
 
-  # ============ Semaine 36 (31/08 - 06/09) ============
-
   - kw: "seo local"
     category: "SEO"
     volume: 1200
     kd: 28
-    scheduled_date: "2026-08-31"
+    scheduled_date: "2026-09-08"
     status: todo
     published_date: null
     published_url_fr: null
@@ -318,7 +329,7 @@ articles:
     category: "Contenu"
     volume: 1200
     kd: 30
-    scheduled_date: "2026-09-01"
+    scheduled_date: "2026-09-09"
     status: todo
     published_date: null
     published_url_fr: null
@@ -329,7 +340,7 @@ articles:
     category: "Publicité en ligne"
     volume: 320
     kd: 34
-    scheduled_date: "2026-09-02"
+    scheduled_date: "2026-09-10"
     status: todo
     published_date: null
     published_url_fr: null
@@ -340,18 +351,20 @@ articles:
     category: "IA et GEO"
     volume: 320
     kd: 22
-    scheduled_date: "2026-09-03"
+    scheduled_date: "2026-09-11"
     status: todo
     published_date: null
     published_url_fr: null
     published_url_en: null
     error: null
 
+  # ============ Semaine 38 (14/09 - 20/09) ============
+
   - kw: "tableau de bord marketing"
     category: "Data et mesure"
     volume: 260
     kd: 10
-    scheduled_date: "2026-09-04"
+    scheduled_date: "2026-09-14"
     status: todo
     published_date: null
     published_url_fr: null
@@ -362,7 +375,7 @@ articles:
     category: "Social et influence"
     volume: 700
     kd: null
-    scheduled_date: "2026-09-05"
+    scheduled_date: "2026-09-15"
     status: todo
     published_date: null
     published_url_fr: null
@@ -373,20 +386,18 @@ articles:
     category: "Outils et comparatifs"
     volume: 590
     kd: 24
-    scheduled_date: "2026-09-06"
+    scheduled_date: "2026-09-16"
     status: todo
     published_date: null
     published_url_fr: null
     published_url_en: null
     error: null
 
-  # ============ Semaine 37 (07/09 - 13/09) ============
-
   - kw: "audit seo technique"
     category: "SEO"
     volume: 720
     kd: 19
-    scheduled_date: "2026-09-07"
+    scheduled_date: "2026-09-17"
     status: todo
     published_date: null
     published_url_fr: null
@@ -397,18 +408,20 @@ articles:
     category: "Contenu"
     volume: 1100
     kd: 35
-    scheduled_date: "2026-09-08"
+    scheduled_date: "2026-09-18"
     status: todo
     published_date: null
     published_url_fr: null
     published_url_en: null
     error: null
 
+  # ============ Semaine 39 (21/09 - 27/09) ============
+
   - kw: "publicité en ligne"
     category: "Publicité en ligne"
     volume: 300
     kd: 24
-    scheduled_date: "2026-09-09"
+    scheduled_date: "2026-09-21"
     status: todo
     published_date: null
     published_url_fr: null
@@ -419,7 +432,7 @@ articles:
     category: "IA et GEO"
     volume: 200
     kd: 31
-    scheduled_date: "2026-09-10"
+    scheduled_date: "2026-09-22"
     status: todo
     published_date: null
     published_url_fr: null
@@ -430,7 +443,7 @@ articles:
     category: "Data et mesure"
     volume: 200
     kd: null
-    scheduled_date: "2026-09-11"
+    scheduled_date: "2026-09-23"
     status: todo
     published_date: null
     published_url_fr: null
@@ -441,7 +454,7 @@ articles:
     category: "Social et influence"
     volume: 600
     kd: 32
-    scheduled_date: "2026-09-12"
+    scheduled_date: "2026-09-24"
     status: todo
     published_date: null
     published_url_fr: null
@@ -452,20 +465,20 @@ articles:
     category: "Outils et comparatifs"
     volume: 105
     kd: null
-    scheduled_date: "2026-09-13"
+    scheduled_date: "2026-09-25"
     status: todo
     published_date: null
     published_url_fr: null
     published_url_en: null
     error: null
 
-  # ============ Semaine 38 (14/09 - 20/09) ============
+  # ============ Semaine 40 (28/09 - 04/10) ============
 
   - kw: "maillage interne seo"
     category: "SEO"
     volume: 390
     kd: null
-    scheduled_date: "2026-09-14"
+    scheduled_date: "2026-09-28"
     status: todo
     published_date: null
     published_url_fr: null
@@ -476,7 +489,7 @@ articles:
     category: "Contenu"
     volume: 1000
     kd: 23
-    scheduled_date: "2026-09-15"
+    scheduled_date: "2026-09-29"
     status: todo
     published_date: null
     published_url_fr: null
@@ -487,7 +500,7 @@ articles:
     category: "Publicité en ligne"
     volume: 210
     kd: null
-    scheduled_date: "2026-09-16"
+    scheduled_date: "2026-09-30"
     status: todo
     published_date: null
     published_url_fr: null
@@ -498,7 +511,7 @@ articles:
     category: "IA et GEO"
     volume: 50
     kd: null
-    scheduled_date: "2026-09-17"
+    scheduled_date: "2026-10-01"
     status: todo
     published_date: null
     published_url_fr: null
@@ -509,18 +522,20 @@ articles:
     category: "Data et mesure"
     volume: 162
     kd: 27
-    scheduled_date: "2026-09-18"
+    scheduled_date: "2026-10-02"
     status: todo
     published_date: null
     published_url_fr: null
     published_url_en: null
     error: null
 
+  # ============ Semaine 41 (05/10 - 11/10) ============
+
   - kw: "algorithme instagram"
     category: "Social et influence"
     volume: 500
     kd: 20
-    scheduled_date: "2026-09-19"
+    scheduled_date: "2026-10-05"
     status: todo
     published_date: null
     published_url_fr: null
@@ -531,20 +546,18 @@ articles:
     category: "Outils et comparatifs"
     volume: 20
     kd: null
-    scheduled_date: "2026-09-20"
+    scheduled_date: "2026-10-06"
     status: todo
     published_date: null
     published_url_fr: null
     published_url_en: null
     error: null
 
-  # ============ Semaine 39 (21/09 - 27/09) ============
-
   - kw: "champ sémantique seo"
     category: "SEO"
     volume: 20
     kd: null
-    scheduled_date: "2026-09-21"
+    scheduled_date: "2026-10-07"
     status: todo
     published_date: null
     published_url_fr: null
@@ -555,7 +568,7 @@ articles:
     category: "Contenu"
     volume: 100
     kd: null
-    scheduled_date: "2026-09-22"
+    scheduled_date: "2026-10-08"
     status: todo
     published_date: null
     published_url_fr: null
@@ -566,18 +579,20 @@ articles:
     category: "Publicité en ligne"
     volume: 70
     kd: null
-    scheduled_date: "2026-09-23"
+    scheduled_date: "2026-10-09"
     status: todo
     published_date: null
     published_url_fr: null
     published_url_en: null
     error: null
 
+  # ============ Semaine 42 (12/10 - 18/10) ============
+
   - kw: "détecteur de texte ia"
     category: "IA et GEO"
     volume: 27
     kd: null
-    scheduled_date: "2026-09-24"
+    scheduled_date: "2026-10-12"
     status: todo
     published_date: null
     published_url_fr: null
@@ -588,7 +603,7 @@ articles:
     category: "Data et mesure"
     volume: 140
     kd: 21
-    scheduled_date: "2026-09-25"
+    scheduled_date: "2026-10-13"
     status: todo
     published_date: null
     published_url_fr: null
@@ -599,7 +614,7 @@ articles:
     category: "Social et influence"
     volume: 320
     kd: null
-    scheduled_date: "2026-09-26"
+    scheduled_date: "2026-10-14"
     status: todo
     published_date: null
     published_url_fr: null
@@ -610,20 +625,18 @@ articles:
     category: "Outils et comparatifs"
     volume: 10
     kd: null
-    scheduled_date: "2026-09-27"
+    scheduled_date: "2026-10-15"
     status: todo
     published_date: null
     published_url_fr: null
     published_url_en: null
     error: null
 
-  # ============ Semaine 40 (28/09 - 04/10) ============
-
   - kw: "balise hn seo"
     category: "SEO"
     volume: 20
     kd: null
-    scheduled_date: "2026-09-28"
+    scheduled_date: "2026-10-16"
     status: todo
     published_date: null
     published_url_fr: null

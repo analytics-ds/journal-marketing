@@ -2,7 +2,7 @@
 
 Cette skill produit **automatiquement** un article evergreen SEO, bilingue FR + EN, a partir d'un mot-cle pris dans `roadmap.yaml`. Aucun input humain, aucun point d'arret, publication directe sur GitHub.
 
-Elle est declenchee par une routine cloud planifiee (cron quotidien, 1h UTC). Elle peut aussi etre lancee manuellement pour tester.
+Elle est declenchee par une routine cloud planifiee (cron `0 1 * * 1-5`, du lundi au vendredi a 1h UTC, soit 5 articles par semaine). Elle peut aussi etre lancee manuellement pour tester.
 
 Ce blog est **Journal Marketing** (journal-marketing.fr), media debrande sur le marketing digital. Deux differences majeures avec la version reseau de cette skill :
 1. **L'analyse SERP passe par CrazySERP**, pas par SerpAPI ni par WebSearch seul.
@@ -376,7 +376,11 @@ Champs editables par l'humain : `kw`, `category`, `scheduled_date` (obligatoires
 
 Champs remplis par l'agent : `published_date`, `published_url_fr`, `published_url_en`, `error`, et bascule de `status`.
 
-La roadmap est calee sur une rotation jour de la semaine / rubrique (lundi SEO, mardi Contenu, mercredi Publicite en ligne, jeudi IA et GEO, vendredi Data et mesure, samedi Social et influence, dimanche Outils et comparatifs), ce qui donne exactement 1 article par semaine et par rubrique avec un cron quotidien. Respecter cette rotation en ajoutant des entrees.
+**Cadence : 5 articles par semaine, du lundi au vendredi** (cron `0 1 * * 1-5`), un seul par run.
+
+Les 7 rubriques tournent dans un **cycle continu qui enjambe les semaines** : SEO, Contenu, Publicite en ligne, IA et GEO, Data et mesure, Social et influence, Outils et comparatifs, puis on reboucle. Avec 5 jours ouvres pour 7 rubriques, une semaine ne couvre jamais tout le site : la semaine suivante reprend la rotation la ou elle s'etait arretee. Chaque rubrique revient donc tous les 7 articles.
+
+En rechargeant la roadmap, **poursuivre le cycle la ou la derniere entree l'a laisse**, ne pas le remettre a zero sur le lundi. Ne programmer que des jours ouvres.
 
 ## Logs
 
