@@ -85,3 +85,11 @@ Reprise des 8 derniers comparatifs evergreen d'ai.datashake.fr (visuels IA, mark
 - Compléter les rubriques Social / Publicité / Data
 - Connexion GA4 datashake
 - Routine cloud de publication evergreen (1 article / semaine / rubrique), à configurer depuis un autre compte Claude que celui de Damien
+
+## Publication automatique (préparée le 2026-08-05)
+
+- **`roadmap.yaml`** à la racine : 50 mots-clés sur les 7 rubriques, du 2026-08-10 au 2026-09-28. Rotation **un jour = une rubrique** (lundi SEO, mardi Contenu, mercredi Publicité, jeudi IA et GEO, vendredi Data, samedi Social, dimanche Outils), ce qui donne exactement 1 article/semaine/rubrique avec un cron quotidien. Deux articles consécutifs ne sont jamais de la même rubrique. Respecter cette rotation en rechargeant la roadmap.
+- **Origine des mots-clés** : découverte Haloscan (54 seeds, 1 876 KW), triée à la main. La GSC d'universdelatech.fr a été interrogée mais son profil est du tech grand public utilitaire (`chat gratuit comme coco`, `supprimer compte micromania`, `iptv orange`) : rien d'exploitable pour un média marketing, seul le pattern d'intention a été repris (définitionnel, comparatif, tuto outil, liste "meilleur").
+- **Skill `.claude/skills/create-article-auto/`** : version journal-marketing de la skill réseau. Deux écarts majeurs, **analyse SERP via CrazySERP** (un appel rend organiques, PAA, AI Overview et volume ; repli WebSearch puis mode dégradé, jamais un motif d'échec) et **chemins `content/fr/blog/` + `content/en/blog/`**. Elle impose aussi le bloc `faq:` en frontmatter, les deux champs auteur, le contrôle typographique et la vérification que les deux pages existent dans `public/`.
+- **Clé CrazySERP** : jamais dans ce repo, il est **public**. Elle est passée dans le prompt de la routine cloud, source de vérité dans `.claude/secrets/.env` du Drive.
+- **Routine cloud** : préparée sur le compte Claude de Theo, pas encore créée (le compte n'a pas d'environnement cloud). Payload prêt et détail du blocage dans `100🗺️ Areas/Site web/routine-journal-marketing.md` du Drive.
