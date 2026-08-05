@@ -1,0 +1,631 @@
+# Roadmap editoriale evergreen — Journal Marketing
+#
+# Alimente la skill /create-article-auto (publication automatique d'un article
+# evergreen SEO bilingue FR + EN, sans intervention humaine).
+#
+# EMPLACEMENT
+# -----------
+# Ce fichier vit a la racine du repo (et PAS dans .claude/) : les fichiers de
+# .claude/ sont traites comme sensibles par Claude Code et declenchent un popup
+# a chaque edit, non contournable, qui bloquerait les runs cron de nuit.
+#
+# CADENCE
+# -------
+# Routine cloud quotidienne, 1h du matin (Paris). L'agent publie UNE entree par
+# run : la plus ancienne dont status == todo et scheduled_date <= today.
+# La rotation des categories est calee sur la semaine calendaire :
+#   lundi     SEO
+#   mardi     Contenu
+#   mercredi  Publicite en ligne
+#   jeudi     IA et GEO
+#   vendredi  Data et mesure
+#   samedi    Social et influence
+#   dimanche  Outils et comparatifs
+# Soit exactement 1 article par semaine et par categorie, comme demande.
+# Deux articles consecutifs ne sont donc jamais de la meme categorie.
+#
+# ANALYSE SERP : CRAZYSERP (et pas SerpAPI)
+# -----------------------------------------
+# L'etape d'analyse concurrentielle passe par l'API CrazySERP de datashake
+# (cle CRAZYSERP_API_KEY). Elle renvoie dans un seul appel les resultats
+# organiques, les People Also Ask, les recherches associees, l'AI Overview et
+# le volume de recherche. Repli automatique sur WebSearch si l'egress du
+# sandbox cloud bloque crazyserp.com. Detail : skill create-article-auto.
+#
+# SOURCE DES MOTS-CLES
+# --------------------
+# Decouverte Haloscan (/keywords/match + /keywords/related) sur 54 seeds, le
+# 2026-08-05 : 1 876 mots-cles remontes, tries a la main pour retirer le bruit
+# d'homonymie (les "seo" d'acteurs coreens, "ugc" les cinemas, "cpc" le code de
+# procedure civile, les taux de conversion de devises).
+#
+# NOTE : la GSC d'universdelatech.fr a bien ete interrogee (5 000 requetes,
+# 12 mois, marche FR) mais elle n'est PAS reutilisable ici. Ses meilleurs
+# mots-cles sont du tech grand public utilitaire ("chat gratuit comme coco"
+# 988 clics, "supprimer compte micromania", "iptv orange", "generateur de
+# pseudo"). Sur 5 000 requetes, aucune ne porte un sujet de marketing digital
+# editorial. Ce qui a ete repris d'UDLT, c'est le PATTERN d'intention qui
+# performe chez eux : definitionnel ("c'est quoi"), comparatif/alternative,
+# tutoriel outil et liste "meilleur...".
+#
+# COMMENT AJOUTER UNE ENTREE (humain)
+# -----------------------------------
+# 1. Copier un bloc, le placer a la fin de la liste `articles`
+# 2. Renseigner kw, category (doit matcher une categorie de hugo.toml),
+#    scheduled_date, et respecter la rotation jour/categorie ci-dessus
+# 3. volume et kd sont informatifs, ignores par l'agent
+# 4. Laisser les autres champs a null
+# 5. Commit + push : le prochain run eligible prend l'entree
+#
+# DEBLOQUER UNE ENTREE FAILED
+# ---------------------------
+# Lire `error:`, corriger, repasser `status: todo`, vider `error: null`,
+# commit + push. Une entree failed n'est jamais retentee automatiquement.
+
+articles:
+
+  # ============ Semaine 33 (10/08 - 16/08) ============
+
+  - kw: "google search console"
+    category: "SEO"
+    volume: 64700
+    kd: 33
+    scheduled_date: "2026-08-10"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "content marketing"
+    category: "Contenu"
+    volume: 11900
+    kd: 30
+    scheduled_date: "2026-08-11"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "google ads c'est quoi"
+    category: "Publicité en ligne"
+    volume: 800
+    kd: 31
+    scheduled_date: "2026-08-12"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "ia générative"
+    category: "IA et GEO"
+    volume: 11100
+    kd: 39
+    scheduled_date: "2026-08-13"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "looker studio"
+    category: "Data et mesure"
+    volume: 14600
+    kd: 32
+    scheduled_date: "2026-08-14"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "loi influenceur"
+    category: "Social et influence"
+    volume: 1000
+    kd: 14
+    scheduled_date: "2026-08-15"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "crm logiciel"
+    category: "Outils et comparatifs"
+    volume: 4500
+    kd: 33
+    scheduled_date: "2026-08-16"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  # ============ Semaine 34 (17/08 - 23/08) ============
+
+  - kw: "audit seo"
+    category: "SEO"
+    volume: 1600
+    kd: 32
+    scheduled_date: "2026-08-17"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "ligne éditoriale"
+    category: "Contenu"
+    volume: 2000
+    kd: 14
+    scheduled_date: "2026-08-18"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "sea marketing"
+    category: "Publicité en ligne"
+    volume: 400
+    kd: 31
+    scheduled_date: "2026-08-19"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "meilleur prompt chatgpt"
+    category: "IA et GEO"
+    volume: 554
+    kd: 27
+    scheduled_date: "2026-08-20"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "calcul du taux de conversion"
+    category: "Data et mesure"
+    volume: 880
+    kd: 30
+    scheduled_date: "2026-08-21"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "algorithme tiktok"
+    category: "Social et influence"
+    volume: 880
+    kd: null
+    scheduled_date: "2026-08-22"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "web analytics"
+    category: "Outils et comparatifs"
+    volume: 1182
+    kd: 27
+    scheduled_date: "2026-08-23"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  # ============ Semaine 35 (24/08 - 30/08) ============
+
+  - kw: "référencement site web"
+    category: "SEO"
+    volume: 1300
+    kd: 33
+    scheduled_date: "2026-08-24"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "calendrier éditorial"
+    category: "Contenu"
+    volume: 1500
+    kd: 41
+    scheduled_date: "2026-08-25"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "seo vs sea"
+    category: "Publicité en ligne"
+    volume: 320
+    kd: 25
+    scheduled_date: "2026-08-26"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "ia rédaction texte"
+    category: "IA et GEO"
+    volume: 355
+    kd: 31
+    scheduled_date: "2026-08-27"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "google tag manager c'est quoi"
+    category: "Data et mesure"
+    volume: 260
+    kd: 24
+    scheduled_date: "2026-08-28"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "ugc marketing"
+    category: "Social et influence"
+    volume: 720
+    kd: 25
+    scheduled_date: "2026-08-29"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "logiciel intelligence artificielle gratuit"
+    category: "Outils et comparatifs"
+    volume: 720
+    kd: 35
+    scheduled_date: "2026-08-30"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  # ============ Semaine 36 (31/08 - 06/09) ============
+
+  - kw: "seo local"
+    category: "SEO"
+    volume: 1200
+    kd: 28
+    scheduled_date: "2026-08-31"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "storytelling marque"
+    category: "Contenu"
+    volume: 1200
+    kd: 30
+    scheduled_date: "2026-09-01"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "retargeting définition"
+    category: "Publicité en ligne"
+    volume: 320
+    kd: 34
+    scheduled_date: "2026-09-02"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "ai overview france"
+    category: "IA et GEO"
+    volume: 320
+    kd: 22
+    scheduled_date: "2026-09-03"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "tableau de bord marketing"
+    category: "Data et mesure"
+    volume: 260
+    kd: 10
+    scheduled_date: "2026-09-04"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "nano influenceur"
+    category: "Social et influence"
+    volume: 700
+    kd: null
+    scheduled_date: "2026-09-05"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "outil seo gratuit"
+    category: "Outils et comparatifs"
+    volume: 590
+    kd: 24
+    scheduled_date: "2026-09-06"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  # ============ Semaine 37 (07/09 - 13/09) ============
+
+  - kw: "audit seo technique"
+    category: "SEO"
+    volume: 720
+    kd: 19
+    scheduled_date: "2026-09-07"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "rédaction web"
+    category: "Contenu"
+    volume: 1100
+    kd: 35
+    scheduled_date: "2026-09-08"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "publicité en ligne"
+    category: "Publicité en ligne"
+    volume: 300
+    kd: 24
+    scheduled_date: "2026-09-09"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "ia seo"
+    category: "IA et GEO"
+    volume: 200
+    kd: 31
+    scheduled_date: "2026-09-10"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "tracking server side"
+    category: "Data et mesure"
+    volume: 200
+    kd: null
+    scheduled_date: "2026-09-11"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "community management"
+    category: "Social et influence"
+    volume: 600
+    kd: 32
+    scheduled_date: "2026-09-12"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "alternative google analytics"
+    category: "Outils et comparatifs"
+    volume: 105
+    kd: null
+    scheduled_date: "2026-09-13"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  # ============ Semaine 38 (14/09 - 20/09) ============
+
+  - kw: "maillage interne seo"
+    category: "SEO"
+    volume: 390
+    kd: null
+    scheduled_date: "2026-09-14"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "tarif rédaction web"
+    category: "Contenu"
+    volume: 1000
+    kd: 23
+    scheduled_date: "2026-09-15"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "publicité tiktok prix"
+    category: "Publicité en ligne"
+    volume: 210
+    kd: null
+    scheduled_date: "2026-09-16"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "agent ia marketing"
+    category: "IA et GEO"
+    volume: 50
+    kd: null
+    scheduled_date: "2026-09-17"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "taux de conversion e-commerce"
+    category: "Data et mesure"
+    volume: 162
+    kd: 27
+    scheduled_date: "2026-09-18"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "algorithme instagram"
+    category: "Social et influence"
+    volume: 500
+    kd: 20
+    scheduled_date: "2026-09-19"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "semrush ou ahrefs"
+    category: "Outils et comparatifs"
+    volume: 20
+    kd: null
+    scheduled_date: "2026-09-20"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  # ============ Semaine 39 (21/09 - 27/09) ============
+
+  - kw: "champ sémantique seo"
+    category: "SEO"
+    volume: 20
+    kd: null
+    scheduled_date: "2026-09-21"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "cocon sémantique"
+    category: "Contenu"
+    volume: 100
+    kd: null
+    scheduled_date: "2026-09-22"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "cpc moyen google ads"
+    category: "Publicité en ligne"
+    volume: 70
+    kd: null
+    scheduled_date: "2026-09-23"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "détecteur de texte ia"
+    category: "IA et GEO"
+    volume: 27
+    kd: null
+    scheduled_date: "2026-09-24"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "google analytics 4 rgpd"
+    category: "Data et mesure"
+    volume: 140
+    kd: 21
+    scheduled_date: "2026-09-25"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "meilleur moment pour publier sur instagram"
+    category: "Social et influence"
+    volume: 320
+    kd: null
+    scheduled_date: "2026-09-26"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "meilleur outil emailing"
+    category: "Outils et comparatifs"
+    volume: 10
+    kd: null
+    scheduled_date: "2026-09-27"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  # ============ Semaine 40 (28/09 - 04/10) ============
+
+  - kw: "balise hn seo"
+    category: "SEO"
+    volume: 20
+    kd: null
+    scheduled_date: "2026-09-28"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
