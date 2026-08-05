@@ -84,7 +84,7 @@ Reprise des 8 derniers comparatifs evergreen d'ai.datashake.fr (visuels IA, mark
 
 - Compléter les rubriques Social / Publicité / Data
 - Connexion GA4 datashake
-- Routine cloud de publication evergreen (1 article / semaine / rubrique), à configurer depuis un autre compte Claude que celui de Damien
+- Routine cloud de publication evergreen : préparée le 2026-08-05 sur le compte Claude de Theo, reste à créer (voir plus bas)
 
 ## Publication automatique (préparée le 2026-08-05)
 
