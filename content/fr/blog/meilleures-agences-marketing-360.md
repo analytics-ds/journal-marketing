@@ -99,7 +99,6 @@ Le client moyen en 2026 emprunte entre 7 et 12 points de contact avant conversio
 
 La montée des moteurs IA génératives (Google AI Overviews, ChatGPT, Perplexity) crée un nouveau spectre de visibilité. Ces sources génèrent un trafic en augmentation de 527% en 2026. Les agences 360 qui intègrent le GEO dans leur arsenal couvrent l'ensemble de la chaîne de visibilité digitale : référencement classique, moteurs IA, réseaux sociaux et réseaux publicitaires.
 
-Pour comprendre cette évolution, explorez notre analyse détaillée sur [l'E-E-A-T et son rôle dans la visibilité IA](/en/blog/eeat-proving-expertise/).
 
 ### Les synergies inter-leviers créent du levier
 
@@ -158,10 +157,9 @@ Le retour sur investissement se mesure sur plusieurs axes : **coût d'acquisitio
 4. Procédez-vous à la réallocation budgétaire dynamique selon les performances observées ?
 5. Livrez-vous un reporting consolidé donnant une vision unique de tous les canaux ?
 
-Pour approfondir l'analyse du coût d'acquisition et du retour marketing, consultez notre ressource sur le [ROI du contenu et son cadre de mesure](/en/blog/content-roi-framework/).
 
 
-Pour approfondir chaque levier, consultez notre classement des [meilleures agences de netlinking](/blog/meilleures-agences-netlinking/), notre guide des [réglages Google Ads qui brûlent le budget](/blog/google-ads-reglages-budget/) et notre [framework de mesure du ROI du contenu](/blog/roi-contenu-framework/).
+Pour approfondir chaque levier, consultez notre classement des [meilleures agences de netlinking](/blog/meilleures-agences-netlinking/).
 
 ## Questions fréquemment posées
 

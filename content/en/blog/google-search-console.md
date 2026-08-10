@@ -63,7 +63,7 @@ The interface is organized around a handful of reports that cover most of a site
 
 The performance report is the most consulted one day to day: it lets you compare queries that generate the most impressions against those that generate the most clicks, a gap that often reveals an unappealing **title tag** or **meta description**, a point covered in detail in our guide on [title tags and meta descriptions](/en/blog/title-tag-meta-description/).
 
-The page experience report relies on the same signals tracked in our analysis of [Core Web Vitals](/en/blog/core-web-vitals-2026/), with the advantage of presenting them by URL group rather than page by page.
+The page experience report relies on the same signals tracked in our analysis of Core Web Vitals, with the advantage of presenting them by URL group rather than page by page.
 
 Alongside these reports sit sections dedicated to structured data: each type of markup detected (reviews, FAQ, breadcrumb, recipe) gets its own validity report, with the detail of errors and warnings per page. This is where you verify that Schema.org markup added to the code is correctly read by Google, independently of how it renders visually on the site.
 
@@ -83,7 +83,7 @@ A common example illustrates this complementarity: a technical page ranking well
 
 ## Tracking indexing for generative engines with Google Search Console
 
-Coverage and crawl reports remain relevant in the age of generative engines: content that Googlebot fails to crawl properly also cannot feed Google's AI answers, which largely draw on the same index. Watching crawl frequency and quickly fixing 404 errors or redirect chains therefore remains a prerequisite, a topic covered in depth in our article on [crawl budget and the signals to watch](/en/blog/crawl-budget-5-signals/).
+Coverage and crawl reports remain relevant in the age of generative engines: content that Googlebot fails to crawl properly also cannot feed Google's AI answers, which largely draw on the same index. Watching crawl frequency and quickly fixing 404 errors or redirect chains therefore remains a prerequisite, a topic covered in depth in our article on crawl budget and the signals to watch.
 
 Google Search Console does not yet offer a report dedicated to citations in AI Overviews, but a healthy indexing base, measurable in the tool, remains the starting condition for hoping to appear there.
 

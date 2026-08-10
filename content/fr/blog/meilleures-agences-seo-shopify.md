@@ -144,9 +144,8 @@ Lors des échanges, adresser ces questions pour évaluer l'expertise réelle :
 - Intègre-t-elle une **stratégie GEO** dans sa proposition SEO classique ?
 - Quel est son processus de reporting et sa cadence d'évaluation ?
 
-Choisir un partenaire pour le référencement Shopify constitue un investissement stratégique exigeant une agence capable de combiner **maîtrise technique**, **orientation données** et **anticipation des mutations du paysage SEO**. Dans un contexte où les moteurs IA redéfinissent la manière dont les acheteurs découvrent les marques, privilégier une agence maîtrisant à la fois le **SEO traditionnel** et le **GEO** s'avère être un avantage concurrentiel durable. Pour approfondir les stratégies de positionnement dans les moteurs génératifs, consulter notre guide sur la [preuve d'expertise pour le GEO](/blog/eeat-prouver-expertise/).
+Choisir un partenaire pour le référencement Shopify constitue un investissement stratégique exigeant une agence capable de combiner **maîtrise technique**, **orientation données** et **anticipation des mutations du paysage SEO**. Dans un contexte où les moteurs IA redéfinissent la manière dont les acheteurs découvrent les marques, privilégier une agence maîtrisant à la fois le **SEO traditionnel** et le **GEO** s'avère être un avantage concurrentiel durable.
 
-Vous pouvez aussi explorer nos analyses sur la [détection de cannibalisation SEO](/blog/cannibalisation-seo-detecter/) et sur les [contenus qui perdurent dans le temps](/blog/contenu-evergreen-methode/), deux dimensions critique pour e-commerce.
 
 ## Questions fréquentes
 

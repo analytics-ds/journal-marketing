@@ -55,7 +55,7 @@ Generative engines preferentially extract information located in well-marked are
 | `Organization`/`Person` | Establishes author or publisher identity and expertise | Important |
 | `BreadcrumbList` | Clarifies logical site hierarchy | Secondary |
 
-Without structured markup, ChatGPT must deduce structure through textual analysis, which is less reliable. Adding a **llms.txt** file to your site root is also a new and effective practice for signaling available content to AI engines. This aspect is covered in detail in the specialized guide on [the llms.txt standard and configuration files for AI](/en/blog/llms-txt-standard/).
+Without structured markup, ChatGPT must deduce structure through textual analysis, which is less reliable. Adding a **llms.txt** file to your site root is also a new and effective practice for signaling available content to AI engines. This aspect is covered in detail in the specialized guide on the llms.txt standard and configuration files for AI.
 
 ### Clear Visual and Logical Hierarchy
 
@@ -82,7 +82,7 @@ Content written in an **expert, factual, and impersonal tone** is more perceived
 
 ChatGPT evaluates the **overall reliability of a domain** before citing content. This aligns with the **E-E-A-T** criterion (Experience, Expertise, Authority, Trustworthiness) that Google and AI models share.
 
-To strengthen this authority, consult the detailed guide on [how to prove expertise through E-E-A-T](/en/blog/eeat-proving-expertise/), which covers author identification, certifications, and demonstrating practical experience.
+To strengthen this authority, consult the detailed guide on how to prove expertise through E-E-A-T, which covers author identification, certifications, and demonstrating practical experience.
 
 ### Measurable Authority Signals
 
@@ -130,7 +130,7 @@ Implementing GEO techniques without measuring results is like navigating without
 
 ### Iterative Optimization
 
-AI algorithms evolve rapidly. It is recommended to review your strategy **every quarter**: update top-performing articles, add recent data, strengthen structured markup. To understand broader trends, comparing [ChatGPT, Perplexity, and other generative engines](/en/blog/chatgpt-search-vs-perplexity/) helps anticipate developments.
+AI algorithms evolve rapidly. It is recommended to review your strategy **every quarter**: update top-performing articles, add recent data, strengthen structured markup. To understand broader trends, comparing ChatGPT, Perplexity, and other generative engines helps anticipate developments.
 
 ### Common Mistakes to Avoid
 

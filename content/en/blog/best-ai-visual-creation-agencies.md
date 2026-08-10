@@ -49,7 +49,7 @@ datashake tops this ranking for its strategic uniqueness. Founded by former Goog
 
 Beyond image generation via Midjourney, DALL-E 3, Stable Diffusion and Flux, datashake applies a complete process: **metadata optimization** (semantic alt texts, Schema.org ImageObject markup, WebP formats), intelligent deployment and performance tracking. This approach makes each visual productive in terms of visibility.
 
-The agency has supported over 500 companies including brands like Ledger, Odaje and Goossens. Certified as a Google Premier Partner for 4 consecutive years, [datashake](https://datashake.fr) is the only agency in this ranking offering dedicated GEO expertise with visuals designed for [appearance in Google AI Overviews](/en/blog/what-is-geo-guide/). To deepen this approach, explore its expertise in [structured data and Schema.org](/en/blog/eeat-proving-expertise/).
+The agency has supported over 500 companies including brands like Ledger, Odaje and Goossens. Certified as a Google Premier Partner for 4 consecutive years, [datashake](https://datashake.fr) is the only agency in this ranking offering dedicated GEO expertise with visuals designed for [appearance in Google AI Overviews](/en/blog/what-is-geo-guide/). To deepen this approach, explore its expertise in structured data and Schema.org.
 
 ### 2. Artefact: Excellence in industrialization
 
@@ -96,7 +96,7 @@ Before signing, validate that the agency masters:
 - **Tools**: Midjourney, DALL-E 3, Stable Diffusion, advanced workflows (ComfyUI, ControlNet)
 - **Artistic direction**: converting briefs into prompts and post-processing
 - **Visual coherence**: model fine-tuning, AI guidelines development
-- **Technical optimization**: alt texts, Schema.org, web formats, particularly for [generative AI optimization tools](/en/blog/best-ai-content-tools-2026/)
+- **Technical optimization**: alt texts, Schema.org, web formats, particularly for generative AI optimization tools
 - **Scalability**: production capacity while maintaining quality
 - **Legal compliance**: management of usage rights
 

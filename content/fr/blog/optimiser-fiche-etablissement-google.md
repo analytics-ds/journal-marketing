@@ -113,7 +113,7 @@ Consultez les statistiques directes de votre fiche : impressions sur Google Maps
 
 Suivez ces données mensuellement. Une baisse des impressions peut indiquer un problème d'optimisation ou une pénalité. Une augmentation des clics mais pas des avis montre que vous gagnez en visibilité mais pas encore en conversion de confiance.
 
-Reliez ces données à vos outils d'analytique interne (Google Analytics 4 via vos liens) pour voir comment la fiche nourrit le trafic web. Cet article sur [les rapports SEO avec GA4](/blog/ga4-rapports-seo/) vous aidera à corréler fiche locale et trafic site.
+Reliez ces données à vos outils d'analytique interne (Google Analytics 4 via vos liens) pour voir comment la fiche nourrit le trafic web. Cet article sur les rapports SEO avec GA4 vous aidera à corréler fiche locale et trafic site.
 
 ## Checklist d'optimisation de votre fiche
 
@@ -134,11 +134,11 @@ Appliquez les éléments "Critique" en premier, puis les "Haute" dans le mois. L
 
 ## L'importance de l'E-E-A-T local
 
-Votre fiche d'établissement Google est aussi un moyen de prouver votre expertise et votre autorité localement. Les avis authentiques et les attributs de compétence (certifications, prix, spécialités) renforcent votre crédibilité. Consultez notre guide complet sur [comment prouver son expertise](/blog/eeat-prouver-expertise/) pour aligner votre stratégie fiche et votre contenu web.
+Votre fiche d'établissement Google est aussi un moyen de prouver votre expertise et votre autorité localement. Les avis authentiques et les attributs de compétence (certifications, prix, spécialités) renforcent votre crédibilité.
 
 ## Contenu stable et contenu frais sur votre fiche
 
-Les **posts réguliers** jouent le rôle de contenu frais, tandis que les fondamentaux (description, catégorie, NAP) forment votre contenu stable. C'est un équilibre que tout établissement doit trouver. Plus de détails sur cette stratégie dans notre article [le contenu evergreen, méthode et mise en œuvre](/blog/contenu-evergreen-methode/).
+Les **posts réguliers** jouent le rôle de contenu frais, tandis que les fondamentaux (description, catégorie, NAP) forment votre contenu stable. C'est un équilibre que tout établissement doit trouver.
 
 ## Questions fréquentes
 

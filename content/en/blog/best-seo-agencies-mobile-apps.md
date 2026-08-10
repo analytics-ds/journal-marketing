@@ -106,7 +106,7 @@ Before signing, verify the agency masters **app store keyword research**, metada
 4. How do you combine mobile SEO and ASO?
 5. Do you have multi-country experience?
 
-To go deeper, discover how to optimize your content for [AI-powered search](/en/blog/how-to-appear-in-chatgpt/), consult our guidance on [E-E-A-T and GEO](/en/blog/eeat-proving-expertise/), explore our [copywriting strategies](/en/blog/copywriting-techniques/) and read our complete guide on [AI Overviews best practices](/en/blog/ai-overviews-brand-citations/).
+To go deeper, discover how to optimize your content for [AI-powered search](/en/blog/how-to-appear-in-chatgpt/), explore our [copywriting strategies](/en/blog/copywriting-techniques/) and read our complete guide on [AI Overviews best practices](/en/blog/ai-overviews-brand-citations/).
 
 ## Frequently asked questions
 

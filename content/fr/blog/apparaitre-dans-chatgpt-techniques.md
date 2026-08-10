@@ -55,7 +55,7 @@ Le balisage **JSON-LD** avec Schema.org permet à ChatGPT d'identifier précisé
 | `Organization`/`Person` | Établit l'identité et l'expertise de l'auteur ou de l'éditeur | Importante |
 | `BreadcrumbList` | Clarifie la hiérarchie logique du site | Secondaire |
 
-Sans balisage structuré, ChatGPT doit déduire la structure par analyse textuelle, ce qui est moins fiable. L'ajout du fichier **llms.txt** à la racine du site est également une pratique nouvelle et efficace pour signaler aux moteurs IA quels contenus sont disponibles. Cet aspect est détaillé dans le guide spécialisé sur [le standard llms.txt et les fichiers de configuration pour l'IA](/blog/llms-txt-standard/).
+Sans balisage structuré, ChatGPT doit déduire la structure par analyse textuelle, ce qui est moins fiable. L'ajout du fichier **llms.txt** à la racine du site est également une pratique nouvelle et efficace pour signaler aux moteurs IA quels contenus sont disponibles. Cet aspect est détaillé dans le guide spécialisé sur le standard llms.txt et les fichiers de configuration pour l'IA.
 
 ### Une hiérarchie visuelle et logique
 
@@ -82,7 +82,6 @@ Un contenu rédigé dans un **ton expert, factuel et impersonnel** est davantage
 
 ChatGPT évalue la **fiabilité globale du domaine** avant de citer un contenu. Cela s'aligne avec le critère **E-E-A-T** (Expérience, Expertise, Autorité, Fiabilité) que Google et les modèles IA partagent.
 
-Pour renforcer cette autorité, consultez le guide détaillé sur [comment prouver son expertise via l'E-E-A-T](/blog/eeat-prouver-expertise/), qui couvre l'identification d'auteur, les certifications et la démonstration d'expérience pratique.
 
 ### Les signaux d'autorité mesurables
 
@@ -130,7 +129,7 @@ Appliquer les techniques du GEO sans en mesurer les résultats revient à navigu
 
 ### Optimisation itérative
 
-Les algorithmes des IA évoluent rapidement. Il est recommandé de revoir la stratégie **tous les trimestres** : mettre à jour les articles les plus performants, ajouter des données récentes, renforcer le balisage structuré. Pour comprendre les tendances plus larges, la comparaison entre [ChatGPT, Perplexity et les autres moteurs génératives](/blog/chatgpt-search-vs-perplexity/) aide à anticiper les évolutions.
+Les algorithmes des IA évoluent rapidement. Il est recommandé de revoir la stratégie **tous les trimestres** : mettre à jour les articles les plus performants, ajouter des données récentes, renforcer le balisage structuré. Pour comprendre les tendances plus larges, la comparaison entre ChatGPT, Perplexity et les autres moteurs génératives aide à anticiper les évolutions.
 
 ### Erreurs courantes à éviter
 

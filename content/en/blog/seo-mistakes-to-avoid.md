@@ -36,14 +36,14 @@ Poor SEO builds progressively. A page with a duplicate title, slow load time, an
 Slow pages lose visitors before they even see your content. Core Web Vitals (load time, visual stability, responsiveness) have been a Google ranking signal since 2021. A site that drags on mobile or shifts elements during navigation receives a direct penalty.
 
 Symptom: poor user experience, high bounce rate, loss of rankings.
-Fix: optimize images (compression, lazy loading), minify CSS/JS, identify render-blocking scripts, use a CDN, minimize requests. Read the [Core Web Vitals 2026 guide](/en/blog/core-web-vitals-2026/) for the full checklist.
+Fix: optimize images (compression, lazy loading), minify CSS/JS, identify render-blocking scripts, use a CDN, minimize requests. Read the Core Web Vitals 2026 guide for the full checklist.
 
 ### Mismanaging Crawl Budget and Site Architecture
 
 Google has a finite budget to explore your site. If you waste it on useless pages (session parameters, duplicate filter facets, old pages not removed), important pages won't be crawled properly.
 
 Symptom: key pages remain in "discovery" for months, even if well-linked.
-Fix: block non-indexable pages (session parameters, pagination pages) with robots.txt or meta robots noindex; remove or redirect outdated content; use [crawl budget signals](/en/blog/crawl-budget-5-signals/) to find bottlenecks; check Google Search Console to see how Googlebot explores your site.
+Fix: block non-indexable pages (session parameters, pagination pages) with robots.txt or meta robots noindex; remove or redirect outdated content; use crawl budget signals to find bottlenecks; check Google Search Console to see how Googlebot explores your site.
 
 ### Ignoring Duplicate or Generic Titles and Meta Descriptions
 
@@ -66,7 +66,7 @@ Fix: identify and merge duplicate content; use self-referential canonicals on ea
 Cannibalization occurs when multiple pages on your site target the same keyword. They cannibalize each other: the best page doesn't rank because Google hesitates, and traffic is split. This error is especially common with long-tail variations.
 
 Symptom: expected top-ranking page drops to position 3-4; weekly ranking volatility.
-Fix: map keywords by page; identify cannibalization (same keyword targeted by 2+ pages); merge pages or specialize each for a variant/intent (e.g., "buy" vs "compare" vs "definition"); read the [cannibalization detection guide](/en/blog/seo-cannibalization-detection/) for the complete method.
+Fix: map keywords by page; identify cannibalization (same keyword targeted by 2+ pages); merge pages or specialize each for a variant/intent (e.g., "buy" vs "compare" vs "definition").
 
 ## Link Errors: Lost Strength
 
@@ -82,7 +82,7 @@ Fix: regularly audit your link profile with tools like Semrush or Majestic; remo
 Forcing too many exact-match anchors ("buy a dog online") instead of mixing branded, URL, and generic anchors raises a red flag for Google. Natural diversification mimics what a real editor would do.
 
 Symptom: anchors judged unnatural, limited ranking improvement despite incoming links.
-Fix: diversify [anchor text](/en/blog/anchor-text-distribution/) (around 50% brand, 20% naked URLs and generics, 30% broader semantics with only a small share of exact match); prioritize editorial links where the anchor is chosen by the editor, not by you; vary link contexts across content, not just a handful of target URLs.
+Fix: diversify anchor text (around 50% brand, 20% naked URLs and generics, 30% broader semantics with only a small share of exact match); prioritize editorial links where the anchor is chosen by the editor, not by you; vary link contexts across content, not just a handful of target URLs.
 
 ## Measurement Errors: Operating Blind
 
@@ -91,14 +91,14 @@ Fix: diversify [anchor text](/en/blog/anchor-text-distribution/) (around 50% bra
 If you don't track rankings regularly, you discover problems too late. Even a basic free tool beats nothing.
 
 Symptom: discovering after two months that you've lost 10 positions on your main keyword.
-Fix: implement a [rank tracking tool](/en/blog/rank-tracking-tools-comparison/) (Semrush, Sistrix, Monitorank...); track at least your top 50 keywords; set up alerts when a position changes suddenly.
+Fix: implement a rank tracking tool (Semrush, Sistrix, Monitorank...); track at least your top 50 keywords; set up alerts when a position changes suddenly.
 
 ### Ignoring Google Analytics 4 and Real Traffic Sources
 
 Without GA4, you navigate blind. You don't know where organic traffic really comes from, which pages convert, or if traffic is quality. Many also fail to link GA4 to Search Console to cross-reference impressions with actual traffic.
 
 Symptom: traffic shown as strong in GSC but actually low in Analytics; inability to calculate ROI.
-Fix: set up GA4, link your Search Console, create [SEO reports in GA4](/en/blog/ga4-seo-reports/) with impressions/clicks/CTR/position; track conversions (purchase, signup, lead) tied to organic traffic.
+Fix: set up GA4, link your Search Console, create SEO reports in GA4 with impressions/clicks/CTR/position; track conversions (purchase, signup, lead) tied to organic traffic.
 
 ## Ignoring AI Visibility and AI Overviews
 

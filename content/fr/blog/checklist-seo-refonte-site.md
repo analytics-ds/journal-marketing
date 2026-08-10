@@ -57,7 +57,7 @@ Cette phase démarre plusieurs semaines avant le lancement. Elle crée la base d
 **Crawl de référence**
 - Lancer un crawl technique complet de l'ancien site (Screaming Frog, Semrush) en documentant pages indexées, liens internes, redirections, balises de titre et métadonnées.
 - Sauvegarder ce rapport comme base de comparaison post-refonte.
-- Consulter nos [cinq signaux clés du crawl budget](https://leviers.ai/blog/crawl-budget-5-signaux/) pour comprendre l'indexation actuelle.
+- Passer en revue les signaux de crawl budget pour comprendre l'indexation actuelle.
 
 **Cartographie des redirections**
 - Créer un tableau Excel ou Google Sheets avec deux colonnes : "Ancienne URL" et "Nouvelle URL".
@@ -97,7 +97,7 @@ Cette phase court du début du développement jusqu'à la mise en ligne. Elle in
 
 **Tests SEO en recette**
 - Vérifier la validité HTML et la responsivité mobile.
-- Vérifier les [Core Web Vitals](https://leviers.ai/blog/core-web-vitals-2026/).
+- Vérifier les Core Web Vitals (LCP, INP, CLS) sur les gabarits principaux.
 - Valider les balises Open Graph et schema.org.
 
 ## Checklist après la refonte : valider et corriger
@@ -116,7 +116,7 @@ Cette phase démarre le jour du lancement et s'étend sur plusieurs semaines.
 - Soumettre le sitemap à Google Search Console.
 
 **Suivi des positions et du crawl**
-- Consulter [nos outils de suivi de positions](https://leviers.ai/blog/comparatif-outils-suivi-position/) pour tracker les changements de classement.
+- Mettre en place un suivi de positions pour tracer les changements de classement.
 - Exécuter des crawls hebdomadaires le premier mois pour comparer avec le crawl de référence.
 - Monitorer le nombre de pages indexées dans Google Search Console et le trafic dans Google Analytics 4.
 

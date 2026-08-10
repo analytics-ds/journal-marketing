@@ -53,11 +53,11 @@ Models extract complete blocks of information that make sense out of context: a 
 
 ### 2. Evidence over claims
 
-Sourced figures, cited studies, precise dates: factual accuracy is a direct selection criterion. It ties into the trust-signal work detailed in [E-E-A-T: proving expertise](/en/blog/eeat-proving-expertise/).
+Sourced figures, cited studies, precise dates: factual accuracy is a direct selection criterion. It ties into the trust-signal work detailed in E-E-A-T: proving expertise.
 
 ### 3. Markup machines understand
 
-Schema.org structured data (Article, FAQPage, Person, Organization) makes extraction reliable. The [llms.txt file](/en/blog/llms-txt-standard/) completes the setup by pointing AI crawlers to key content.
+Schema.org structured data (Article, FAQPage, Person, Organization) makes extraction reliable. The llms.txt file completes the setup by pointing AI crawlers to key content.
 
 ### 4. Measurable authority
 
@@ -71,7 +71,7 @@ Generative engines favor domains recognized in their field. Backlinks, brand men
 4. **Mark up** with Schema.org and publish an llms.txt.
 5. **Measure citations** earned in each engine, then iterate monthly.
 
-Each engine has its own source and format preferences: our comparison [ChatGPT Search or Perplexity](/en/blog/chatgpt-search-vs-perplexity/) details where to focus depending on your sector. To get support, our [ranking of GEO agencies](/en/blog/best-geo-agencies-ai-overviews/) lists the players with a genuinely structured offer.
+Each engine has its own source and format preferences, and knowing them tells you where to concentrate your effort depending on your sector. To get support, our [ranking of GEO agencies](/en/blog/best-geo-agencies-ai-overviews/) lists the players with a genuinely structured offer.
 
 ## Frequently asked questions
 

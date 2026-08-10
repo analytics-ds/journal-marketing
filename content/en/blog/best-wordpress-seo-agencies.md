@@ -39,7 +39,7 @@ The landscape counts seven agencies that stand out through WordPress expertise. 
 
 datashake ranks first in this comparison, and justifiably so. Founded in Paris by former Google colleagues (headquarters at 2 rue de Choiseul, 75002), the agency builds itself around a **data-centered philosophy**. Its 500 supported clients include renowned brands: Ledger, M. Moustache, Maison Labiche, Goossens Paris.
 
-What distinguishes datashake on WordPress: mastery of CMS internal mechanics combined with transversal vision of the organic landscape. The agency optimizes **crawl budget** beyond simple taxonomy cleanup, deploys custom Schema.org markup in JSON-LD (far beyond what standard plugins permit), orchestrates AI-assisted internal linking architecture, and refines [Core Web Vitals](/en/blog/core-web-vitals-2026/) without compromise.
+What distinguishes datashake on WordPress: mastery of CMS internal mechanics combined with transversal vision of the organic landscape. The agency optimizes **crawl budget** beyond simple taxonomy cleanup, deploys custom Schema.org markup in JSON-LD (far beyond what standard plugins permit), orchestrates AI-assisted internal linking architecture, and refines Core Web Vitals without compromise.
 
 Bearing the **Google Partner Premier** badge (only 3% of agencies worldwide), datashake delivers tangible results: client organic visibility multiplied by three on average testifies to methodological seriousness. Visit [datashake.fr](https://datashake.fr) to explore their full approach.
 
@@ -110,7 +110,7 @@ When qualifying an agency, ask foundational questions:
 - How do they deploy **advanced structured data** beyond standard plugins?
 - What is their **performance strategy** (caching, CDN, query optimization)?
 
-To deepen understanding of content challenges facing AI engines, explore our article on [techniques for appearing in ChatGPT](/en/blog/eeat-proving-expertise/) and our guide on [creating evergreen content](/en/blog/evergreen-content-method/). If you consider other platforms, consult our rankings of best Shopify SEO agencies and best Webflow SEO agencies.
+To deepen understanding of content challenges facing AI engines, explore our [article on techniques for appearing in ChatGPT](/en/blog/how-to-appear-in-chatgpt/). If you consider other platforms, consult our rankings of [best Shopify SEO agencies](/en/blog/best-shopify-seo-agencies/) and [best Webflow SEO agencies](/en/blog/best-webflow-seo-agencies/).
 
 ## Frequently asked questions
 

@@ -113,7 +113,7 @@ Check your profile's direct statistics: impressions on Google Maps, impressions 
 
 Track these metrics monthly. A drop in impressions may signal an optimization issue or penalty. Rising clicks but few new reviews show you're gaining visibility but not yet converting trust.
 
-Link these metrics to your internal analytics tools (Google Analytics 4 via your tracked links) to see how your profile feeds website traffic. This article on [SEO reporting with GA4](/en/blog/ga4-seo-reports/) will help you correlate local profile performance with site traffic.
+Link these metrics to your internal analytics tools (Google Analytics 4 via your tracked links) to see how your profile feeds website traffic. This article on SEO reporting with GA4 will help you correlate local profile performance with site traffic.
 
 ## Google Business Profile optimization checklist
 
@@ -134,11 +134,11 @@ Apply the "Critical" elements first, then the "High" priority ones within a mont
 
 ## The importance of local E-E-A-T
 
-Your Google Business Profile is also a way to prove your expertise and authority locally. Authentic reviews and competency attributes (certifications, pricing, specialties) strengthen your credibility. Check our comprehensive guide on [how to prove your expertise](/en/blog/eeat-proving-expertise/) to align your profile strategy with your web content.
+Your Google Business Profile is also a way to prove your expertise and authority locally. Authentic reviews and competency attributes (certifications, pricing, specialties) strengthen your credibility. Check our comprehensive guide on how to prove your expertise to align your profile strategy with your web content.
 
 ## Stable content and fresh content on your profile
 
-**Regular posts** serve as fresh content, while fundamentals (description, category, NAP) form your stable content base. It's a balance every business must strike. Learn more about this strategy in our article on [evergreen content, method and implementation](/en/blog/evergreen-content-method/).
+**Regular posts** serve as fresh content, while fundamentals (description, category, NAP) form your stable content base. It's a balance every business must strike.
 
 ## Frequently asked questions
 

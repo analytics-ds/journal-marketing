@@ -36,14 +36,14 @@ Un référencement mal construit s'accumule progressivement. Une page avec un ti
 Des pages lentes perdent des visiteurs avant même qu'ils ne voient votre contenu. Les Core Web Vitals (temps de chargement, stabilité visuelle, réactivité) sont un signal Google depuis 2021. Un site qui traîne sur le mobile, ou qui décale ses éléments en cours de navigation, reçoit une pénalité directe.
 
 Symptôme : mauvaise expérience utilisateur, bounce rate élevée, perte de positions.
-Correctif : optimiser les images (compression, lazy loading), minifier CSS/JS, repérer les scripts bloquants, utiliser un CDN, minimiser les requêtes. Lire le [guide des Core Web Vitals 2026](/blog/core-web-vitals-2026/) pour la checklist complète.
+Correctif : optimiser les images (compression, lazy loading), minifier CSS/JS, repérer les scripts bloquants, utiliser un CDN, minimiser les requêtes. Lire le guide des Core Web Vitals 2026 pour la checklist complète.
 
 ### Mal gérer le crawl budget et l'architecture du site
 
 Google dispose d'un budget fini pour explorer votre site. Si vous gaspillez ce budget sur des pages inutiles (paramètres de session, facettes de filtre dupliquées, anciennes pages non supprimées), les pages importantes ne seront jamais explorées correctement.
 
 Symptôme : certaines pages clés restent en « découverte » pendant des mois, même bien liées.
-Correctif : bloquer les pages non indexables (paramètres de session, pages de pagination) avec robots.txt ou meta robots noindex ; supprimer ou rediriger les contenus obsolètes ; utiliser les [signaux de crawl budget](/blog/crawl-budget-5-signaux/) pour identifier les goulots d'étranglement ; vérifier la Google Search Console pour voir comment Googlebot explore votre site.
+Correctif : bloquer les pages non indexables (paramètres de session, pages de pagination) avec robots.txt ou meta robots noindex ; supprimer ou rediriger les contenus obsolètes ; utiliser les signaux de crawl budget pour identifier les goulots d'étranglement ; vérifier la Google Search Console pour voir comment Googlebot explore votre site.
 
 ### Ignorer les titles et meta descriptions dupliqués ou génériques
 
@@ -66,7 +66,7 @@ Correctif : identifier et fusionner les contenus dupliqués ; utiliser des canon
 La cannibalisation, c'est quand plusieurs pages de votre site visent le même mot-clé. Elles se cannibalisent : la meilleure page ne se classe pas car Google hésite, et le trafic se divise. Cette erreur est particulièrement courante avec les variantes de longue traîne.
 
 Symptôme : une page attendue en position 1 tombe à position 3-4 ; volatilité du classement semaine après semaine.
-Correctif : cartographier les mots-clés par page ; identifier les cannibalisations (même mot-clé ciblé par 2+ pages) ; fusionner les pages ou spécialiser chaque page sur une variante/intention (ex : « achat » vs « comparaison » vs « définition ») ; lire le guide [détection et correction de la cannibalisation](/blog/cannibalisation-seo-detecter/) pour la méthode complète.
+Correctif : cartographier les mots-clés par page ; identifier les cannibalisations (même mot-clé ciblé par 2+ pages) ; fusionner les pages ou spécialiser chaque page sur une variante/intention (ex : « achat » vs « comparaison » vs « définition »).
 
 ## Erreurs de liens : la force perdue
 
@@ -82,7 +82,7 @@ Correctif : auditer régulièrement le profil de liens avec des outils comme Sem
 Forcer trop d'ancres exactes (« acheter un chien en ligne ») au lieu de varier avec du branded, du URL, du « cliquez ici » fait flotter un drapeau rouge devant Google. Une diversification naturelle des ancres ressemble à ce que ferait un vrai éditeur.
 
 Symptôme : ancres jugées peu naturelles, faible amélioration du classement malgré des liens reçus.
-Correctif : diversifier les [ancres de liens](/blog/ancres-de-liens-repartition/) (environ 50 % de marque, 20 % d'URL nues et génériques, 30 % de sémantique élargie dont une faible part d'ancres exactes) ; privilégier les liens éditoriaux où l'ancre est choisie par l'éditeur, pas par vous ; varier les contextes de lien dans le contenu, pas juste une poignée d'URLs cibles.
+Correctif : diversifier les ancres de liens (environ 50 % de marque, 20 % d'URL nues et génériques, 30 % de sémantique élargie dont une faible part d'ancres exactes) ; privilégier les liens éditoriaux où l'ancre est choisie par l'éditeur, pas par vous ; varier les contextes de lien dans le contenu, pas juste une poignée d'URLs cibles.
 
 ## Erreurs de mesure : l'aveuglement
 
@@ -91,14 +91,14 @@ Correctif : diversifier les [ancres de liens](/blog/ancres-de-liens-repartition/
 Si vous ne suivez pas vos positions régulièrement, vous découvrez les problèmes quand il est trop tard. Même un outil gratuit et basique vaut mieux que rien.
 
 Symptôme : découvrir après deux mois que vous avez perdu 10 positions sur votre mot-clé principal.
-Correctif : mettre en place un [outil de suivi des positions](/blog/comparatif-outils-suivi-position/) (Semrush, Sistrix, Monitorank...) ; suivre au minimum vos 50 mots-clés principaux ; créer des alertes quand une position change brutalement.
+Correctif : mettre en place un outil de suivi des positions (Semrush, Sistrix, Monitorank...) ; suivre au minimum vos 50 mots-clés principaux ; créer des alertes quand une position change brutalement.
 
 ### Ignorer Google Analytics 4 et les sources réelles de trafic SEO
 
 Sans GA4, vous naviguez à l'aveugle. Vous ne savez pas d'où vient réellement le trafic SEO, quelles pages convertissent, si le trafic est de qualité. Beaucoup ne relient pas non plus GA4 à la Search Console pour croiser les impressions avec le trafic réel.
 
 Symptôme : trafic présenté comme bon en GSC mais réellement faible dans Analytics ; impossibilité de calculer le ROI.
-Correctif : configurer GA4, lier sa Search Console, créer des rapports [SEO dans GA4](/blog/ga4-rapports-seo/) avec impression/clics/CTR/position ; suivre les conversions (achat, inscription, lead) liées au trafic organique.
+Correctif : configurer GA4, lier sa Search Console, créer des rapports SEO dans GA4 avec impression/clics/CTR/position ; suivre les conversions (achat, inscription, lead) liées au trafic organique.
 
 ## Ignorer la visibilité IA et les AI Overviews
 

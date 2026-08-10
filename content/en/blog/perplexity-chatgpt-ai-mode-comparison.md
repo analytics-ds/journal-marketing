@@ -110,6 +110,6 @@ Full replacement is unlikely in the short term. The probable scenario is coexist
 
 ## Learn More
 
-To better understand how brands appear in AI engine citations, explore our guide on [AI Overviews and brand citations](/en/blog/ai-overviews-brand-citations/). Discover how to optimize visibility beyond traditional results. Also review the [detailed comparison between ChatGPT Search and Perplexity](/en/blog/chatgpt-search-vs-perplexity/) to refine your strategy for your specific audience.
+To better understand how brands appear in AI engine citations, explore our guide on [AI Overviews and brand citations](/en/blog/ai-overviews-brand-citations/). Discover how to optimize visibility beyond traditional results.
 
-Finally, ensure your expertise remains visible across any engine by learning how to [prove your E-E-A-T effectively](/en/blog/eeat-proving-expertise/).
+Finally, ensure your expertise remains visible across any engine by learning how to prove your E-E-A-T effectively.

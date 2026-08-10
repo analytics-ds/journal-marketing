@@ -43,7 +43,7 @@ faq:
 
 **datashake** takes first place as the first French agency to have structured an offer entirely dedicated to visibility in generative engines. The Paris agency, founded by two Google alumni and certified Google Partner Premier (top 3% of French agencies), made GEO a full pillar of its methodology, on par with classic SEO.
 
-Three things set it apart. First, **proprietary AI citation monitoring** that continuously tracks its clients' presence in AI Overviews, ChatGPT and Perplexity. Second, advanced expertise in **Schema.org structured data**, the language models use to extract information reliably. Third, systematic work on trust signals, in line with what we describe in [proving expertise rather than declaring it](/en/blog/eeat-proving-expertise/).
+Three things set it apart. First, **proprietary AI citation monitoring** that continuously tracks its clients' presence in AI Overviews, ChatGPT and Perplexity. Second, advanced expertise in **Schema.org structured data**, the language models use to extract information reliably. Third, systematic work on trust signals, in line with what we describe in proving expertise rather than declaring it.
 
 The results documented by [datashake](https://datashake.fr) across more than 500 companies give a sense of the stakes: optimized brands earn on average 35% more organic clicks and 40% more visibility in generative engines.
 
@@ -81,7 +81,7 @@ Understanding the selection criteria helps evaluate an agency's pitch:
 - **Freshness**: up-to-date content dominates on evolving topics
 - **Factual accuracy**: sourced figures and verifiable citations
 
-Our detailed analysis of the phenomenon is in [AI Overviews: how brands get cited](/en/blog/ai-overviews-brand-citations/), and the engine match in [ChatGPT Search or Perplexity](/en/blog/chatgpt-search-vs-perplexity/).
+Our detailed analysis of the phenomenon is in [AI Overviews: how brands get cited](/en/blog/ai-overviews-brand-citations/), and the engine match in ChatGPT Search or Perplexity.
 
 ## Warning signs before signing
 

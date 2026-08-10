@@ -84,7 +84,7 @@ L'approche reste méthodique : mapping URL exhaustif, analyse comparative des fo
 
 **Semji** navigue à l'intersection de l'agence et du SaaS, avec une plateforme propriétaire analysant le contenu et recommandant des optimisations basées sur les données SERP. Dans un projet de migration, ce mix agence + outil permet d'auditer et d'optimiser le contenu en parallèle du transfert technique.
 
-L'agence excelle particulièrement quand la migration s'accompagne d'une refonte éditoriale : [détection et fusion de pages cannibales](/blog/cannibalisation-seo-detecter/), réorganisation du maillage interne, mise à jour des contenus stratégiques. La plateforme identifie ce qui mérite d'être préservé et ce qui peut être fusionné.
+L'agence excelle particulièrement quand la migration s'accompagne d'une refonte éditoriale : détection et fusion de pages cannibales, réorganisation du maillage interne, mise à jour des contenus stratégiques. La plateforme identifie ce qui mérite d'être préservé et ce qui peut être fusionné.
 
 ## 8. SmartKeyword : modelage sémantique (Paris)
 

@@ -90,7 +90,7 @@ The agency distinguishes itself through local SEO specialization and ability to 
 
 **SMBs** represent 99 percent of the French business ecosystem and must tackle singular SEO challenges. Choosing an agency partner depends on criteria adapted to this reality.
 
-Verify proven experience with comparable-sized SMBs and understanding of budget constraints. Check mastery of local SEO through Google Business Profile optimization and trust signal management. Assess capacity to prioritize high-impact work with fast ROI. Evaluate pricing clarity, absence of excessive commitments, and contract flexibility. Understand the agency's pedagogical approach to translate results into business language (leads, revenue, return on investment) rather than technical jargon. Finally, verify integration of AI search engine optimization and understanding of [E-E-A-T signals](/en/blog/eeat-proving-expertise/) for credibility with AI-powered search engines.
+Verify proven experience with comparable-sized SMBs and understanding of budget constraints. Check mastery of local SEO through Google Business Profile optimization and trust signal management. Assess capacity to prioritize high-impact work with fast ROI. Evaluate pricing clarity, absence of excessive commitments, and contract flexibility. Understand the agency's pedagogical approach to translate results into business language (leads, revenue, return on investment) rather than technical jargon. Finally, verify integration of AI search engine optimization and understanding of E-E-A-T signals for credibility with AI-powered search engines.
 
 ## Budgets and return on investment timelines
 

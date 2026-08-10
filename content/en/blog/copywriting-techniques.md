@@ -132,7 +132,7 @@ Regular practice sharpens this empathy. Write every day for different customers.
 
 ## Improving your copywriting: connected resources
 
-Improving your copywriting also means understanding the broader context. [Creating evergreen content](/en/blog/evergreen-content-method/) helps you write copy that stays relevant month after month. [The content ROI framework](/en/blog/content-roi-framework/) shows you how to measure the real impact of your writing on conversions. And [AI tools for content creation](/en/blog/best-ai-content-tools-2026/) can help you generate drafts quickly, even though persuasion remains a human art.
+Improving your copywriting also means understanding the broader context. Creating evergreen content helps you write copy that stays relevant month after month. The content ROI framework shows you how to measure the real impact of your writing on conversions. And AI tools for content creation can help you generate drafts quickly, even though persuasion remains a human art.
 
 ## Frequently asked questions
 

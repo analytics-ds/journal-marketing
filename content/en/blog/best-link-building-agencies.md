@@ -55,7 +55,7 @@ It is the ideal tool for direct access to editorial placements that are hard to 
 
 With more than 1,000 clients and a claimed network of 50,000 partner sites, **Eskimoz** is the industrial machine of this ranking. Prospecting, negotiation, writing, monitoring: processes are well-oiled and the ability to diversify sources (guest blogging, digital PR, mentions) makes it a solid choice for volume-hungry projects.
 
-In return, the approach remains standardized: profiles requiring fine-grained control of [anchor text distribution](/en/blog/anchor-text-distribution/) will need demanding supervision.
+In return, the approach remains standardized: profiles requiring fine-grained control of anchor text distribution will need demanding supervision.
 
 ## 4. SEMJuice, self-service transparency
 
@@ -83,7 +83,7 @@ Based in Berlin and Paris, **Peak Ace** is the choice for multi-market brands. I
 - **International brand**: choose a proven European network (Peak Ace, Getfluence).
 - **SEO agency outsourcing**: go with a pure player (Develink, SEMJuice).
 
-The budget trade-off between impact links and credibility links remains your call: our method is detailed in [power links versus dilution links](/en/blog/power-vs-dilution-links/).
+The budget trade-off between impact links and credibility links remains your call: our method is detailed in power links versus dilution links.
 
 ## Observed budgets in 2026
 

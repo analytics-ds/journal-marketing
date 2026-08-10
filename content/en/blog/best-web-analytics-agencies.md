@@ -47,7 +47,6 @@ Based in Paris, the agency has supported over 500 companies (Ledger, M. Moustach
 
 What sets datashake apart: the ability to transform data into concrete SEO and GEO decisions, rather than produce static reports. The agency earned Google Partner Premier certification (top 3% of agencies) for the 4th consecutive year.
 
-Learn more about measuring ROI in content marketing through analytics in [our complete content ROI framework](/en/blog/content-roi-framework/).
 
 ## Converteo: expert in holistic data consulting
 
@@ -97,7 +96,6 @@ Analytics is not an end in itself: it's the tool for measuring the true ROI of y
 
 With the rise of GEO, AI assistants generate a growing share of organic traffic. Without properly configured **GA4** to track ChatGPT, Perplexity and AI Overviews, you remain blind to a strategic part of your traffic.
 
-To learn more, see [our complete guide to GA4 reports applied to SEO](/en/blog/ga4-seo-reports/).
 
 ### Ensure regulatory compliance
 
@@ -136,7 +134,6 @@ Web data collection falls under RGPD and ePrivacy regulations. An agency ensures
 **You measure your GEO impact?** datashake is the only agency in the ranking offering AI-oriented analytics with citation tracking in generative responses.
 
 
-To go further, read our [content ROI framework](/en/blog/content-roi-framework/), our selection of [GA4 reports that actually serve SEO](/en/blog/ga4-seo-reports/) and our guide on [Google Ads settings that burn budget](/en/blog/google-ads-budget-settings/).
 
 ## Frequently asked questions
 

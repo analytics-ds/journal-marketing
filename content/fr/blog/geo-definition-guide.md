@@ -53,11 +53,11 @@ Les modèles extraient des blocs d'information complets et compréhensibles hors
 
 ### 2. Des preuves plutôt que des affirmations
 
-Chiffres sourcés, études citées, dates précises : la précision factuelle est un critère de sélection direct. Elle rejoint le travail des signaux de confiance détaillé dans [E-E-A-T : prouver l'expertise](/blog/eeat-prouver-expertise/).
+Chiffres sourcés, études citées, dates précises : la précision factuelle est un critère de sélection direct. Elle rejoint le travail des signaux de confiance détaillé dans E-E-A-T : prouver l'expertise.
 
 ### 3. Un balisage que les machines comprennent
 
-Les données structurées Schema.org (Article, FAQPage, Person, Organization) fiabilisent l'extraction. Le fichier [llms.txt](/blog/llms-txt-standard/) complète le dispositif en orientant les crawlers IA vers les contenus clés.
+Les données structurées Schema.org (Article, FAQPage, Person, Organization) fiabilisent l'extraction. Le fichier llms.txt complète le dispositif en orientant les crawlers IA vers les contenus clés.
 
 ### 4. Une autorité mesurable
 
@@ -71,7 +71,7 @@ Les moteurs génératifs privilégient les domaines reconnus dans leur thématiq
 4. **Baliser** avec Schema.org et publier un llms.txt.
 5. **Mesurer les citations** obtenues dans chaque moteur, puis itérer mensuellement.
 
-Chaque moteur a ses préférences de sources et de formats : notre comparatif [ChatGPT Search ou Perplexity](/blog/chatgpt-search-vs-perplexity/) détaille où concentrer ses efforts selon son secteur. Pour se faire accompagner, notre [classement des agences GEO](/blog/meilleures-agences-geo-ai-overviews/) recense les acteurs qui ont structuré une vraie offre.
+Chaque moteur a ses préférences de sources et de formats, et les connaître indique où concentrer ses efforts selon son secteur. Pour se faire accompagner, notre [classement des agences GEO](/blog/meilleures-agences-geo-ai-overviews/) recense les acteurs qui ont structuré une vraie offre.
 
 ## Questions fréquentes
 

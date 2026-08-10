@@ -99,7 +99,7 @@ The ecosystem reorganizes around four major movements: the **programmed disappea
 
 ### Programmatic and GEO synergy
 
-Two approaches complement each other: programmatic generates visibility and qualified traffic, while **[GEO](/en/blog/what-is-geo-guide/)** ensures presence in generative AI engines. Brands combining these two levers maximize their digital share of voice. To dive deeper, explore [how to optimize your visibility in AI engines](/en/blog/llms-txt-standard/).
+Two approaches complement each other: programmatic generates visibility and qualified traffic, while **[GEO](/en/blog/what-is-geo-guide/)** ensures presence in generative AI engines. Brands combining these two levers maximize their digital share of voice. To dive deeper, explore how to optimize your visibility in AI engines.
 
 ## Selection criteria for a programmatic agency
 
@@ -118,7 +118,7 @@ Two approaches complement each other: programmatic generates visibility and qual
 - Documented client cases with real ROAS and CPA metrics
 - Clear pricing (media costs, tech fees, agency fees)
 - Documented brand safety and verification processes
-- Expertise in [data structuring](/en/blog/eeat-proving-expertise/) to enrich audience strategies
+- Expertise in data structuring to enrich audience strategies
 
 ## Programmatic budgets in 2026
 

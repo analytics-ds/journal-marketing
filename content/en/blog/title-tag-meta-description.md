@@ -17,7 +17,7 @@ faq:
   - question: "Does putting my keyword 5 times in the title help with ranking?"
     answer: "No. In fact, it hurts user experience and Google may view it as spam. One main keyword, well-placed at the beginning, is enough. Vary related keywords in your content, not in the title. It is also more natural for the reader, who is your first judge."
   - question: "Should I change my title and meta description if Google rewrites them?"
-    answer: "Not necessarily. First analyze: is Google rewriting because your version lacks relevance to the query, or because it finds a better summary in your content? If your description is poor, yes, improve it. If Google is simply adapting it to each query, it's not a problem. Monitor your clicks and positions for a few weeks before taking action. The evergreen content strategy itself, combined with solid tags, creates the foundation of lasting ranking, as [explained in our evergreen content guide](/en/blog/evergreen-content-method/). If you want to go further in on-page optimization, read our article on [proving expertise with E-E-A-T](/en/blog/eeat-proving-expertise/), which strengthens the impact of your titles and descriptions with search engines. Finally, to measure the real impact of your optimizations on content ROI, consult [our ROI analysis framework](/en/blog/content-roi-framework/)."
+    answer: "Not necessarily. First analyze: is Google rewriting because your version lacks relevance to the query, or because it finds a better summary in your content? If your description is poor, yes, improve it. If Google is simply adapting it to each query, it's not a problem. Monitor your clicks and positions for a few weeks before taking action."
 ---
 
 > **In short:**
@@ -112,6 +112,6 @@ No. In fact, it hurts user experience and Google may view it as spam. One main k
 <details>
 <summary>Should I change my title and meta description if Google rewrites them?</summary>
 
-Not necessarily. First analyze: is Google rewriting because your version lacks relevance to the query, or because it finds a better summary in your content? If your description is poor, yes, improve it. If Google is simply adapting it to each query, it's not a problem. Monitor your clicks and positions for a few weeks before taking action. The evergreen content strategy itself, combined with solid tags, creates the foundation of lasting ranking, as [explained in our evergreen content guide](/en/blog/evergreen-content-method/). If you want to go further in on-page optimization, read our article on [proving expertise with E-E-A-T](/en/blog/eeat-proving-expertise/), which strengthens the impact of your titles and descriptions with search engines. Finally, to measure the real impact of your optimizations on content ROI, consult [our ROI analysis framework](/en/blog/content-roi-framework/).
+Not necessarily. First analyze: is Google rewriting because your version lacks relevance to the query, or because it finds a better summary in your content? If your description is poor, yes, improve it. If Google is simply adapting it to each query, it's not a problem. Monitor your clicks and positions for a few weeks before taking action.
 
 </details>

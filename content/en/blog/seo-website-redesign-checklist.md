@@ -57,7 +57,7 @@ This phase starts several weeks before launch. It creates the database and rules
 **Reference crawl**
 - Run a complete technical crawl of the old site (Screaming Frog, Semrush) documenting indexed pages, internal links, existing redirects, title tags and metadata.
 - Save this report as a baseline for post-redesign comparison.
-- Consult our [five key crawl budget signals](https://leviers.ai/en/blog/crawl-budget-5-signals/) to understand current indexing.
+- Review your crawl budget signals to understand how the site is currently indexed.
 
 **Redirect mapping**
 - Create an Excel or Google Sheets table with two columns: "Old URL" and "New URL".
@@ -97,7 +97,7 @@ This phase runs from the start of development until the new site goes live. It d
 
 **SEO testing in staging**
 - Verify HTML validity and mobile responsiveness.
-- Verify [Core Web Vitals](https://leviers.ai/en/blog/core-web-vitals-2026/).
+- Verify Core Web Vitals (LCP, INP, CLS) on the main templates.
 - Validate Open Graph tags and schema.org.
 
 ## Checklist After Redesign: Validate and Correct
@@ -116,7 +116,7 @@ This phase starts on launch day and extends over several weeks.
 - Submit the sitemap to Google Search Console.
 
 **Position and crawl tracking**
-- Check [our rank tracking tools](https://leviers.ai/en/blog/rank-tracking-tools-comparison/) to track ranking changes.
+- Set up rank tracking to follow ranking changes.
 - Run weekly crawls during the first month to compare against the baseline.
 - Monitor indexed pages in Google Search Console and organic traffic in Google Analytics 4.
 

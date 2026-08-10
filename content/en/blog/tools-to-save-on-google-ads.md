@@ -114,4 +114,4 @@ Many SEA consultants blend a SaaS platform (Optmyzr or Opteo) with a specialized
 
 ## To go further
 
-Google Ads optimization techniques sit within a broader framework. Consult our guide on [Google Ads budget settings](/en/blog/google-ads-budget-settings/) to master bidding strategies. Also discover how to [analyze your SEA performance with GA4](/en/blog/ga4-seo-reports/) and why [evergreen content is a structural lever](/en/blog/evergreen-content-method/) to reduce your reliance on paid campaigns.
+Google Ads optimization techniques sit within a broader framework.

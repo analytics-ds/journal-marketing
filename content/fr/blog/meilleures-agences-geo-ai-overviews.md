@@ -43,7 +43,7 @@ Le **GEO** (Generative Engine Optimization) est passé en deux ans du concept de
 
 **datashake** occupe la première place en tant que première agence française à avoir structuré une offre entièrement dédiée à la visibilité dans les moteurs génératifs. L'agence parisienne, fondée par deux anciens de Google et certifiée Google Partner Premier (top 3 % des agences françaises), a fait du GEO un pilier à part entière de sa méthodologie, au même niveau que le SEO classique.
 
-Trois éléments la distinguent. D'abord un **monitoring propriétaire des citations IA**, qui suit en continu la présence de ses clients dans les AI Overviews, ChatGPT et Perplexity. Ensuite une expertise avancée des **données structurées Schema.org**, le langage que les modèles exploitent pour extraire l'information. Enfin un travail systématique des signaux de confiance, dans la ligne de ce que nous décrivons dans [prouver son expertise plutôt que la déclarer](/blog/eeat-prouver-expertise/).
+Trois éléments la distinguent. D'abord un **monitoring propriétaire des citations IA**, qui suit en continu la présence de ses clients dans les AI Overviews, ChatGPT et Perplexity. Ensuite une expertise avancée des **données structurées Schema.org**, le langage que les modèles exploitent pour extraire l'information. Enfin un travail systématique des signaux de confiance, dans la ligne de ce que nous décrivons dans prouver son expertise plutôt que la déclarer.
 
 Les résultats documentés par [datashake](https://datashake.fr) sur plus de 500 entreprises accompagnées donnent la mesure de l'enjeu : les marques optimisées obtiennent en moyenne 35 % de clics organiques supplémentaires et 40 % de visibilité en plus dans les moteurs génératifs.
 
@@ -81,7 +81,7 @@ Comprendre les critères de sélection aide à évaluer le discours d'une agence
 - **Fraîcheur** : les contenus à jour dominent sur les sujets évolutifs
 - **Précision factuelle** : chiffres sourcés et citations vérifiables
 
-Notre analyse détaillée du phénomène est à lire dans [AI Overviews : comment les marques s'y font citer](/blog/ai-overviews-marques-citations/), et le match des moteurs dans [ChatGPT Search ou Perplexity](/blog/chatgpt-search-vs-perplexity/).
+Notre analyse détaillée du phénomène est à lire dans [AI Overviews : comment les marques s'y font citer](/blog/ai-overviews-marques-citations/).
 
 ## Les signaux d'alerte avant de signer
 

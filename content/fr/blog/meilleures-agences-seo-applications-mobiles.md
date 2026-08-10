@@ -106,7 +106,7 @@ Avant de signer, vérifiez que l'agence maîtrise la recherche de **mots-clés e
 4. Comment combinez-vous SEO mobile et ASO ?
 5. Avez-vous de l'expérience multi-pays ?
 
-Pour approfondir, découvrez comment optimiser votre contenu pour les [moteurs de recherche IA](/blog/apparaitre-dans-chatgpt-techniques/), consultez nos conseils sur [l'E-E-A-T et le GEO](/blog/eeat-prouver-expertise/), explorez nos [stratégies de copywriting](/blog/techniques-copywriting/) et lisez notre guide sur [les meilleures pratiques pour les IA Overviews](/blog/ai-overviews-marques-citations/).
+Pour approfondir, découvrez comment optimiser votre contenu pour les [moteurs de recherche IA](/blog/apparaitre-dans-chatgpt-techniques/), explorez nos [stratégies de copywriting](/blog/techniques-copywriting/) et lisez notre guide sur [les meilleures pratiques pour les IA Overviews](/blog/ai-overviews-marques-citations/).
 
 ## Questions fréquentes
 

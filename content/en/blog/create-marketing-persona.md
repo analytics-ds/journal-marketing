@@ -63,7 +63,7 @@ For each identified segment, decide whether it is a primary persona (your priori
 
 Beyond the numbers, document the context of life or work. What is their role? Their annual objectives? What pressures do they work under? What keeps them up at night? These details make the persona tangible and influence your communication tone.
 
-Also capture their pain points (specific pains they seek to solve) and intrinsic motivations (what drives them to seek a solution). This also means building your positioning around [E-E-A-T and proving your expertise](/en/blog/eeat-proving-expertise/) in the areas your persona values, which increases trust and message relevance.
+Also capture their pain points (specific pains they seek to solve) and intrinsic motivations (what drives them to seek a solution). This also means building your positioning around E-E-A-T and proving your expertise in the areas your persona values, which increases trust and message relevance.
 
 ### Step 4: Formalize in a structured template
 
@@ -119,7 +119,7 @@ Once your personas are formalized, put them into practice on three fronts.
 
 **In content strategy,** adapt your tone, formats and topics to each persona. If Anne consumes synthetic webinars, prioritize this format. Your content must speak directly to her pain points and objectives. A single generic blog won't suffice.
 
-To maximize impact, structure your approach around [evergreen content adapted to each persona](/en/blog/evergreen-content-method/), which ensures lasting relevance. This also fits into a [content ROI framework](/en/blog/content-roi-framework/), where each piece of content is aligned with a persona's specific needs to drive conversions.
+To maximize impact, structure your approach around evergreen content adapted to each persona, which ensures lasting relevance. This also fits into a content ROI framework, where each piece of content is aligned with a persona's specific needs to drive conversions.
 
 **In acquisition,** target your advertising campaigns (Google Ads, LinkedIn, social media) based on the demographic and behavioral data of your personas. Create custom audiences in advertising platforms for maximum relevance.
 

@@ -84,7 +84,7 @@ The approach remains methodical: exhaustive URL mapping, comparative analysis of
 
 **Semji** navigates the intersection of agency and SaaS, with a proprietary platform analyzing content and recommending optimizations based on SERP data. In a migration project, this agency + tool mix allows auditing and optimizing content in parallel with technical transfer.
 
-The agency excels particularly when migration accompanies editorial redesign: [detection and consolidation of cannibal pages](/en/blog/seo-cannibalization-detection/), reorganization of internal linking, updating of strategic content. The platform identifies what deserves preservation and what can be merged.
+The agency excels particularly when migration accompanies editorial redesign: detection and consolidation of cannibal pages, reorganization of internal linking, updating of strategic content. The platform identifies what deserves preservation and what can be merged.
 
 ## 8. SmartKeyword: semantic modeling (Paris)
 

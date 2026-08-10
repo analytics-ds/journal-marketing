@@ -99,7 +99,7 @@ L'écosystème se réorganise autour de quatre mouvements majeurs : la **dispari
 
 ### Synergie programmatique et GEO
 
-Deux approches se complètent : la programmatique génère visibilité et trafic qualifié, tandis que le **[GEO](/blog/geo-definition-guide/)** assure présence dans les moteurs IA génératives. Les marques qui combinent ces deux leviers maximisent leur part de voix. Pour approfondir, consultez [comment optimiser votre visibilité dans les moteurs IA](/blog/llms-txt-standard/).
+Deux approches se complètent : la programmatique génère visibilité et trafic qualifié, tandis que le **[GEO](/blog/geo-definition-guide/)** assure présence dans les moteurs IA génératives. Les marques qui combinent ces deux leviers maximisent leur part de voix. Pour approfondir, consultez comment optimiser votre visibilité dans les moteurs IA.
 
 ## Critères de sélection d'une agence programmatique
 
@@ -118,7 +118,7 @@ Deux approches se complètent : la programmatique génère visibilité et trafic
 - Cas clients documentés avec ROAS et CPA réels
 - Clarté tarifaire (coûts média, tech fees, frais d'agence)
 - Processus de brand safety et verification documentés
-- Expertise en [structuration de données](/blog/eeat-prouver-expertise/) pour enrichir les stratégies d'audience
+- Expertise en structuration de données pour enrichir les stratégies d'audience
 
 ## Budgets programmatique en 2026
 

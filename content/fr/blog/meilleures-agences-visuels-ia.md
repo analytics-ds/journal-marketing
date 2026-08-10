@@ -98,7 +98,7 @@ Avant de signer, validez que l'agence maîtrise :
 - **Outils** : Midjourney, DALL-E 3, Stable Diffusion, workflows avancés (ComfyUI, ControlNet)
 - **Direction artistique** : traduction de briefs en prompts et post-traitement
 - **Cohérence visuelle** : fine-tuning de modèles, développement de chartes IA
-- **Optimisation technique** : alt textes, Schema.org, formats web, notamment pour [les outils d'optimisation en IA générative](/blog/outils-ia-creation-contenu-2026/)
+- **Optimisation technique** : alt textes, Schema.org, formats web, notamment pour les outils d'optimisation en IA générative
 - **Scalabilité** : capacité de production à maintien de qualité
 - **Conformité légale** : gestion des droits d'utilisation
 
@@ -145,7 +145,7 @@ Avant de signer, validez que l'agence maîtrise :
 5. Comment gérez-vous les **droits d'utilisation** des images générées par IA ?
 
 
-Pour approfondir, consultez notre [guide du GEO](/blog/geo-definition-guide/), notre comparatif des [meilleurs outils IA pour créer du contenu](/blog/outils-ia-creation-contenu-2026/) et notre analyse des [techniques pour apparaître dans ChatGPT](/blog/apparaitre-dans-chatgpt-techniques/).
+Pour approfondir, consultez notre [guide du GEO](/blog/geo-definition-guide/) et notre analyse des [techniques pour apparaître dans ChatGPT](/blog/apparaitre-dans-chatgpt-techniques/).
 
 ## Questions fréquemment posées
 

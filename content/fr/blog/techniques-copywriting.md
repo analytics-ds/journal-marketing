@@ -132,7 +132,7 @@ L'entraînement régulier affine cette empathie : rédiger souvent, pour des cib
 
 ## Aller plus loin : ressources connexes
 
-Améliorer son copywriting passe aussi par comprendre le contexte plus large. [La création d'un contenu evergreen](/blog/contenu-evergreen-methode/) t'aide à rédiger un copy qui reste valide mois après mois. [Le framework ROI du contenu](/blog/roi-contenu-framework/) montre comment mesurer l'impact réel de ta rédaction sur les conversions. Et [les outils IA pour créer du contenu](/blog/outils-ia-creation-contenu-2026/) peuvent t'aider à générer des brouillons rapidement, même si la persuasion reste un art humain.
+Améliorer son copywriting passe aussi par comprendre le contexte plus large. La création d'un contenu evergreen t'aide à rédiger un copy qui reste valide mois après mois. Le framework ROI du contenu montre comment mesurer l'impact réel de ta rédaction sur les conversions. Et les outils IA pour créer du contenu peuvent t'aider à générer des brouillons rapidement, même si la persuasion reste un art humain.
 
 ## Questions fréquentes
 

@@ -63,7 +63,7 @@ L'interface se structure autour de quelques rapports qui couvrent l'essentiel de
 
 Le rapport de performances est le plus consulté au quotidien : il permet de comparer les requêtes qui génèrent le plus d'impressions à celles qui génèrent le plus de clics, un écart révélateur d'un **title** ou d'une **meta description** peu incitatifs, un point détaillé dans notre guide sur les [balises title et meta description](/blog/balises-title-meta-description/).
 
-Le rapport d'expérience sur la page s'appuie sur les mêmes signaux que ceux suivis dans notre analyse des [Core Web Vitals](/blog/core-web-vitals-2026/), avec l'avantage de les présenter par groupe d'URL plutôt que page par page.
+Le rapport d'expérience sur la page s'appuie sur les mêmes signaux que ceux suivis dans notre analyse des Core Web Vitals, avec l'avantage de les présenter par groupe d'URL plutôt que page par page.
 
 À côté de ces rapports figurent des sections dédiées aux données structurées : chaque type de balisage détecté (avis, FAQ, fil d'Ariane, recette de cuisine) reçoit son propre rapport de validité, avec le détail des erreurs et des avertissements par page. C'est là que se vérifie qu'un balisage Schema.org ajouté au code est correctement lu par Google, indépendamment de son affichage visuel sur le site.
 
@@ -83,7 +83,7 @@ Un exemple courant illustre cette complémentarité : une page technique bien po
 
 ## Suivre l'indexation par les moteurs génératifs avec Google Search Console
 
-Les rapports de couverture et de crawl restent pertinents à l'heure des moteurs génératifs : un contenu que Googlebot n'explore pas correctement ne peut pas non plus alimenter les réponses de l'IA de Google, qui s'appuie en grande partie sur le même index. Surveiller la fréquence d'exploration et corriger rapidement les erreurs 404 ou les redirections en chaîne reste donc un prérequis, un sujet approfondi dans notre article sur le [crawl budget et les signaux à surveiller](/blog/crawl-budget-5-signaux/).
+Les rapports de couverture et de crawl restent pertinents à l'heure des moteurs génératifs : un contenu que Googlebot n'explore pas correctement ne peut pas non plus alimenter les réponses de l'IA de Google, qui s'appuie en grande partie sur le même index. Surveiller la fréquence d'exploration et corriger rapidement les erreurs 404 ou les redirections en chaîne reste donc un prérequis, un sujet approfondi dans notre article sur le crawl budget et les signaux à surveiller.
 
 Google Search Console ne fournit pas encore de rapport dédié à la citation dans les AI Overviews, mais une base d'indexation saine, mesurable dans l'outil, reste la condition de départ pour espérer y apparaître.
 

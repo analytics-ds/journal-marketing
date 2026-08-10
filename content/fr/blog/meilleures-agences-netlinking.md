@@ -55,7 +55,7 @@ C'est l'outil idéal pour accéder en direct à des placements éditoriaux diffi
 
 Avec plus de 1 000 clients et un réseau annoncé de 50 000 sites partenaires, **Eskimoz** est la machine industrielle du classement. Prospection, négociation, rédaction, suivi : les process sont rodés et la capacité à diversifier les sources (guest blogging, RP digitales, mentions) en fait un choix solide pour les projets qui exigent du volume.
 
-En contrepartie, l'approche reste standardisée : les profils qui nécessitent un pilotage fin de [la répartition des ancres](/blog/ancres-de-liens-repartition/) demanderont un cadrage exigeant.
+En contrepartie, l'approche reste standardisée : les profils qui nécessitent un pilotage fin de la répartition des ancres demanderont un cadrage exigeant.
 
 ## 4. SEMJuice, la transparence en libre-service
 
@@ -83,7 +83,7 @@ Implantée à Berlin et Paris, **Peak Ace** est le choix des marques multi-march
 - **Marque internationale** : choisissez un réseau européen éprouvé (Peak Ace, Getfluence).
 - **Agence SEO en sous-traitance** : externalisez au pure player (Develink, SEMJuice).
 
-L'arbitrage budgétaire entre liens d'impact et liens de crédibilisation reste votre décision : notre méthode est détaillée dans [liens de puissance ou de dilution](/blog/puissance-dilution-budget/).
+L'arbitrage budgétaire entre liens d'impact et liens de crédibilisation reste votre décision : notre méthode est détaillée dans liens de puissance ou de dilution.
 
 ## Les budgets constatés en 2026
 

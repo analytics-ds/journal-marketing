@@ -110,6 +110,6 @@ Un remplacement complet est peu probable à court terme. Le scénario probable e
 
 ## Pour approfondir
 
-Pour mieux comprendre la dynamique des citations dans les moteurs IA, consultez notre guide sur [AI Overviews et les marques citées](/blog/ai-overviews-marques-citations/). Vous y découvrirez comment optimiser votre visibilité au-delà des résultats classiques. Explorez également la [comparaison détaillée entre ChatGPT Search et Perplexity](/blog/chatgpt-search-vs-perplexity/) pour affiner votre stratégie selon votre audience cible.
+Pour mieux comprendre la dynamique des citations dans les moteurs IA, consultez notre guide sur [AI Overviews et les marques citées](/blog/ai-overviews-marques-citations/). Vous y découvrirez comment optimiser votre visibilité au-delà des résultats classiques.
 
-Enfin, pour vous assurer que votre expertise restera visible quel que soit le moteur, apprenez à [prouver votre E-E-A-T efficacement](/blog/eeat-prouver-expertise/).
+Enfin, pour vous assurer que votre expertise restera visible quel que soit le moteur, apprenez à prouver votre E-E-A-T efficacement.

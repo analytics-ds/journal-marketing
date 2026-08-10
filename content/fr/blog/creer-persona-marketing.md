@@ -63,7 +63,7 @@ Pour chaque segment identifié, décidez si c'est un persona primaire (vos cible
 
 Au-delà des chiffres, documentez le contexte de vie ou professionnel. Quel est son rôle ? Ses objectifs annuels ? Sous quelles pressions travaille-t-il ? Qu'est-ce qui le réveille la nuit ? Ces détails rendent le persona tangible et influencent votre ton de communication.
 
-Capturez aussi ses points de douleur (douleurs spécifiques qu'il cherche à résoudre) et ses motivations intrinsèques (ce qui le pousse à chercher une solution). Cela signifie aussi de bâtir votre positionnement autour de l'[E-E-A-T et de prouver votre expertise](/blog/eeat-prouver-expertise/) dans les domaines que votre persona valorise, ce qui accroît la confiance et la pertinence de votre message.
+Capturez aussi ses points de douleur (douleurs spécifiques qu'il cherche à résoudre) et ses motivations intrinsèques (ce qui le pousse à chercher une solution). Cela signifie aussi de bâtir votre positionnement autour de l'E-E-A-T et de prouver votre expertise dans les domaines que votre persona valorise, ce qui accroît la confiance et la pertinence de votre message.
 
 ### Étape 4 : Formaliser dans une fiche structurée
 
@@ -119,7 +119,7 @@ Une fois vos personas formalisés, mettez-les en pratique sur trois fronts.
 
 **En stratégie de contenu,** adaptez votre ton, vos formats et vos sujets à chaque persona. Si Anne consomme des webinaires synthétiques, privilégiez ce format. Votre contenu doit parler directement à ses points de douleur et ses objectives. Un seul blog générique ne suffira pas.
 
-Pour maximiser l'impact, structurez votre approche autour du [contenu evergreen adapté à chaque persona](/blog/contenu-evergreen-methode/), ce qui garantit une pertinence durable. Cela s'inscrit aussi dans une démarche de [ROI du contenu](/blog/roi-contenu-framework/), où chaque pièce de contenu est alignée sur les besoins spécifiques d'un persona pour générer des conversions.
+Pour maximiser l'impact, structurez votre approche autour du contenu evergreen adapté à chaque persona, ce qui garantit une pertinence durable. Cela s'inscrit aussi dans une démarche de ROI du contenu, où chaque pièce de contenu est alignée sur les besoins spécifiques d'un persona pour générer des conversions.
 
 **En acquisition,** ciblez vos campagnes publicitaires (Google Ads, LinkedIn, réseaux sociaux) en fonction des données démographiques et comportementales de vos personas. Créez des audiences custom dans les plateformes publicitaires pour une pertinence maximale.
 

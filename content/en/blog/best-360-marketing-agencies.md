@@ -99,7 +99,6 @@ The average customer in 2026 touches 7 to 12 contact points before conversion: G
 
 The ascendance of generative AI engines (Google AI Overviews, ChatGPT, Perplexity) creates a new visibility spectrum. These sources generate traffic increasing 527% in 2026. 360 agencies integrating GEO into their toolkit cover the entire digital visibility chain: classic search, AI engines, social networks, and ad networks.
 
-To understand this shift, explore our detailed analysis on [E-E-A-T and its role in AI visibility](/en/blog/eeat-proving-expertise/).
 
 ### Inter-channel Synergies Create Multiplier Effects
 
@@ -158,7 +157,6 @@ Return on investment is measured across multiple axes: **global acquisition cost
 4. Do you perform dynamic budget reallocation based on observed performance?
 5. Do you deliver consolidated reporting providing a single view across all channels?
 
-To deepen analysis of acquisition cost and marketing return, consult our resource on [content ROI and its measurement framework](/en/blog/content-roi-framework/).
 
 ## Frequently Asked Questions
 

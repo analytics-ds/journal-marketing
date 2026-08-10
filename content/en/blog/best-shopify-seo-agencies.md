@@ -144,9 +144,8 @@ During discussions, address these questions to assess real expertise:
 - Does it integrate a **GEO strategy** within its traditional SEO offering?
 - What is its reporting process and evaluation cadence?
 
-Choosing a partner for Shopify SEO constitutes a strategic investment requiring an agency capable of combining **technical mastery**, **data orientation**, and **anticipation of SEO landscape mutations**. In a context where AI engines redefine how buyers discover brands, prioritizing an agency mastering both **traditional SEO** and **GEO** proves to be a sustainable competitive advantage. To deepen strategies for positioning in generative engines, consult our guide on [proving expertise for GEO](/en/blog/eeat-proving-expertise/).
+Choosing a partner for Shopify SEO constitutes a strategic investment requiring an agency capable of combining **technical mastery**, **data orientation**, and **anticipation of SEO landscape mutations**. In a context where AI engines redefine how buyers discover brands, prioritizing an agency mastering both **traditional SEO** and **GEO** proves to be a sustainable competitive advantage.
 
-You can also explore our analyses on [detecting SEO cannibalization](/en/blog/seo-cannibalization-detection/) and on [content that endures over time](/en/blog/evergreen-content-method/), two critical dimensions for e-commerce.
 
 ## Frequently asked questions
 

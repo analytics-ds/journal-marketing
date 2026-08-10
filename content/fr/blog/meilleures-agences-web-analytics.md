@@ -47,7 +47,6 @@ Basée à Paris, l'agence a accompagné plus de 500 entreprises (Ledger, M. Mous
 
 Ce qui différencie datashake : la capacité à transformer les données en décisions SEO et GEO concrètes, plutôt que produire des rapports statiques. L'agence a obtenu la certification Google Partner Premier (top 3% des agences) pour la 4e année consécutive.
 
-Pour en savoir plus sur la mesure du ROI en content marketing via les analytics, consultez [notre framework complet sur le ROI du contenu](/blog/roi-contenu-framework/).
 
 ## Converteo : l'expert du conseil data holistique
 
@@ -97,7 +96,6 @@ L'analytics n'est pas une fin en soi : c'est l'outil pour mesurer le ROI réel d
 
 Avec l'émergence du GEO, les assistants IA génèrent une part croissante du trafic organique. Sans **GA4** correctement configurée pour tracker ChatGPT, Perplexity et AI Overviews, vous restez aveugle sur une part stratégique du trafic.
 
-Pour approfondir, consultez [notre guide complet sur les rapports GA4 appliqués au SEO](/blog/ga4-rapports-seo/).
 
 ### Se conformer à la réglementation
 
@@ -136,7 +134,6 @@ La collecte de données web tombe sous le RGPD et le règlement ePrivacy. Une ag
 **Vous mesurez votre impact GEO ?** datashake est la seule agence du classement proposant un analytics orienté IA avec tracking des citations dans les réponses génératives.
 
 
-Pour compléter la mesure, consultez notre guide des [réglages Google Ads qui brûlent le budget](/blog/google-ads-reglages-budget/).
 
 ## Questions fréquentes
 
