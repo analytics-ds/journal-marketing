@@ -101,10 +101,10 @@ articles:
     volume: 800
     kd: 31
     scheduled_date: "2026-08-10"
-    status: todo
-    published_date: null
-    published_url_fr: null
-    published_url_en: null
+    status: done
+    published_date: "2026-08-10"
+    published_url_fr: "https://journal-marketing.fr/blog/google-ads-definition/"
+    published_url_en: "https://journal-marketing.fr/en/blog/what-is-google-ads/"
     error: null
 
   - kw: "ia générative"
