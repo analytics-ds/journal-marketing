@@ -134,10 +134,10 @@ articles:
     volume: 1000
     kd: 14
     scheduled_date: "2026-08-13"
-    status: todo
-    published_date: null
-    published_url_fr: null
-    published_url_en: null
+    status: done
+    published_date: "2026-08-13"
+    published_url_fr: "https://journal-marketing.fr/blog/loi-influenceur/"
+    published_url_en: "https://journal-marketing.fr/en/blog/influencer-law-france/"
     error: null
 
   - kw: "crm logiciel"
