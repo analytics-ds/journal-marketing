@@ -145,10 +145,10 @@ articles:
     volume: 4500
     kd: 33
     scheduled_date: "2026-08-14"
-    status: todo
-    published_date: null
-    published_url_fr: null
-    published_url_en: null
+    status: done
+    published_date: "2026-08-14"
+    published_url_fr: "https://journal-marketing.fr/blog/logiciel-crm/"
+    published_url_en: "https://journal-marketing.fr/en/blog/crm-software/"
     error: null
 
   # ============ Semaine 34 (17/08 - 23/08) ============
