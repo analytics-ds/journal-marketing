@@ -158,10 +158,10 @@ articles:
     volume: 1600
     kd: 32
     scheduled_date: "2026-08-17"
-    status: todo
-    published_date: null
-    published_url_fr: null
-    published_url_en: null
+    status: done
+    published_date: "2026-08-17"
+    published_url_fr: "https://journal-marketing.fr/blog/audit-seo/"
+    published_url_en: "https://journal-marketing.fr/en/blog/seo-audit/"
     error: null
 
   - kw: "ligne éditoriale"
