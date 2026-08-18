@@ -169,10 +169,10 @@ articles:
     volume: 2000
     kd: 14
     scheduled_date: "2026-08-18"
-    status: todo
-    published_date: null
-    published_url_fr: null
-    published_url_en: null
+    status: done
+    published_date: "2026-08-18"
+    published_url_fr: "https://journal-marketing.fr/blog/ligne-editoriale/"
+    published_url_en: "https://journal-marketing.fr/en/blog/editorial-line/"
     error: null
 
   - kw: "sea marketing"
