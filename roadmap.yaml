@@ -191,10 +191,10 @@ articles:
     volume: 554
     kd: 27
     scheduled_date: "2026-08-20"
-    status: todo
-    published_date: null
-    published_url_fr: null
-    published_url_en: null
+    status: done
+    published_date: "2026-08-20"
+    published_url_fr: "https://journal-marketing.fr/blog/meilleur-prompt-chatgpt/"
+    published_url_en: "https://journal-marketing.fr/en/blog/best-chatgpt-prompt/"
     error: null
 
   - kw: "calcul du taux de conversion"
