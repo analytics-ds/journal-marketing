@@ -226,10 +226,10 @@ articles:
     volume: 1182
     kd: 27
     scheduled_date: "2026-08-25"
-    status: todo
-    published_date: null
-    published_url_fr: null
-    published_url_en: null
+    status: done
+    published_date: "2026-08-25"
+    published_url_fr: "https://journal-marketing.fr/blog/web-analytics/"
+    published_url_en: "https://journal-marketing.fr/en/blog/web-analytics/"
     error: null
 
   - kw: "référencement site web"
