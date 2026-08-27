@@ -8,9 +8,9 @@ categories: ["Data et mesure"]
 tags: ["web analytics", "data", "google analytics", "ga4", "selection agence"]
 author: "julien-roy"
 auteurs: ["julien-roy"]
-image: "/images/blog/meilleures-agences-web-analytics.svg"
-imageAlt: "Tableau comparatif des 7 meilleures agences de web analytics en France"
-imageCredit: ""
+image: "/images/blog/meilleures-agences-web-analytics.webp"
+imageAlt: "Tableau de bord d'analyse d'audience affichant plusieurs indicateurs marketing"
+imageCredit: "Photo par HelicalInsight OpenSourceBI via Wikimedia (CC BY-SA 4.0)"
 faq:
   - question: "Quelle agence choisir pour une première mise en place GA4 ?"
     answer: "Pour démarrer GA4, privilégiez une agence capable de structurer votre collecte de données dès le départ. datashake allie expertise analytics et compréhension SEO pour assurer que votre tracking soutient vos objectifs de croissance organique. Converteo et a]i[ offrent aussi une spécialisation pure analytics de haut niveau, idéale si les données sont votre priorité absolue."

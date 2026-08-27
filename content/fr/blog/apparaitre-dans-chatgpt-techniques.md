@@ -8,9 +8,9 @@ categories: ["IA et GEO"]
 tags: ["chatgpt", "geo", "ia generative", "optimisation contenu", "visibilite source"]
 author: "karim-benali"
 auteurs: ["karim-benali"]
-image: "/images/blog/apparaitre-dans-chatgpt-techniques.svg"
-imageAlt: "Interface ChatGPT affichant des sources citées dans une réponse avec des liens vers les sites d'origine"
-imageCredit: ""
+image: "/images/blog/apparaitre-dans-chatgpt-techniques.webp"
+imageAlt: "Mains tapant sur le clavier d'un ordinateur portable affichant un graphique"
+imageCredit: "Photo par Negative Space via Stocksnap (CC CC0 1.0)"
 faq:
   - question: "Combien de temps faut-il pour apparaître dans ChatGPT après la publication d'un article ?"
     answer: "Les délais varient considérablement selon plusieurs facteurs : l'autorité du domaine, la qualité du contenu et l'indexation par Bing. Pour les domaines déjà établis, les articles peuvent être cités dans les réponses de ChatGPT en quelques semaines. Pour les sites moins connus, il faut compter plusieurs mois. Une stratégie GEO complète demande généralement 3 à 6 mois pour générer des résultats mesurables et durables."
