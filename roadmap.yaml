@@ -248,10 +248,10 @@ articles:
     volume: 1500
     kd: 41
     scheduled_date: "2026-08-27"
-    status: todo
-    published_date: null
-    published_url_fr: null
-    published_url_en: null
+    status: done
+    published_date: "2026-08-27"
+    published_url_fr: "https://journal-marketing.fr/blog/calendrier-editorial/"
+    published_url_en: "https://journal-marketing.fr/en/blog/editorial-calendar/"
     error: null
 
   - kw: "seo vs sea"
