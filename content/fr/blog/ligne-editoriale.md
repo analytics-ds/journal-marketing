@@ -8,7 +8,7 @@ categories: ["Contenu"]
 tags: ["ligne editoriale", "strategie de contenu", "charte editoriale", "guide", "marketing digital"]
 author: "lea-fontaine"
 auteurs: ["lea-fontaine"]
-image: "/images/blog/ligne-editoriale.jpg"
+image: "/images/blog/ligne-editoriale.webp"
 imageAlt: "Équipe de rédaction réunie autour d'une table pour discuter de la ligne éditoriale"
 imageCredit: "Photo par allaboutgeorge via Flickr (CC BY 2.0)"
 faq:

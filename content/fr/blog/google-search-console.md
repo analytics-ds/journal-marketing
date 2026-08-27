@@ -8,7 +8,7 @@ categories: ["SEO"]
 tags: ["google", "guide", "indexation", "crawl", "webmaster"]
 author: "thomas-durand"
 auteurs: ["thomas-durand"]
-image: "/images/blog/google-search-console.jpg"
+image: "/images/blog/google-search-console.webp"
 imageAlt: "Illustration représentant l'optimisation SEO et le suivi de performance d'un site"
 imageCredit: "Photo par Sean MacEntee via Flickr (CC BY 2.0)"
 faq:

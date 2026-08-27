@@ -8,7 +8,7 @@ categories: ["Online advertising"]
 tags: ["sea", "google ads", "google", "guide", "online advertising"]
 author: "marc-keller"
 auteurs: ["marc-keller"]
-image: "/images/blog/sea-marketing.jpg"
+image: "/images/blog/sea-marketing.webp"
 imageAlt: "Whiteboard listing the steps for preparing an online advertising campaign"
 imageCredit: "Photo par Vanguard Visions via Flickr (CC BY 2.0)"
 faq:

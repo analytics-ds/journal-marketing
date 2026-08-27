@@ -8,7 +8,7 @@ categories: ["IA et GEO"]
 tags: ["chatgpt", "prompt engineering", "ia generative", "guide", "llm"]
 author: "karim-benali"
 auteurs: ["karim-benali"]
-image: "/images/blog/meilleur-prompt-chatgpt.jpg"
+image: "/images/blog/meilleur-prompt-chatgpt.webp"
 imageAlt: "Mains qui tapent sur le clavier d'un ordinateur portable"
 imageCredit: "Photo par Image Catalog via Flickr (CC CC0 1.0)"
 faq:

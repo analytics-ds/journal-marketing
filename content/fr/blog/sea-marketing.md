@@ -8,7 +8,7 @@ categories: ["Publicité en ligne"]
 tags: ["sea", "google ads", "google", "guide", "publicite en ligne"]
 author: "marc-keller"
 auteurs: ["marc-keller"]
-image: "/images/blog/sea-marketing.jpg"
+image: "/images/blog/sea-marketing.webp"
 imageAlt: "Tableau blanc listant les étapes de préparation d'une campagne publicitaire en ligne"
 imageCredit: "Photo par Vanguard Visions via Flickr (CC BY 2.0)"
 faq:

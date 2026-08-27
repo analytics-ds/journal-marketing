@@ -8,7 +8,7 @@ categories: ["Content"]
 tags: ["editorial line", "content strategy", "editorial guidelines", "guide", "digital marketing"]
 author: "lea-fontaine"
 auteurs: ["lea-fontaine"]
-image: "/images/blog/ligne-editoriale.jpg"
+image: "/images/blog/ligne-editoriale.webp"
 imageAlt: "Editorial team gathered around a table discussing the editorial line"
 imageCredit: "Photo par allaboutgeorge via Flickr (CC BY 2.0)"
 faq:

@@ -8,7 +8,7 @@ categories: ["Contenu"]
 tags: ["content marketing", "inbound marketing", "strategie de contenu", "guide", "blog"]
 author: "lea-fontaine"
 auteurs: ["lea-fontaine"]
-image: "/images/blog/content-marketing.jpg"
+image: "/images/blog/content-marketing.webp"
 imageAlt: "Mains tapant sur un clavier d'ordinateur portable posé sur un bureau, avec un carnet ouvert à côté"
 imageCredit: "Photo par Design by Matt via Stocksnap (CC0 1.0)"
 faq:

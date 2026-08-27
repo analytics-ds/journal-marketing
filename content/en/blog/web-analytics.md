@@ -8,7 +8,7 @@ categories: ["Tools and comparisons"]
 tags: ["web analytics", "google analytics", "ga4", "kpi", "guide"]
 author: "julien-roy"
 auteurs: ["julien-roy"]
-image: "/images/blog/web-analytics.jpg"
+image: "/images/blog/web-analytics.webp"
 imageAlt: "Web analytics dashboard showing visitors in real time"
 imageCredit: "Photo par psd via Flickr (CC BY 2.0)"
 faq:
