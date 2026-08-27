@@ -71,10 +71,26 @@ emit_placeholder() {
 echo "[fetch-image] Recherche Openverse : $QUERY" >&2
 # `|| true` obligatoire : avec set -e, un curl non-zero (proxy egress, DNS, timeout)
 # tuait le script avant d'atteindre le filet placeholder.
-JSON=$(curl -sL --max-time 20 \
-    -H "User-Agent: $USER_AGENT" \
-    -H "Accept: application/json" \
-    "https://api.openverse.org/v1/images/?q=${QUERY_ENCODED}&license_type=commercial,modification&page_size=20&mature=false" || true)
+#
+# RETRY : Openverse renvoie des 500 de facon intermittente sur des requetes
+# parfaitement valides (mesure du 2026-08-27 : "smartphone" et "laptop" en 500
+# quand "influencer" et "data center" rendaient 240 resultats dans la meme minute).
+# Sans retry, un 500 passe pour une absence de resultat et l'article perd sa photo.
+API_URL="https://api.openverse.org/v1/images/?q=${QUERY_ENCODED}&license_type=commercial,modification&page_size=20&mature=false"
+JSON=""
+for attempt in 1 2 3; do
+    HTTP=$(curl -sL --max-time 25 -w '%{http_code}' -o /tmp/ov-$$.json \
+        -H "User-Agent: $USER_AGENT" \
+        -H "Accept: application/json" \
+        "$API_URL" || echo "000")
+    if [ "$HTTP" = "200" ]; then
+        JSON=$(cat /tmp/ov-$$.json)
+        break
+    fi
+    echo "[fetch-image] Openverse HTTP $HTTP (tentative $attempt/3)" >&2
+    sleep $((attempt * 2))
+done
+rm -f /tmp/ov-$$.json
 
 if [ -z "$JSON" ] || echo "$JSON" | grep -q '^{"detail":'; then
     echo "[fetch-image] Openverse : reponse vide" >&2

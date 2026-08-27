@@ -8,7 +8,9 @@ categories: ["Publicité en ligne"]
 tags: ["google ads", "sea", "google", "guide", "publicite en ligne"]
 author: "marc-keller"
 auteurs: ["marc-keller"]
-image: "/images/blog/google-ads-definition.png"
+image: "/images/blog/google-ads-definition.webp"
+imageAlt: "Écran d'ordinateur affichant un tableau de bord de performances marketing"
+imageCredit: "Photo par Serpstat via Stocksnap (CC CC0 1.0)"
 faq:
   - question: "Faut-il payer pour utiliser Google Ads ?"
     answer: "La création d'un compte est gratuite et ne débite rien tant qu'aucune campagne n'est activée. Une fois une campagne lancée, la facturation intervient uniquement lorsqu'un internaute clique sur l'annonce, selon le budget quotidien fixé par l'annonceur. Aucun montant minimum n'est imposé par la plateforme pour démarrer."

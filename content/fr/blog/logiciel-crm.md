@@ -8,7 +8,9 @@ categories: ["Outils et comparatifs"]
 tags: ["crm", "logiciel", "definition", "guide", "outils"]
 author: "la-redaction"
 auteurs: ["la-redaction"]
-image: "/images/blog/logiciel-crm.png"
+image: "/images/blog/logiciel-crm.webp"
+imageAlt: "Équipe réunie autour d'un ordinateur portable dans un bureau lumineux"
+imageCredit: "Photo par Direct Media via Stocksnap (CC CC0 1.0)"
 faq:
   - question: "Que signifie CRM et à quoi sert un logiciel de ce type ?"
     answer: "CRM signifie Customer Relationship Management, soit gestion de la relation client. Un logiciel CRM centralise les données des contacts, l'historique des échanges et les étapes de vente pour aider les équipes commerciales, marketing et support à mieux prospecter et fidéliser leurs clients. Il remplace les fichiers dispersés entre plusieurs personnes par une base de données partagée et consultable par toute l'organisation."

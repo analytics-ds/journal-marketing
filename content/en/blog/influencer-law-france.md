@@ -8,7 +8,9 @@ categories: ["Social and influence"]
 tags: ["influencer", "marketing law", "contract", "social media", "guide"]
 author: "nina-alves"
 auteurs: ["nina-alves"]
-image: "/images/blog/loi-influenceur.png"
+image: "/images/blog/loi-influenceur.webp"
+imageAlt: "Judge's gavel on a desk next to stacked files"
+imageCredit: "Photo par Joe Gratz via Flickr (CC CC0 1.0)"
 faq:
   - question: "What does the June 9, 2023 law change for influencers?"
     answer: "The law regulates commercial influence activity carried out electronically in France for the first time. It requires a written contract above a certain amount, mandatory transparency about the advertising nature of content, and bans the promotion of certain products or practices deemed risky. It also makes influencers and their agents accountable under French law, even when the platform used is hosted abroad."

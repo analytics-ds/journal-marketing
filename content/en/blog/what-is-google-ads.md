@@ -8,7 +8,9 @@ categories: ["Online advertising"]
 tags: ["google ads", "ppc", "google", "guide", "online advertising"]
 author: "marc-keller"
 auteurs: ["marc-keller"]
-image: "/images/blog/google-ads-definition.png"
+image: "/images/blog/google-ads-definition.webp"
+imageAlt: "Computer screen showing a marketing performance dashboard"
+imageCredit: "Photo par Serpstat via Stocksnap (CC CC0 1.0)"
 faq:
   - question: "Do you have to pay to use Google Ads?"
     answer: "Creating an account is free and nothing is charged as long as no campaign is active. Once a campaign is launched, billing only happens when a user clicks the ad, based on the daily budget set by the advertiser. No minimum spend is imposed by the platform to get started."

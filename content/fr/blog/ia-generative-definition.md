@@ -8,7 +8,9 @@ categories: ["IA et GEO"]
 tags: ["ia generative", "chatgpt", "guide", "definition", "llm"]
 author: "karim-benali"
 auteurs: ["karim-benali"]
-image: "/images/blog/ia-generative-definition.png"
+image: "/images/blog/ia-generative-definition.webp"
+imageAlt: "Circuit imprimé vu de près, avec ses pistes de cuivre entrelacées"
+imageCredit: "Photo par Creativity103 via Flickr (CC BY 2.0)"
 faq:
   - question: "Quelle est la différence entre l'IA générative et l'intelligence artificielle classique ?"
     answer: "Une IA classique analyse ou classe des données existantes : elle détecte une fraude, recommande un produit, trie des images. Une IA générative va plus loin, elle produit un contenu inédit, texte, image, son ou code, à partir de ce qu'elle a appris. La distinction porte donc sur la sortie : une décision d'un côté, une création de l'autre."
