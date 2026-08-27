@@ -32,7 +32,7 @@ Aucune question a l'utilisateur. Toutes les decisions sont prises par l'agent a 
 
 Si une etape bloque (image introuvable, build Hugo casse, push rejete apres rebase), l'agent **n'insiste pas** : il passe l'entree en `status: failed` avec le message d'erreur, commit le roadmap seul, et sort en code non-zero.
 
-**Exceptions qui ne sont JAMAIS un motif d'echec** : l'indisponibilite de CrazySERP (Etape 1) et l'absence d'image hero (Etape 5). Dans les deux cas on continue et on publie.
+**Exceptions qui ne sont JAMAIS un motif d'echec** : l'indisponibilite de CrazySERP (Etape 1) et l'echec de la recuperation d'une photo (Etape 5). Dans les deux cas on continue et on publie. Attention a la nuance cote image : ne pas faire echouer le run ne veut **pas** dire publier sans visuel, l'article recoit alors le visuel de charte genere (Etape 5). Un article sans champ `image` est un defaut, pas un repli acceptable.
 
 ## Regles editoriales non negociables de ce blog
 
@@ -191,10 +191,31 @@ bash .claude/scripts/fetch-image.sh "<kw traduit en anglais>" "<slug-fr>" "stati
 
 - Query en anglais : Openverse est majoritairement indexe en anglais.
 - Sortie du script sur 3 lignes : chemin Hugo, alt suggere, credit.
-- Si code non-zero : **un seul** nouvel essai avec une query plus generique (la categorie traduite en anglais).
-- Si 2e echec : **ne pas marquer failed**. Publier sans hero, en omettant `image`, `imageAlt` et `imageCredit` du frontmatter.
-- Si le script reussit, `imageCredit` est **obligatoire** dans le frontmatter, tel que renvoye. C'est la contrepartie de la licence.
-- Verifier l'extension reelle du fichier ecrit (`.webp` attendu) et la reporter telle quelle dans `image`. Une extension inventee produit un hero casse sans erreur de build.
+- **Le champ `image` du frontmatter n'est JAMAIS omis.** C'est la regle la plus importante
+  de cette etape. Le script ne rend plus la main sans un visuel : quand Openverse ne repond
+  pas, ne trouve rien, ou que le telechargement est bloque (ce qui est le cas par defaut
+  dans le cloud, dont le proxy egress bloque les domaines commerciaux), il genere lui-meme
+  un visuel de charte en PNG via `.claude/scripts/make-placeholder.py` et sort en 0.
+  Publier sans hero a laisse 9 articles FR sans aucun visuel entre le 10 et le 26/08/2026.
+- Reporter **la ligne 1 telle quelle** dans `image`. L'extension varie legitimement selon
+  l'environnement : `.webp` quand `cwebp` est la, `.jpg` sur une machine sans lui, `.png`
+  quand c'est le visuel genere. Une extension inventee produit un hero casse sans erreur
+  de build.
+- **Ligne 3 vide = visuel genere, donc pas de `imageCredit`** (on ne credite personne pour
+  un visuel qu'on fabrique). Ligne 3 renseignee = photo Openverse, et `imageCredit` est
+  alors **obligatoire**, tel que renvoye : c'est la contrepartie de la licence.
+- Si le script sort quand meme non-zero (bug, ou `timeout` externe qui le tue avant le
+  filet), ne pas marquer `failed` et ne pas publier sans image : generer le visuel a la
+  main, puis renseigner `image`.
+  ```bash
+  python3 .claude/scripts/make-placeholder.py "<slug-fr>" "static/images/blog/<slug-fr>.png"
+  ```
+- **Regarder l'image avant de publier quand la ligne 3 est renseignee.** Openverse federe
+  Flickr et Wikimedia, donc une banque de photos communes : le filtre de licence ne dit
+  rien de la pertinence. Mesure du 2026-08-27 sur 9 mots-cles, 6 images sur 9 etaient hors
+  sujet, dont une manifestation pour un article sur la loi influenceur et une grille de
+  personnages generes pour un article sur l'IA generative. Si l'image ne correspond pas au
+  sujet, la supprimer et prendre le visuel genere a la place.
 
 ## Etape 6 — Maillage interne
 
