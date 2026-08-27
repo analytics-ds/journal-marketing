@@ -8,6 +8,7 @@ categories: ["Social et influence"]
 tags: ["tiktok", "algorithme", "reseaux sociaux", "engagement", "guide"]
 author: "nina-alves"
 auteurs: ["nina-alves"]
+image: "/images/blog/algorithme-tiktok.png"
 faq:
   - question: "Le nombre d'abonnés influence-t-il la portée d'une vidéo sur TikTok ?"
     answer: "Non, pas directement. Un compte avec quelques centaines d'abonnés peut voir une vidéo distribuée à des millions de personnes si elle génère les bons signaux pendant la phase de test. L'algorithme évalue chaque vidéo individuellement plutôt que la taille de l'audience qui la publie. C'est ce mécanisme qui permet à de nouveaux créateurs d'émerger rapidement sur la plateforme."

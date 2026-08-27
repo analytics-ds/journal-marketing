@@ -8,6 +8,7 @@ categories: ["Social et influence"]
 tags: ["influenceur", "droit du marketing", "contrat", "reseaux sociaux", "guide"]
 author: "nina-alves"
 auteurs: ["nina-alves"]
+image: "/images/blog/loi-influenceur.png"
 faq:
   - question: "Que change la loi du 9 juin 2023 pour les influenceurs ?"
     answer: "La loi encadre pour la première fois en France l'activité d'influence commerciale par voie électronique. Elle impose un contrat écrit au delà d'un certain montant, une transparence obligatoire sur la nature publicitaire des contenus et interdit la promotion de certains produits ou pratiques jugés à risque. Elle rend aussi les influenceurs et leurs agents responsables devant le droit français, même lorsque la plateforme utilisée est hébergée à l'étranger."

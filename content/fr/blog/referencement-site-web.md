@@ -8,6 +8,7 @@ categories: ["SEO"]
 tags: ["referencement naturel", "seo technique", "netlinking", "guide", "google"]
 author: "thomas-durand"
 auteurs: ["thomas-durand"]
+image: "/images/blog/referencement-site-web.png"
 faq:
   - question: "Qu'est-ce que le référencement d'un site web ?"
     answer: "Le référencement d'un site web regroupe les techniques qui améliorent sa position dans les résultats naturels des moteurs de recherche. Il repose sur trois piliers complémentaires : la technique, le contenu et la popularité acquise par les liens entrants. L'objectif est d'attirer un trafic qualifié sans dépendre uniquement de la publicité payante."

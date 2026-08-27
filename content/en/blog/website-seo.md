@@ -8,6 +8,7 @@ categories: ["SEO"]
 tags: ["seo", "technical seo", "link building", "guide", "google"]
 author: "thomas-durand"
 auteurs: ["thomas-durand"]
+image: "/images/blog/referencement-site-web.png"
 faq:
   - question: "What is website SEO?"
     answer: "Website SEO covers the techniques that improve a site's position in the organic results of search engines. It rests on three complementary pillars: technical setup, content and popularity gained through inbound links. The goal is to attract qualified traffic without relying solely on paid advertising."

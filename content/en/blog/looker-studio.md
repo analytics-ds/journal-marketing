@@ -8,6 +8,9 @@ categories: ["Data and measurement"]
 tags: ["google", "looker studio", "guide", "definition", "reporting"]
 author: "julien-roy"
 auteurs: ["julien-roy"]
+image: "/images/blog/looker-studio.webp"
+imageAlt: "Wall of screens displaying data dashboards in a control room"
+imageCredit: "Photo par UrusHyby via Wikimedia (CC CC0 1.0)"
 faq:
   - question: "Is Looker Studio a paid tool or entirely free?"
     answer: "Looker Studio is available for free with a simple Google account, with no stated limit on the number of reports, connected sources or read only invited users. This version covers the core reporting needs of a marketing team. A Looker Studio Pro offer exists on top of it, aimed at company wide governance needs. For individual use or a small team, the free version is enough in most cases."

@@ -8,6 +8,9 @@ categories: ["Data et mesure"]
 tags: ["conversion", "kpi", "e-commerce", "google", "guide"]
 author: "julien-roy"
 auteurs: ["julien-roy"]
+image: "/images/blog/calcul-taux-conversion.webp"
+imageAlt: "Personne consultant un tableau de bord d'analyse d'audience sur un ordinateur portable"
+imageCredit: "Photo par Zuko.io Images via Wikimedia (CC BY 2.0)"
 faq:
   - question: "Comment se calcule le taux de conversion ?"
     answer: "Le calcul du taux de conversion consiste à diviser le nombre de conversions par le nombre total de visiteurs, puis à multiplier le résultat par cent pour obtenir un pourcentage. Une conversion peut être un achat, une inscription à une newsletter ou une demande de devis, selon l'objectif fixé au départ. Le résultat se lit toujours sur une période donnée, jour, semaine ou mois, pour rester comparable dans le temps."

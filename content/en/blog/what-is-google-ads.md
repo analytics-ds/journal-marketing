@@ -8,6 +8,7 @@ categories: ["Online advertising"]
 tags: ["google ads", "ppc", "google", "guide", "online advertising"]
 author: "marc-keller"
 auteurs: ["marc-keller"]
+image: "/images/blog/google-ads-definition.png"
 faq:
   - question: "Do you have to pay to use Google Ads?"
     answer: "Creating an account is free and nothing is charged as long as no campaign is active. Once a campaign is launched, billing only happens when a user clicks the ad, based on the daily budget set by the advertiser. No minimum spend is imposed by the platform to get started."
@@ -35,7 +36,7 @@ Contrary to a common assumption, Google Ads is not limited to the text links sho
 
 For every search matching a targeted keyword, Google runs an instant auction among all the advertisers bidding on that term. The bid amount is not the only factor: Google calculates an ad rank by multiplying the bid by the quality score, a rating that reflects the relevance of the ad copy, the expected click through rate and the experience delivered on the landing page.
 
-A high quality score allows a business to secure a better position for a lower cost per click than a less relevant competitor willing to bid higher. This mechanism explains why two advertisers on the same keyword rarely pay the same price. Some default account settings, such as the Display Network being enabled on a search campaign or automatic keyword broadening, dilute this relevance without the advertiser noticing: the article on [Google Ads settings that burn the budget](/en/blog/google-ads-budget-settings/) covers the points to check first.
+A high quality score allows a business to secure a better position for a lower cost per click than a less relevant competitor willing to bid higher. This mechanism explains why two advertisers on the same keyword rarely pay the same price. Some default account settings, such as the Display Network being enabled on a search campaign or automatic keyword broadening, dilute this relevance without the advertiser noticing: the article on [tools to save on Google Ads](/en/blog/tools-to-save-on-google-ads/) covers the points to check first.
 
 ## The different types of Google Ads campaigns
 
@@ -49,7 +50,7 @@ Google Ads groups several campaign formats, each suited to a different objective
 | Video | YouTube | Brand awareness and consideration |
 | Performance Max | All Google placements | Automated cross channel conversions |
 
-Shopping and Performance Max campaigns rely on a product feed and appeal particularly to e-commerce businesses, a space also reshaped by the rise of retail media: the article on the [third wave of online advertising](/en/blog/retail-media-third-wave/) looks at this shift in the market.
+Shopping and Performance Max campaigns rely on a product feed and appeal particularly to e-commerce businesses, a space also reshaped by the rise of retail media, where retailers now sell their own advertising inventory.
 
 Available targeting also varies by campaign type. Search campaigns mainly rely on keywords and their match with search intent, while Display and video campaigns allow targeting by interest, demographic data or browsing behavior. Remarketing, which means retargeting users who already visited a site without converting, works across most of these formats and remains one of the most cost effective levers once a site already generates traffic.
 

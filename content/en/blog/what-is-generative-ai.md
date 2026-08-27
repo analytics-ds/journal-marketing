@@ -8,6 +8,7 @@ categories: ["AI and GEO"]
 tags: ["generative ai", "chatgpt", "guide", "definition", "llm"]
 author: "karim-benali"
 auteurs: ["karim-benali"]
+image: "/images/blog/ia-generative-definition.png"
 faq:
   - question: "What is the difference between generative AI and classic artificial intelligence?"
     answer: "Classic AI analyzes or classifies existing data: it detects fraud, recommends a product, sorts images. Generative AI goes further, it produces new content, text, image, sound or code, from what it has learned. The distinction lies in the output: a decision on one side, a creation on the other."

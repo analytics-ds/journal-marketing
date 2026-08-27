@@ -8,6 +8,7 @@ categories: ["Publicité en ligne"]
 tags: ["google ads", "sea", "google", "guide", "publicite en ligne"]
 author: "marc-keller"
 auteurs: ["marc-keller"]
+image: "/images/blog/google-ads-definition.png"
 faq:
   - question: "Faut-il payer pour utiliser Google Ads ?"
     answer: "La création d'un compte est gratuite et ne débite rien tant qu'aucune campagne n'est activée. Une fois une campagne lancée, la facturation intervient uniquement lorsqu'un internaute clique sur l'annonce, selon le budget quotidien fixé par l'annonceur. Aucun montant minimum n'est imposé par la plateforme pour démarrer."
@@ -35,7 +36,7 @@ Contrairement à une idée répandue, Google Ads ne se limite pas aux liens text
 
 À chaque recherche correspondant à un mot-clé ciblé, Google organise une enchère instantanée entre tous les annonceurs positionnés sur ce terme. Le montant proposé par clic n'est pas le seul critère : Google calcule un classement de l'annonce en multipliant l'enchère par le score de qualité, une note qui reflète la pertinence du texte publicitaire, le taux de clic attendu et l'expérience proposée sur la page d'atterrissage.
 
-Un score de qualité élevé permet d'obtenir une meilleure position pour un coût par clic inférieur à celui d'un concurrent moins pertinent mais prêt à enchérir plus fort. C'est ce mécanisme qui explique pourquoi deux annonceurs sur le même mot-clé paient rarement le même prix. Certains réglages par défaut du compte, comme le réseau Display activé sur une campagne search ou l'élargissement automatique des mots-clés, diluent cette pertinence sans que l'annonceur s'en rende compte : notre article sur les [réglages Google Ads qui brûlent le budget](/blog/google-ads-reglages-budget/) détaille les points à vérifier en priorité.
+Un score de qualité élevé permet d'obtenir une meilleure position pour un coût par clic inférieur à celui d'un concurrent moins pertinent mais prêt à enchérir plus fort. C'est ce mécanisme qui explique pourquoi deux annonceurs sur le même mot-clé paient rarement le même prix. Certains réglages par défaut du compte, comme le réseau Display activé sur une campagne search ou l'élargissement automatique des mots-clés, diluent cette pertinence sans que l'annonceur s'en rende compte : notre article sur les [outils pour économiser sur Google Ads](/blog/outils-economiser-google-ads/) détaille les points à vérifier en priorité.
 
 ## Les différents types de campagnes Google Ads
 
@@ -49,7 +50,7 @@ Google Ads regroupe plusieurs formats de campagnes, chacun adapté à un objecti
 | Vidéo | YouTube | Notoriété et considération de marque |
 | Performance Max | Tous les emplacements Google | Conversions automatisées multi-canal |
 
-Les campagnes Shopping et Performance Max s'appuient sur un flux de produits et intéressent particulièrement les acteurs de l'e-commerce, un terrain que couvre aussi la montée du retail media : notre article sur la [troisième vague de la publicité en ligne](/blog/retail-media-troisieme-vague/) revient sur cette évolution du marché.
+Les campagnes Shopping et Performance Max s'appuient sur un flux de produits et intéressent particulièrement les acteurs de l'e-commerce, un terrain que redessine aussi la montée du retail media, où les distributeurs vendent désormais leur propre inventaire publicitaire.
 
 Le ciblage disponible varie aussi selon le type de campagne. Les campagnes Search reposent principalement sur des mots-clés et leur correspondance avec l'intention de recherche, tandis que les campagnes Display et vidéo permettent de cibler des audiences par centre d'intérêt, par donnée démographique ou par comportement de navigation. Le remarketing, qui consiste à recibler les internautes ayant déjà visité un site sans convertir, fonctionne sur la plupart de ces formats et reste l'un des leviers les plus rentables lorsqu'un site génère déjà du trafic.
 

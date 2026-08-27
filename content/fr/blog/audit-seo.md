@@ -8,6 +8,9 @@ categories: ["SEO"]
 tags: ["audit seo", "seo technique", "checklist", "guide", "google"]
 author: "thomas-durand"
 auteurs: ["thomas-durand"]
+image: "/images/blog/audit-seo.webp"
+imageAlt: "Tableau de bord d'audit SEO affichant le nombre de pages scannées et la vitesse de chargement"
+imageCredit: "Photo par Inseritore via Wikimedia (CC BY-SA 4.0)"
 faq:
   - question: "Qu'est-ce qu'un audit SEO exactement ?"
     answer: "Un audit SEO est l'examen complet d'un site destiné à repérer ce qui freine son référencement naturel. Il couvre les aspects techniques, la qualité du contenu et la popularité mesurée par les liens entrants. Il se termine par une liste d'actions hiérarchisées selon leur impact et leur difficulté de mise en oeuvre."
