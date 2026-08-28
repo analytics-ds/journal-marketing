@@ -259,10 +259,10 @@ articles:
     volume: 320
     kd: 25
     scheduled_date: "2026-08-28"
-    status: todo
-    published_date: null
-    published_url_fr: null
-    published_url_en: null
+    status: done
+    published_date: "2026-08-28"
+    published_url_fr: "https://journal-marketing.fr/blog/seo-vs-sea/"
+    published_url_en: "https://journal-marketing.fr/en/blog/seo-vs-sea/"
     error: null
 
   # ============ Semaine 36 (31/08 - 06/09) ============
