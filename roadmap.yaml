@@ -272,10 +272,10 @@ articles:
     volume: 355
     kd: 31
     scheduled_date: "2026-08-31"
-    status: todo
-    published_date: null
-    published_url_fr: null
-    published_url_en: null
+    status: done
+    published_date: "2026-08-31"
+    published_url_fr: "https://journal-marketing.fr/blog/ia-redaction-texte/"
+    published_url_en: "https://journal-marketing.fr/en/blog/ai-text-writing/"
     error: null
 
   - kw: "google tag manager c'est quoi"
