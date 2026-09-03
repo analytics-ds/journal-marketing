@@ -305,10 +305,10 @@ articles:
     volume: 720
     kd: 35
     scheduled_date: "2026-09-03"
-    status: todo
-    published_date: null
-    published_url_fr: null
-    published_url_en: null
+    status: done
+    published_date: "2026-09-03"
+    published_url_fr: "https://journal-marketing.fr/blog/logiciel-ia-gratuit/"
+    published_url_en: "https://journal-marketing.fr/en/blog/free-ai-software/"
     error: null
 
   - kw: "seo local"
