@@ -9,8 +9,8 @@ tags: ["ligne editoriale", "strategie de contenu", "charte editoriale", "guide",
 author: "lea-fontaine"
 auteurs: ["lea-fontaine"]
 image: "/images/blog/ligne-editoriale.webp"
-imageAlt: "Équipe de rédaction réunie autour d'une table pour discuter de la ligne éditoriale"
-imageCredit: "Photo par allaboutgeorge via Flickr (CC BY 2.0)"
+imageAlt: "Carnet ouvert sur une page manuscrite intitulee Content Strategy"
+imageCredit: "Photo par Walls.io via Pexels"
 faq:
   - question: "Qu'est-ce qu'une ligne éditoriale ?"
     answer: "La ligne éditoriale est l'ensemble des choix qui définissent les thématiques, la cible, le ton et le style d'un média ou d'une marque. Elle sert de cadre de référence à chaque contenu publié, pour garantir une cohérence entre les articles, quel que soit l'auteur. Sans ce cadre, un site ou un blog accumule des contenus disparates qui brouillent son identité auprès des lecteurs."

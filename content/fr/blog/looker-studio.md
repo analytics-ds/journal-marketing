@@ -9,8 +9,8 @@ tags: ["google", "looker studio", "guide", "definition", "reporting"]
 author: "julien-roy"
 auteurs: ["julien-roy"]
 image: "/images/blog/looker-studio.webp"
-imageAlt: "Mur d'écrans affichant des tableaux de bord de données dans une salle de supervision"
-imageCredit: "Photo par UrusHyby via Wikimedia (CC CC0 1.0)"
+imageAlt: "Ordinateur portable affichant un tableau de bord de donnees et des graphiques"
+imageCredit: "Photo par Lukas Blazek via Pexels"
 faq:
   - question: "Looker Studio est-il un outil payant ou entièrement gratuit ?"
     answer: "Looker Studio est accessible gratuitement avec un simple compte Google, sans limite affichée sur le nombre de rapports, de sources connectées ou d'utilisateurs invités en lecture. Cette version couvre l'essentiel des besoins de reporting d'une équipe marketing. Une offre Looker Studio Pro existe en complément, réservée à des besoins de gouvernance à l'échelle d'une entreprise. Pour un usage individuel ou une petite équipe, la version gratuite suffit dans la grande majorité des cas."

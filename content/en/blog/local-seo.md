@@ -8,8 +8,9 @@ categories: ["SEO"]
 tags: ["local seo", "google", "google business profile", "guide", "local pack"]
 author: "thomas-durand"
 auteurs: ["thomas-durand"]
-image: "/images/blog/seo-local.png"
-imageAlt: "Abstract purple illustration representing a business's local visibility in search results"
+image: "/images/blog/seo-local.webp"
+imageCredit: "Photo by Amina Filkins via Pexels"
+imageAlt: "Crop anonymous florist in apron browsing mobile phone while working in cozy floral shop"
 faq:
   - question: "What exactly is local SEO?"
     answer: "Local SEO groups the techniques used to improve a business's visibility in geolocated search results, especially in the local pack shown at the top of the results page. It targets searches carrying a proximity intent, whether or not a city is explicitly mentioned. A business with a physical location or a defined service area benefits from it first."

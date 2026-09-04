@@ -10,7 +10,7 @@ author: "karim-benali"
 auteurs: ["karim-benali"]
 image: "/images/blog/apparaitre-dans-chatgpt-techniques.webp"
 imageAlt: "Hands typing on a laptop keyboard showing a chart"
-imageCredit: "Photo par Negative Space via Stocksnap (CC CC0 1.0)"
+imageCredit: "Photo by Negative Space via Stocksnap (CC CC0 1.0)"
 faq:
   - question: "How long does it take to appear in ChatGPT after publishing an article?"
     answer: "Timelines vary considerably based on several factors: domain authority, content quality, and Bing indexing. For already-established domains, articles can be cited in ChatGPT responses within weeks. For less-known sites, expect several months. A complete GEO strategy typically takes 3 to 6 months to generate measurable and lasting results."

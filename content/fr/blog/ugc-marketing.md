@@ -8,8 +8,9 @@ categories: ["Social et influence"]
 tags: ["ugc", "createurs de contenu", "instagram", "guide", "reseaux sociaux"]
 author: "nina-alves"
 auteurs: ["nina-alves"]
-image: "/images/blog/ugc-marketing.png"
-imageAlt: "Dégradé bleu illustrant un article sur le marketing UGC"
+image: "/images/blog/ugc-marketing.webp"
+imageCredit: "Photo par Hanna Pad via Pexels"
+imageAlt: "Creatrice de contenu tournant une video mode avec un ring light"
 faq:
   - question: "Le UGC marketing coûte-t-il moins cher qu'une production publicitaire classique ?"
     answer: "Le coût direct de production est souvent plus faible, puisque le contenu est créé par des clients ou des créateurs indépendants plutôt que par un studio. Il faut cependant compter le temps de modération, les éventuelles contreparties versées aux créateurs et les frais de diffusion si le contenu est repris en publicité. L'économie réalisée dépend donc surtout du modèle de collecte choisi, pas seulement du format."

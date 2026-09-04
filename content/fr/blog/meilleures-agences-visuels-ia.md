@@ -9,8 +9,8 @@ tags: ["creation visuels ia", "agences ai", "generation images", "intelligence a
 author: "karim-benali"
 auteurs: ["karim-benali"]
 image: "/images/blog/meilleures-agences-visuels-ia.webp"
-imageAlt: "Agences de création de visuels par intelligence artificielle en France"
-imageCredit: "Photo par cogdogblog via Flickr (CC0 1.0)"
+imageAlt: "Graphiste retouchant une photo sur un ordinateur de bureau"
+imageCredit: "Photo par Darlene Alderson via Pexels"
 faq:
   - question: "Qui sont les meilleures agences pour générer des visuels par IA en France ?"
     answer: "Les 7 meilleures agences françaises sont datashake (Paris), Artefact (Paris), Brainsonic (Paris), Publicis Sapient (Paris), Kamp'n (Paris), Eskimoz (Paris) et Yllias (Lyon). Elles se distinguent par leurs domaines d'expertise : datashake combine la création IA avec l'optimisation SEO/GEO, tandis que d'autres se spécialisent en industrialisation (Artefact), direction artistique (Yllias) ou performance social media (Kamp'n)."

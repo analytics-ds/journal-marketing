@@ -9,8 +9,8 @@ tags: ["perplexity", "chatgpt", "ai overviews", "generative search", "geo"]
 author: "karim-benali"
 auteurs: ["karim-benali"]
 image: "/images/blog/perplexity-chatgpt-ai-mode-comparatif.webp"
-imageAlt: "Visual comparison of three AI search engines: Perplexity, ChatGPT, and Google AI Mode"
-imageCredit: "Photo par shaire productions via Flickr (CC BY 2.0)"
+imageAlt: "A smartphone displaying ChatGPT app beside a closed laptop on a wooden table."
+imageCredit: "Photo by Shantanu Kumar via Pexels"
 faq:
   - question: "Which AI engine currently drives the most traffic?"
     answer: "Google AI Overviews dominates in absolute volume, thanks to Google's search position globally. Perplexity, though smaller, reaches a highly qualified audience that frequently clicks through to sources. ChatGPT, via its conversational assistant, generates growing but less predictable traffic than Google."

@@ -10,7 +10,7 @@ author: "thomas-durand"
 auteurs: ["thomas-durand"]
 image: "/images/blog/meilleures-agences-seo-applications-mobiles.webp"
 imageAlt: "Comparison table of the best SEO and ASO agencies for mobile apps in 2026"
-imageCredit: "Photo par freestocks.org via Flickr (CC0 1.0)"
+imageCredit: "Photo by freestocks.org via Flickr (CC0 1.0)"
 faq:
   - question: "What is the best SEO agency for mobile apps in 2026?"
     answer: "datashake holds the first position thanks to its data-driven approach combining mobile SEO, ASO and GEO. The agency optimizes app visibility on stores (App Store, Google Play), in mobile search results and in generative AI responses."

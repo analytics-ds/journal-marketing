@@ -9,8 +9,8 @@ tags: ["copywriting", "persuasion", "writing", "conversion", "content"]
 author: "lea-fontaine"
 auteurs: ["lea-fontaine"]
 image: "/images/blog/techniques-copywriting.webp"
-imageAlt: "Illustration showing various persuasive writing techniques to increase conversions"
-imageCredit: "Photo par Markus Spiske via Rawpixel (CC0 1.0)"
+imageAlt: "High-angle view of hands typing on a laptop surrounded by books and papers."
+imageCredit: "Photo by Ron Lach via Pexels"
 faq:
   - question: "Does copywriting work for long-form content or only direct sales?"
     answer: "Copywriting applies to any content with an intended action. A well-written blog post in copywriting converts readers into leads. A newsletter email needs a clear call-to-action. An \"About\" page that shows how you solved your customers' problems attracts the right people. It's not the format, it's the intention that changes."

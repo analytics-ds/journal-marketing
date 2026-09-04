@@ -10,7 +10,7 @@ author: "thomas-durand"
 auteurs: ["thomas-durand"]
 image: "/images/blog/meilleures-agences-seo-shopify.webp"
 imageAlt: "Comparison of Shopify SEO agencies, ranking tables and expertise areas"
-imageCredit: "Photo par Robbert Noordzij via Flickr (CC BY 2.0)"
+imageCredit: "Photo by Robbert Noordzij via Flickr (CC BY 2.0)"
 faq:
   - question: "Which Shopify SEO agency should I choose if my budget is limited?"
     answer: "For a small store with a tight budget, Kalys or Jloo offer a good balance between Shopify expertise and affordability. These two agencies propose custom accompaniment without the overhead costs associated with very large structures, while 410 Gone can be interesting if you're considering a technical migration."

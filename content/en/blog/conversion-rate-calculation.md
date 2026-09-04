@@ -10,7 +10,7 @@ author: "julien-roy"
 auteurs: ["julien-roy"]
 image: "/images/blog/calcul-taux-conversion.webp"
 imageAlt: "Person reviewing an audience analytics dashboard on a laptop"
-imageCredit: "Photo par Zuko.io Images via Wikimedia (CC BY 2.0)"
+imageCredit: "Photo by Zuko.io Images via Wikimedia (CC BY 2.0)"
 faq:
   - question: "How is conversion rate calculated?"
     answer: "Calculating conversion rate means dividing the number of conversions by the total number of visitors, then multiplying the result by 100 to get a percentage. A conversion can be a purchase, a newsletter signup or a quote request, depending on the goal set from the start. The result should always be read over a defined period, day, week or month, to stay comparable over time."

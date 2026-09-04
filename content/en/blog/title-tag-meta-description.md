@@ -10,7 +10,7 @@ author: "thomas-durand"
 auteurs: ["thomas-durand"]
 image: "/images/blog/balises-title-meta-description.webp"
 imageAlt: "Example of a title tag and meta description in a Google search result with optimal dimension annotations"
-imageCredit: "Photo par Sebastian Fuss via Flickr (CC BY-SA 2.0)"
+imageCredit: "Photo by Sebastian Fuss via Flickr (CC BY-SA 2.0)"
 faq:
   - question: "Can Google rewrite my meta description?"
     answer: "Yes. Google creates a new description if yours doesn't match the user's query well, if your content has changed, or if it detects a better summary in your page. This is normal behavior. A clear and relevant description reduces these interventions. The important thing is not to let this risk paralyze you: a good homemade description beats no description at all."

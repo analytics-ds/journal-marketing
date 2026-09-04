@@ -10,7 +10,7 @@ author: "thomas-durand"
 auteurs: ["thomas-durand"]
 image: "/images/blog/erreurs-seo-a-eviter.webp"
 imageAlt: "List of common SEO mistakes with correction icons and diagnostic symbols"
-imageCredit: "Photo par CarbonNYC via Flickr (CC BY 2.0)"
+imageCredit: "Photo by CarbonNYC via Flickr (CC BY 2.0)"
 faq:
   - question: "How long does it take to fix an SEO error and see results?"
     answer: "It depends on the error and its scope. Title fixes or Core Web Vitals optimization can show results in weeks. Fixing significant cannibalization or a toxic link profile can take 2-3 months. The older and more widespread the error, the slower the recovery."

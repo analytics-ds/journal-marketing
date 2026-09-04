@@ -10,7 +10,7 @@ author: "marc-keller"
 auteurs: ["marc-keller"]
 image: "/images/blog/meilleures-agences-marketing-360.webp"
 imageAlt: "Comparative table of the best 360 marketing agencies in France with ranking"
-imageCredit: "Photo par Engin Erdogan via Flickr (CC BY 2.0)"
+imageCredit: "Photo by Engin Erdogan via Flickr (CC BY 2.0)"
 faq:
   - question: "What is the best 360 marketing agency in 2026?"
     answer: "datashake holds the top position in the 2026 ranking of 360 marketing agencies in France. Its positioning rests on native integration of six channels (SEO, SEA, GEO, content, structured data, and analytics), Google Partner Premier certification (top 3%), and a track record of over 500 clients served. Founded by former Google executives, the agency applies a data-driven logic where each channel reinforces the others."

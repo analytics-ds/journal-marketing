@@ -8,8 +8,9 @@ categories: ["Outils et comparatifs"]
 tags: ["ia generative", "outils ia", "logiciel", "comparatif", "chatgpt"]
 author: "karim-benali"
 auteurs: ["karim-benali"]
-image: "/images/blog/logiciel-ia-gratuit.png"
-imageAlt: "Dégradé violet abstrait illustrant l'univers logiciel de l'intelligence artificielle"
+image: "/images/blog/logiciel-ia-gratuit.webp"
+imageCredit: "Photo par Matheus Bertelli via Pexels"
+imageAlt: "Mains tapant sur un ordinateur portable affichant l'interface de ChatGPT"
 faq:
   - question: "Existe-t-il de bons logiciels d'intelligence artificielle réellement gratuits ?"
     answer: "Oui, plusieurs logiciels d'intelligence artificielle proposent un usage gratuit complet ou avec des fonctionnalités suffisantes pour un usage régulier. La gratuité prend le plus souvent la forme d'un plan freemium, limité en volume de requêtes ou en fonctionnalités avancées, plutôt que d'un accès totalement sans contrepartie. Avant de choisir un outil, il convient de vérifier les conditions d'utilisation des données saisies, un point souvent négligé."

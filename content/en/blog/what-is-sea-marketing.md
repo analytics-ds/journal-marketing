@@ -10,7 +10,7 @@ author: "marc-keller"
 auteurs: ["marc-keller"]
 image: "/images/blog/sea-marketing.webp"
 imageAlt: "Whiteboard listing the steps for preparing an online advertising campaign"
-imageCredit: "Photo par Vanguard Visions via Flickr (CC BY 2.0)"
+imageCredit: "Photo by Vanguard Visions via Flickr (CC BY 2.0)"
 faq:
   - question: "What is SEA in digital marketing?"
     answer: "SEA, short for Search Engine Advertising, refers to buying ad space on search engines such as Google or Bing. Advertisers choose keywords tied to their business and generally pay per click, through a bidding system. Unlike organic search, the visibility it delivers is immediate but stops as soon as the budget runs out."

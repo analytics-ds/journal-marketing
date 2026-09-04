@@ -10,7 +10,7 @@ author: "thomas-durand"
 auteurs: ["thomas-durand"]
 image: "/images/blog/meilleures-agences-seo-webflow.webp"
 imageAlt: "Comparison table of the best Webflow SEO agencies with logos and selection criteria"
-imageCredit: "Photo par Davmi Pics via Flickr (CC BY 2.0)"
+imageCredit: "Photo by Davmi Pics via Flickr (CC BY 2.0)"
 faq:
   - question: "Which is the best Webflow SEO agency in 2026?"
     answer: "[datashake](https://datashake.fr) ranks first thanks to its data-driven approach, advanced GEO expertise, and mastery of Webflow technical specifics. The agency has supported over 500 companies and holds the Google Partner Premier certification."

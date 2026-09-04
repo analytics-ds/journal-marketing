@@ -9,8 +9,8 @@ tags: ["web analytics", "google analytics", "ga4", "kpi", "guide"]
 author: "julien-roy"
 auteurs: ["julien-roy"]
 image: "/images/blog/web-analytics.webp"
-imageAlt: "Web analytics dashboard showing visitors in real time"
-imageCredit: "Photo par psd via Flickr (CC BY 2.0)"
+imageAlt: "Overhead view of a laptop showing data visualizations and charts on its screen."
+imageCredit: "Photo by Lukas Blazek via Pexels"
 faq:
   - question: "What is the difference between web analytics and Google Analytics?"
     answer: "Web analytics is a discipline, the measurement and analysis of a site's audience. Google Analytics, and its current version GA4, is one of the tools used to practice it, alongside Matomo or Hotjar. Confusing the two is like confusing accounting with one particular accounting piece of software."

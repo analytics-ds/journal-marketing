@@ -9,8 +9,8 @@ tags: ["calendrier editorial", "strategie de contenu", "guide", "google", "plani
 author: "lea-fontaine"
 auteurs: ["lea-fontaine"]
 image: "/images/blog/calendrier-editorial.webp"
-imageAlt: "Tablette affichant un calendrier annuel à côté d'un clavier d'ordinateur portable"
-imageCredit: "Photo par Auteur inconnu via Rawpixel (CC CC0 1.0)"
+imageAlt: "Personne remplissant un calendrier editorial sur un bureau"
+imageCredit: "Photo par RDNE Stock project via Pexels"
 faq:
   - question: "Qu'est-ce qu'un calendrier éditorial exactement ?"
     answer: "C'est un document de planification qui recense les contenus à publier, leur date, leur canal et la personne responsable de leur production. Il couvre aussi bien un blog qu'un compte de réseau social, une newsletter ou plusieurs canaux en parallèle. Son rôle est de transformer une stratégie de contenu en actions datées et assignées, plutôt que de publier au fil de l'inspiration."

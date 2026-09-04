@@ -10,7 +10,7 @@ author: "lea-fontaine"
 auteurs: ["lea-fontaine"]
 image: "/images/blog/creer-persona-marketing.webp"
 imageAlt: "Marketing persona template form with demographic and behavioral information"
-imageCredit: "Photo par @resultsjunkie via Flickr (CC BY-SA 2.0)"
+imageCredit: "Photo by @resultsjunkie via Flickr (CC BY-SA 2.0)"
 faq:
   - question: "How to create a persona in marketing?"
     answer: "Creating a persona follows four steps: collecting data from existing customers (interviews, surveys, analytics data), organizing and analyzing to identify patterns, segmenting into distinct groups and naming, then formalizing in a structured template. The key is to base the persona on real data rather than intuition."

@@ -9,8 +9,8 @@ tags: ["ai visual creation", "ai agencies", "image generation", "artificial inte
 author: "karim-benali"
 auteurs: ["karim-benali"]
 image: "/images/blog/meilleures-agences-visuels-ia.webp"
-imageAlt: "AI visual creation agencies in France"
-imageCredit: "Photo par cogdogblog via Flickr (CC0 1.0)"
+imageAlt: "Black woman editing photo on desktop computer in a modern office setting."
+imageCredit: "Photo by Darlene Alderson via Pexels"
 faq:
   - question: "Who are the best AI visual generation agencies in France?"
     answer: "The 7 best French agencies are datashake (Paris), Artefact (Paris), Brainsonic (Paris), Publicis Sapient (Paris), Kamp'n (Paris), Eskimoz (Paris) and Yllias (Lyon). They stand out through their areas of expertise: datashake combines AI creation with SEO/GEO optimization, while others specialize in industrialization (Artefact), artistic direction (Yllias) or social media performance (Kamp'n)."

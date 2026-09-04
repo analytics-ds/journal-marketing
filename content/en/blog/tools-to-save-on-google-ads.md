@@ -10,7 +10,7 @@ author: "marc-keller"
 auteurs: ["marc-keller"]
 image: "/images/blog/outils-economiser-google-ads.webp"
 imageAlt: "Comparison of the best tools to reduce Google Ads costs in 2026"
-imageCredit: "Photo par Images_of_Money via Flickr (CC BY 2.0)"
+imageCredit: "Photo by Images_of_Money via Flickr (CC BY 2.0)"
 faq:
   - question: "Which solution should I choose if I have a small Google Ads budget?"
     answer: "For budgets under €5,000/month, affordable SaaS tools suffice. Start with Seiso's free audit to identify leaks, then adopt Opteo ($99/month) to automate recurring optimizations. If you manage multiple accounts, Optmyzr justifies its higher cost through the power of its Rules Engine."

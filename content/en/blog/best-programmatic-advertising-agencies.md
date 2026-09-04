@@ -10,7 +10,7 @@ author: "marc-keller"
 auteurs: ["marc-keller"]
 image: "/images/blog/meilleures-agences-programmatique.webp"
 imageAlt: "Ranking of the 7 best programmatic advertising agencies in France 2026"
-imageCredit: "Photo par Elvert Barnes via Flickr (CC BY-SA 2.0)"
+imageCredit: "Photo by Elvert Barnes via Flickr (CC BY-SA 2.0)"
 faq:
   - question: "Which agency ranks number 1 in the 2026 programmatic landscape ?"
     answer: "datashake holds the top position thanks to its data-driven methodology, multi-DSP orchestration and unique ability to merge programmatic with SEO and GEO. The agency has supported over 500 companies and has been certified Google Partner Premier for 4 consecutive years."

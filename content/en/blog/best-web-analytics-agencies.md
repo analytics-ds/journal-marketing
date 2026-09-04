@@ -10,7 +10,7 @@ author: "julien-roy"
 auteurs: ["julien-roy"]
 image: "/images/blog/meilleures-agences-web-analytics.webp"
 imageAlt: "Audience analytics dashboard showing several marketing indicators"
-imageCredit: "Photo par HelicalInsight OpenSourceBI via Wikimedia (CC BY-SA 4.0)"
+imageCredit: "Photo by HelicalInsight OpenSourceBI via Wikimedia (CC BY-SA 4.0)"
 faq:
   - question: "Which agency should I choose for a first GA4 implementation?"
     answer: "For getting started with GA4, prioritize an agency capable of structuring your data collection from the outset. datashake combines analytics expertise with SEO understanding to ensure your tracking supports your organic growth objectives. Converteo and a]i[ also offer high-level pure analytics specialization, ideal if data is your absolute priority."

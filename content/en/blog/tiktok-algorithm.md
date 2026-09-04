@@ -10,7 +10,7 @@ author: "nina-alves"
 auteurs: ["nina-alves"]
 image: "/images/blog/algorithme-tiktok.webp"
 imageAlt: "Young man scrolling an app feed on his smartphone"
-imageCredit: "Photo par Kristin Hardwick via Stocksnap (CC CC0 1.0)"
+imageCredit: "Photo by Kristin Hardwick via Stocksnap (CC CC0 1.0)"
 faq:
   - question: "Does follower count affect a video's reach on TikTok?"
     answer: "Not directly. An account with only a few hundred followers can see a video distributed to millions of people if it generates the right signals during the test phase. The algorithm evaluates each video individually rather than the size of the audience that posted it. This mechanism is what allows new creators to emerge quickly on the platform."

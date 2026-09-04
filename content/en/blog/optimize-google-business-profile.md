@@ -10,7 +10,7 @@ author: "thomas-durand"
 auteurs: ["thomas-durand"]
 image: "/images/blog/optimiser-fiche-etablissement-google.webp"
 imageAlt: "Screenshot of an optimized Google Business Profile with complete information, photos, and customer reviews visible."
-imageCredit: "Photo par La Citta Vita via Flickr (CC BY-SA 2.0)"
+imageCredit: "Photo by La Citta Vita via Flickr (CC BY-SA 2.0)"
 faq:
   - question: "How long before I see results after optimizing my profile?"
     answer: "Changes to basic information (hours, description, NAP) may be visible within days. However, Google must recrawl and re-evaluate your local relevance. Expect 2 to 4 weeks for visible ranking improvement. Adding photos and posts speeds the process. A severely penalized business (duplicate profiles) may take longer to recover."

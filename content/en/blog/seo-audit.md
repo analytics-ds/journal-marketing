@@ -9,8 +9,8 @@ tags: ["seo audit", "technical seo", "checklist", "guide", "google"]
 author: "thomas-durand"
 auteurs: ["thomas-durand"]
 image: "/images/blog/audit-seo.webp"
-imageAlt: "SEO audit dashboard showing the number of pages crawled and the loading speed"
-imageCredit: "Photo par Inseritore via Wikimedia (CC BY-SA 4.0)"
+imageAlt: "Detailed close-up of a hand pointing at colorful charts with a blue pen on wooden surface."
+imageCredit: "Photo by Lukas Blazek via Pexels"
 faq:
   - question: "What exactly is an SEO audit?"
     answer: "An SEO audit is a complete review of a site aimed at spotting what holds back its organic ranking. It covers technical aspects, content quality and popularity as measured by inbound links. It ends with a prioritized list of actions ranked by impact and effort."

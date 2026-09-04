@@ -10,7 +10,7 @@ author: "karim-benali"
 auteurs: ["karim-benali"]
 image: "/images/blog/ia-redaction-texte.jpg"
 imageAlt: "A person's hands typing on a laptop keyboard"
-imageCredit: "Photo par nenadstojkovicart via Flickr (CC BY 2.0)"
+imageCredit: "Photo by nenadstojkovicart via Flickr (CC BY 2.0)"
 faq:
   - question: "Which AI tool should you choose to write a text?"
     answer: "The choice depends on the task at hand. ChatGPT works well for producing a full draft from an instruction, QuillBot for rephrasing or shortening an existing text, and assistants built into office suites such as Canva or Microsoft Word for short, one-off content. Testing several tools on the same short text remains the most reliable way to identify the one that fits a given use case best."

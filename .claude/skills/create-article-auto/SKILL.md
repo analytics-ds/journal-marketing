@@ -261,33 +261,56 @@ auteurs: ["thomas-durand"]
 bash .claude/scripts/fetch-image.sh "<kw traduit en anglais>" "<slug-fr>" "static/images/blog"
 ```
 
-- Query en anglais : Openverse est majoritairement indexe en anglais.
+- Query en anglais : les trois banques sont majoritairement indexees en anglais.
 - Sortie du script sur 3 lignes : chemin Hugo, alt suggere, credit.
+- **Cascade de sources depuis le 2026-09-04** : `Pexels` -> `Unsplash` -> `Openverse` ->
+  visuel de charte genere. Le script descend d'un palier a chaque echec, sans jamais
+  rendre la main sans visuel.
+- **Openverse est passe en dernier recours, il n'est plus la source nominale.** Mesure du
+  2026-09-04 sur les 45 heros du blog : 5 degrades generes, 10 photos franchement hors
+  sujet (salle de controle de bus pour Looker Studio, conseil d'administration pour la
+  ligne editoriale, ecran gov.uk pour le web analytics, tablette affichant 2017 pour le
+  calendrier editorial) et 15 photos generiques interchangeables, pour seulement 15 photos
+  reellement pertinentes. Il federe Flickr et Wikimedia, donc des archives et des photos
+  perso : le filtre de licence ne dit rien de la pertinence. Il **sert aussi des URLs
+  mortes** (lien Wikimedia en 404 verifie le 2026-09-04). Il ne reste dans la cascade que
+  parce qu'il ne demande aucune cle, donc qu'il tient le plancher quand le prompt de la
+  routine n'injecte pas `PEXELS_API_KEY`.
+- **Les cles arrivent par le prompt de la routine**, jamais par le repo : les repos du
+  reseau sont PUBLICS. Le script lit `PEXELS_API_KEY` et `UNSPLASH_ACCESS_KEY` dans
+  l'environnement, et a defaut dans le `.env` du Drive quand il tourne sur un Mac. Sans
+  cle, la cascade demarre a Openverse et l'article sort quand meme.
 - **Le champ `image` du frontmatter n'est JAMAIS omis.** C'est la regle la plus importante
-  de cette etape. Le script ne rend plus la main sans un visuel : quand Openverse ne repond
-  pas, ne trouve rien, ou que le telechargement est bloque (ce qui est le cas par defaut
-  dans le cloud, dont le proxy egress bloque les domaines commerciaux), il genere lui-meme
-  un visuel de charte en PNG via `.claude/scripts/make-placeholder.py` et sort en 0.
-  Publier sans hero a laisse 9 articles FR sans aucun visuel entre le 10 et le 26/08/2026.
+  de cette etape. Publier sans hero a laisse 9 articles FR sans aucun visuel entre le 10
+  et le 26/08/2026.
 - Reporter **la ligne 1 telle quelle** dans `image`. L'extension varie legitimement selon
   l'environnement : `.webp` quand `cwebp` est la, `.jpg` sur une machine sans lui, `.png`
   quand c'est le visuel genere. Une extension inventee produit un hero casse sans erreur
   de build.
 - **Ligne 3 vide = visuel genere, donc pas de `imageCredit`** (on ne credite personne pour
-  un visuel qu'on fabrique). Ligne 3 renseignee = photo Openverse, et `imageCredit` est
-  alors **obligatoire**, tel que renvoye : c'est la contrepartie de la licence.
+  un visuel qu'on fabrique). Ligne 3 renseignee = photo d'une banque, et `imageCredit` est
+  alors **obligatoire**, tel que renvoye. Pexels n'impose pas l'attribution et Unsplash l'exige,
+  on la garde quand meme : c'est correct vis-a-vis du photographe et ca evite de traiter
+  la ligne 3 differemment selon la source.
 - Si le script sort quand meme non-zero (bug, ou `timeout` externe qui le tue avant le
   filet), ne pas marquer `failed` et ne pas publier sans image : generer le visuel a la
   main, puis renseigner `image`.
   ```bash
   python3 .claude/scripts/make-placeholder.py "<slug-fr>" "static/images/blog/<slug-fr>.png"
   ```
-- **Regarder l'image avant de publier quand la ligne 3 est renseignee.** Openverse federe
-  Flickr et Wikimedia, donc une banque de photos communes : le filtre de licence ne dit
-  rien de la pertinence. Mesure du 2026-08-27 sur 9 mots-cles, 6 images sur 9 etaient hors
-  sujet, dont une manifestation pour un article sur la loi influenceur et une grille de
-  personnages generes pour un article sur l'IA generative. Si l'image ne correspond pas au
-  sujet, la supprimer et prendre le visuel genere a la place.
+- **Regarder l'image avant de publier quand la ligne 3 est renseignee.** Le controle visuel
+  reste obligatoire sur les trois banques : le score du script porte sur le ratio et la
+  largeur, pas sur le sujet. Si l'image ne correspond pas au sujet, relancer le script avec
+  une query plus concrete (un objet, un lieu, une action filmable) plutot qu'un concept
+  abstrait, et en dernier ressort prendre le visuel genere.
+- **Le script tient un registre `.claude/hero-sources.json`** (slug -> `banque:id`) et ECARTE
+  tout candidat deja utilise par un autre article. Ne pas le vider : c'est ce qui empeche deux
+  articles de porter la meme photo, defaut mesure le 2026-09-04 (2 paires de doublons sur un
+  lot de 15, deux requetes voisines convergeant sur le meme cliche). Il est versionne, il ne
+  contient que des identifiants publics de photos.
+- **Noter la banque servie dans la ligne `MEMORY.md`** du run (`image hero: pexels`,
+  `unsplash`, `openverse` ou `visuel genere`). C'est ce qui permettra de mesurer si la
+  cascade tient dans le temps.
 
 ## Etape 6 — Maillage interne
 

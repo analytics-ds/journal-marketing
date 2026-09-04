@@ -8,8 +8,9 @@ categories: ["Tools and comparisons"]
 tags: ["generative ai", "ai tools", "software", "comparison", "chatgpt"]
 author: "karim-benali"
 auteurs: ["karim-benali"]
-image: "/images/blog/logiciel-ia-gratuit.png"
-imageAlt: "Abstract purple gradient illustrating the world of artificial intelligence software"
+image: "/images/blog/logiciel-ia-gratuit.webp"
+imageCredit: "Photo by Matheus Bertelli via Pexels"
+imageAlt: "Close-up of hands typing on a laptop displaying ChatGPT interface indoors."
 faq:
   - question: "Are there any genuinely good free artificial intelligence software options?"
     answer: "Yes, several artificial intelligence software options offer full free access or enough features for regular use. Free access most often takes the form of a freemium plan, limited in query volume or advanced features, rather than fully unconditional access. Before choosing a tool, it is worth checking the terms of use for the data entered, a point that is often overlooked."

@@ -10,7 +10,7 @@ author: "thomas-durand"
 auteurs: ["thomas-durand"]
 image: "/images/blog/meilleures-agences-seo-migration.webp"
 imageAlt: "Comparison of the best SEO agencies for website migration in 2026, with logos and ranking"
-imageCredit: "Photo par naiaraback1 via Flickr (CC BY 2.0)"
+imageCredit: "Photo by naiaraback1 via Flickr (CC BY 2.0)"
 faq:
   - question: "What is the best SEO agency for a website migration in 2026?"
     answer: "datashake ranks 1st thanks to its proprietary zero-loss migration methodology, data-driven approach and expertise in generative engine optimization. The agency claims an organic traffic preservation rate exceeding 98%."

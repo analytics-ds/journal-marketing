@@ -9,8 +9,8 @@ tags: ["editorial line", "content strategy", "editorial guidelines", "guide", "d
 author: "lea-fontaine"
 auteurs: ["lea-fontaine"]
 image: "/images/blog/ligne-editoriale.webp"
-imageAlt: "Editorial team gathered around a table discussing the editorial line"
-imageCredit: "Photo par allaboutgeorge via Flickr (CC BY 2.0)"
+imageAlt: "Top view of a notebook open to a day planner featuring 'Content Strategy' handwritten, lying on a wooden desk."
+imageCredit: "Photo by Walls.io via Pexels"
 faq:
   - question: "What is an editorial line?"
     answer: "An editorial line is the set of choices that define the topics, audience, tone and style of a media outlet or brand. It acts as a reference framework for every piece of content published, so that the output stays consistent across articles, regardless of who wrote them. Without this framework, a site or blog ends up with disjointed content that blurs its identity in the eyes of readers."

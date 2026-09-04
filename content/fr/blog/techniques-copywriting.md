@@ -9,8 +9,8 @@ tags: ["copywriting", "persuasion", "rédaction", "conversion", "contenu"]
 author: "lea-fontaine"
 auteurs: ["lea-fontaine"]
 image: "/images/blog/techniques-copywriting.webp"
-imageAlt: "Illustration montrant différentes techniques de rédaction persuasive pour augmenter les conversions"
-imageCredit: "Photo par Markus Spiske via Rawpixel (CC0 1.0)"
+imageAlt: "Mains tapant sur un ordinateur portable entoure de livres et de papiers"
+imageCredit: "Photo par Ron Lach via Pexels"
 faq:
   - question: "Le copywriting fonctionne-t-il aussi pour le contenu long ou seulement pour la vente directe ?"
     answer: "Le copywriting s'applique à tout contenu qui vise une action. Un article blog bien écrit en copywriting convertit les lecteurs en leads. Un email newsletter doit posséder un appel à l'action clair. Une page \"À propos\" qui raconte des problèmes clients réellement résolus attire les bonnes personnes. Ce n'est pas le format qui change, c'est l'intention."

@@ -8,8 +8,9 @@ categories: ["Online advertising"]
 tags: ["seo", "sea", "google ads", "comparison", "online advertising"]
 author: "marc-keller"
 auteurs: ["marc-keller"]
-image: "/images/blog/seo-vs-sea.png"
-imageAlt: "Illustration comparing organic search and paid advertising levers"
+image: "/images/blog/seo-vs-sea.webp"
+imageCredit: "Photo by Cedric Fauntleroy via Pexels"
+imageAlt: "Two women in hijabs discuss digital advertising in an office setting."
 faq:
   - question: "What are the different types of organic search optimization?"
     answer: "Organic search optimization splits into several complementary levers. Technical SEO fixes structural issues on a site, such as speed or indexation, to make it easier for search engines to work. On-page SEO optimizes the content and tags of each page around a precise search intent. Link building, finally, strengthens a site's authority through inbound links from other relevant domains."

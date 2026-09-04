@@ -9,8 +9,8 @@ tags: ["geo", "definition", "guide", "generative ai", "seo"]
 author: "karim-benali"
 auteurs: ["karim-benali"]
 image: "/images/blog/geo-definition-guide.webp"
-imageAlt: "Person querying an AI assistant on a laptop"
-imageCredit: "Photo par DeaPeaJay via Flickr (CC BY-SA 2.0)"
+imageAlt: "Hand holding a smartphone with AI chatbot app, emphasizing artificial intelligence and technology."
+imageCredit: "Photo by Sanket  Mishra via Pexels"
 faq:
   - question: "Does GEO replace SEO?"
     answer: "No. SEO fundamentals remain the prerequisite: sound technical foundations, relevant content, authority. GEO adds an optimization layer specific to generative engines, with its own formats and its own citation metrics."

@@ -9,8 +9,8 @@ tags: ["perplexity", "chatgpt", "ai overviews", "moteurs ia", "geo"]
 author: "karim-benali"
 auteurs: ["karim-benali"]
 image: "/images/blog/perplexity-chatgpt-ai-mode-comparatif.webp"
-imageAlt: "Comparaison visuelle des trois moteurs de recherche IA : Perplexity, ChatGPT et Google AI Mode"
-imageCredit: "Photo par shaire productions via Flickr (CC BY 2.0)"
+imageAlt: "Smartphone affichant l'application ChatGPT a cote d'un ordinateur portable"
+imageCredit: "Photo par Shantanu Kumar via Pexels"
 faq:
   - question: "Quel moteur IA génère actuellement le plus de trafic ?"
     answer: "Google AI Overviews domine largement en volume absolu, grâce à la position de Google dans la recherche mondiale. Perplexity, bien que plus petit, adresse une audience très qualifiée qui clique souvent sur les sources. ChatGPT, via son assistant conversationnel, génère du trafic croissant mais moins prévisible que Google."

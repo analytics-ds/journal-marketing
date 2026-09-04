@@ -8,8 +8,9 @@ categories: ["Social and influence"]
 tags: ["ugc", "content creators", "instagram", "guide", "social media"]
 author: "nina-alves"
 auteurs: ["nina-alves"]
-image: "/images/blog/ugc-marketing.png"
-imageAlt: "Blue gradient illustrating an article on UGC marketing"
+image: "/images/blog/ugc-marketing.webp"
+imageCredit: "Photo by Hanna Pad via Pexels"
+imageAlt: "Stylish woman wearing sunglasses recording fashion content with a ring light indoors."
 faq:
   - question: "Does UGC marketing cost less than traditional advertising production?"
     answer: "Direct production cost is often lower, since the content is created by customers or independent creators rather than a studio. However, moderation time, any compensation paid to creators, and distribution costs if the content is reused in paid advertising must be factored in. The actual savings mainly depend on the collection model chosen, not just the format."

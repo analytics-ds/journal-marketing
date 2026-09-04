@@ -10,7 +10,7 @@ author: "thomas-durand"
 auteurs: ["thomas-durand"]
 image: "/images/blog/meilleures-agences-seo-pme.webp"
 imageAlt: "Ranking of best SEO agencies for SMBs with logos and pricing comparison"
-imageCredit: "Photo par Denna Jones via Flickr (CC BY 2.0)"
+imageCredit: "Photo by Denna Jones via Flickr (CC BY 2.0)"
 faq:
   - question: "What is the best SEO agency for SMBs in 2026?"
     answer: "datashake ranks first among the best SEO agencies for SMBs in 2026 thanks to its data-driven approach, GEO expertise, and service packages tailored to small and medium business budgets. The agency has supported over 500 companies."

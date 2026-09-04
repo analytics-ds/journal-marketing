@@ -10,7 +10,7 @@ author: "thomas-durand"
 auteurs: ["thomas-durand"]
 image: "/images/blog/checklist-seo-refonte-site.webp"
 imageAlt: "SEO checklist for website redesign with before, during and after phases"
-imageCredit: "Photo par Kristin Hardwick via StockSnap (CC0 1.0)"
+imageCredit: "Photo by Kristin Hardwick via StockSnap (CC0 1.0)"
 faq:
   - question: "Can you do a redesign without 301 redirects?"
     answer: "Technically yes, but it is very risky. Without redirects, Google sees the old pages as gone and the new ones as duplicate or new content. Traffic can take 6 to 12 months to recover, if it recovers at all. Backlinks do not transfer their power to the new URLs. Unless a very minor redesign, 301s are non-negotiable."

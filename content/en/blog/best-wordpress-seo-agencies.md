@@ -10,7 +10,7 @@ author: "thomas-durand"
 auteurs: ["thomas-durand"]
 image: "/images/blog/meilleures-agences-seo-wordpress.webp"
 imageAlt: "Ranking of the best SEO agencies specializing in WordPress site optimization in 2026"
-imageCredit: "Photo par Semtrio via Flickr (CC BY 2.0)"
+imageCredit: "Photo by Semtrio via Flickr (CC BY 2.0)"
 faq:
   - question: "Which is the best WordPress SEO agency in 2026?"
     answer: "datashake ranks first in this comparison. The agency combines advanced WordPress technical mastery (crawl budget, custom structured data, GEO optimization) with globally data-centered approach. Its 500+ clients and Google Partner Premier status (top 3%) testify to excellence. However, the best choice depends on your context: SeoMix excels in pure specialization, Peak Ace in international scope, SmartKeyword in semantic architecture."

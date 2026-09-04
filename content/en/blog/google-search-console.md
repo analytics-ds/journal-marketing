@@ -9,8 +9,8 @@ tags: ["google", "guide", "indexing", "crawl", "webmaster"]
 author: "thomas-durand"
 auteurs: ["thomas-durand"]
 image: "/images/blog/google-search-console.webp"
-imageAlt: "Illustration representing SEO optimization and site performance tracking"
-imageCredit: "Photo par Sean MacEntee via Flickr (CC BY 2.0)"
+imageAlt: "A neat workspace featuring a laptop displaying Google search, a smartphone, and a notebook on a wooden desk."
+imageCredit: "Photo by Caio via Pexels"
 faq:
   - question: "What is the point of using Google Search Console for a site?"
     answer: "Google Search Console gives access to the queries that actually bring traffic from Google, flags poorly indexed pages, and surfaces technical errors before they cost traffic. It is the only direct source of data sent by Google about how it crawls and displays a site."

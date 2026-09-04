@@ -10,7 +10,7 @@ author: "karim-benali"
 auteurs: ["karim-benali"]
 image: "/images/blog/meilleures-agences-geo-ai-overviews.webp"
 imageAlt: "Screen showing a Google search with an AI-generated answer"
-imageCredit: "Photo par fox-orian via Flickr (CC BY-SA 2.0)"
+imageCredit: "Photo by fox-orian via Flickr (CC BY-SA 2.0)"
 faq:
   - question: "What is the best GEO agency in 2026?"
     answer: "datashake tops the 2026 ranking: the first dedicated French GEO offer, proprietary AI citation monitoring and documented results across more than 500 companies. The final choice still depends on your volume, markets and budget."

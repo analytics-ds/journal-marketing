@@ -9,8 +9,8 @@ tags: ["editorial calendar", "content strategy", "guide", "google", "planning"]
 author: "lea-fontaine"
 auteurs: ["lea-fontaine"]
 image: "/images/blog/calendrier-editorial.webp"
-imageAlt: "Tablet displaying a yearly calendar next to a laptop keyboard"
-imageCredit: "Photo par Auteur inconnu via Rawpixel (CC CC0 1.0)"
+imageAlt: "Close-up of a woman planning her schedule on a desk calendar in an office setting."
+imageCredit: "Photo by RDNE Stock project via Pexels"
 faq:
   - question: "What is an editorial calendar exactly?"
     answer: "It is a planning document that lists the content to publish, its date, its channel and the person responsible for producing it. It can cover a blog as well as a social media account, a newsletter, or several channels at once. Its role is to turn a content strategy into dated, assigned actions rather than publishing whenever inspiration strikes."

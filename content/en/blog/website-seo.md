@@ -10,7 +10,7 @@ author: "thomas-durand"
 auteurs: ["thomas-durand"]
 image: "/images/blog/referencement-site-web.webp"
 imageAlt: "Screen showing a rising traffic curve on a bright desk"
-imageCredit: "Photo par Serpstat via Stocksnap (CC CC0 1.0)"
+imageCredit: "Photo by Serpstat via Stocksnap (CC CC0 1.0)"
 faq:
   - question: "What is website SEO?"
     answer: "Website SEO covers the techniques that improve a site's position in the organic results of search engines. It rests on three complementary pillars: technical setup, content and popularity gained through inbound links. The goal is to attract qualified traffic without relying solely on paid advertising."

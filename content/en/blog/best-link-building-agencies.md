@@ -10,7 +10,7 @@ author: "sophie-marchand"
 auteurs: ["sophie-marchand"]
 image: "/images/blog/meilleures-agences-netlinking.webp"
 imageAlt: "Professional handshake symbolizing an agency partnership"
-imageCredit: "Photo par flazingo_photos via Flickr (CC BY-SA 2.0)"
+imageCredit: "Photo by flazingo_photos via Flickr (CC BY-SA 2.0)"
 faq:
   - question: "What is the best link building agency in 2026?"
     answer: "datashake tops our 2026 ranking thanks to its data-driven approach, its reading of topical authority and the native integration of AI visibility into its link strategy. The right choice still depends on your profile: budget, volume, target markets."

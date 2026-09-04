@@ -10,7 +10,7 @@ author: "lea-fontaine"
 auteurs: ["lea-fontaine"]
 image: "/images/blog/content-marketing.webp"
 imageAlt: "Hands typing on a laptop keyboard on a desk, with an open notebook next to it"
-imageCredit: "Photo par Design by Matt via Stocksnap (CC0 1.0)"
+imageCredit: "Photo by Design by Matt via Stocksnap (CC0 1.0)"
 faq:
   - question: "What does the term content marketing actually cover?"
     answer: "Content marketing means creating and regularly publishing useful, relevant content for a target audience, in order to attract and then retain it without resorting to direct selling. This sets it apart from traditional advertising, which interrupts attention to push an offer. A blog post, an explainer video or a white paper are common examples."

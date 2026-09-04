@@ -8,8 +8,9 @@ categories: ["Data et mesure"]
 tags: ["google", "ga4", "tracking", "gtm", "guide"]
 author: "julien-roy"
 auteurs: ["julien-roy"]
-image: "/images/blog/google-tag-manager-definition.png"
-imageAlt: "Illustration schématique d'un système de gestion de balises de suivi web"
+image: "/images/blog/google-tag-manager-definition.webp"
+imageCredit: "Photo par Pixabay via Pexels"
+imageAlt: "Lignes de code colorees sur un ecran de developpement web"
 faq:
   - question: "Comment installer Google Tag Manager sur un site ?"
     answer: "L'installation démarre par la création d'un compte et d'un conteneur sur la plateforme Google Tag Manager, ce qui génère un identifiant unique et deux extraits de code. Le premier extrait se place dans la section d'en tête de chaque page du site, le second juste après l'ouverture du corps de la page. Une fois ces deux extraits intégrés, l'outil peut recevoir des balises sans nouvelle modification du code source. La plupart des créateurs de site (WordPress, Shopify, PrestaShop) proposent une extension dédiée qui simplifie cette étape."

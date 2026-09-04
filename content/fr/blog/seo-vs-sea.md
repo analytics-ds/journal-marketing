@@ -8,8 +8,9 @@ categories: ["Publicité en ligne"]
 tags: ["seo", "sea", "google ads", "comparatif", "publicite en ligne"]
 author: "marc-keller"
 auteurs: ["marc-keller"]
-image: "/images/blog/seo-vs-sea.png"
-imageAlt: "Illustration comparant les leviers de référencement naturel et de publicité en ligne"
+image: "/images/blog/seo-vs-sea.webp"
+imageCredit: "Photo par Cedric Fauntleroy via Pexels"
+imageAlt: "Deux collegues echangeant sur la publicite digitale au bureau"
 faq:
   - question: "Quels sont les différents types de référencement naturel ?"
     answer: "Le référencement naturel se répartit en plusieurs leviers complémentaires. Le SEO technique corrige les aspects structurels d'un site, comme la vitesse ou l'indexation, pour faciliter le travail des moteurs de recherche. Le SEO on-page optimise le contenu et les balises de chaque page autour d'une intention de recherche précise. Le netlinking renforce enfin l'autorité du site grâce aux liens entrants provenant d'autres domaines."

@@ -8,8 +8,9 @@ categories: ["SEO"]
 tags: ["seo local", "google", "fiche google", "guide", "pack local"]
 author: "thomas-durand"
 auteurs: ["thomas-durand"]
-image: "/images/blog/seo-local.png"
-imageAlt: "Illustration abstraite violette représentant la visibilité locale d'une entreprise dans les recherches"
+image: "/images/blog/seo-local.webp"
+imageCredit: "Photo par Amina Filkins via Pexels"
+imageAlt: "Fleuriste consultant son telephone dans sa boutique"
 faq:
   - question: "Qu'est-ce que le SEO local exactement ?"
     answer: "Le SEO local regroupe les techniques qui visent à améliorer la visibilité d'une entreprise dans les résultats de recherche géolocalisés, en particulier dans le pack local affiché en haut de la page de résultats. Il cible les recherches contenant une intention de proximité, avec ou sans mention explicite d'une ville. Une entreprise avec un point de vente physique ou une zone d'intervention définie en est la première bénéficiaire."

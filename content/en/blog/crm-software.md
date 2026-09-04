@@ -10,7 +10,7 @@ author: "la-redaction"
 auteurs: ["la-redaction"]
 image: "/images/blog/logiciel-crm.webp"
 imageAlt: "Team gathered around a laptop in a bright office"
-imageCredit: "Photo par Direct Media via Stocksnap (CC CC0 1.0)"
+imageCredit: "Photo by Direct Media via Stocksnap (CC CC0 1.0)"
 faq:
   - question: "What does CRM mean and what is CRM software for?"
     answer: "CRM stands for Customer Relationship Management. CRM software centralizes contact data, exchange history and sales stages to help sales, marketing and support teams prospect and retain customers more effectively. It replaces files scattered across several people with a shared database that the whole organization can consult."

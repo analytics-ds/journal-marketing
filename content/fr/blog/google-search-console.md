@@ -9,8 +9,8 @@ tags: ["google", "guide", "indexation", "crawl", "webmaster"]
 author: "thomas-durand"
 auteurs: ["thomas-durand"]
 image: "/images/blog/google-search-console.webp"
-imageAlt: "Illustration représentant l'optimisation SEO et le suivi de performance d'un site"
-imageCredit: "Photo par Sean MacEntee via Flickr (CC BY 2.0)"
+imageAlt: "Ordinateur portable affichant la recherche Google sur un bureau"
+imageCredit: "Photo par Caio via Pexels"
 faq:
   - question: "Quel est l'intérêt d'utiliser Google Search Console pour un site ?"
     answer: "Google Search Console donne accès aux requêtes qui amènent réellement du trafic depuis Google, signale les pages mal indexées et remonte les erreurs techniques avant qu'elles ne fassent perdre du trafic. C'est la seule source directe de données envoyées par Google sur la façon dont il explore et affiche un site."

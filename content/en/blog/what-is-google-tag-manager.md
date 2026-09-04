@@ -8,8 +8,9 @@ categories: ["Data and measurement"]
 tags: ["google", "ga4", "tracking", "gtm", "guide"]
 author: "julien-roy"
 auteurs: ["julien-roy"]
-image: "/images/blog/google-tag-manager-definition.png"
-imageAlt: "Schematic illustration of a website tracking tag management system"
+image: "/images/blog/google-tag-manager-definition.webp"
+imageCredit: "Photo by Pixabay via Pexels"
+imageAlt: "Close-up of colorful CSS code lines on a computer screen for web development."
 faq:
   - question: "How do you install Google Tag Manager on a website?"
     answer: "Installation starts with creating an account and a container on the Google Tag Manager platform, which generates a unique identifier and two code snippets. The first snippet goes in the head section of every page on the site, the second right after the opening of the body tag. Once these two snippets are in place, the tool can receive tags without any further modification to the source code. Most site builders (WordPress, Shopify, PrestaShop) offer a dedicated plugin that simplifies this step."
