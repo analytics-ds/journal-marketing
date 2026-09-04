@@ -4,6 +4,12 @@
 #
 # CASCADE DE SOURCES (2026-09-04). L'ordre n'est pas negociable, il est le resultat
 # d'une mesure sur les 45 articles FR du blog :
+#   0. Banque centrale datashake, si et seulement si `tools/banque-images/bank-pick.py`
+#      est trouve en remontant les dossiers parents. Elle sert les photos OFFICIELLES du
+#      client en priorite, ce qui doit toujours primer sur une photo de stock. Palier
+#      introduit sur lulli-magazine et tribune-inextenso par un autre consultant : il est
+#      conserve ici pour ne pas ecraser cette intention. **Au 2026-09-04 la banque n'existe
+#      nulle part dans ~/code**, donc ce palier est inactif et le script passe au suivant.
 #   1. Pexels    — banque commerciale, indexation marketing, ratio paysage garanti.
 #   2. Unsplash  — repli. Plafonne a 50 req/h en mode Demo, et ses guidelines imposent
 #      de pinger `links.download_location` a chaque telechargement : c'est fait plus bas,
@@ -195,6 +201,27 @@ PYW2
     echo "[fetch-image] registre mis a jour : $SLUG -> ${IMAGE_SOURCE}:${IMAGE_ID}" >&2
 }
 
+# --- Palier 0 : banque centrale datashake (photos officielles client) --------
+try_bank() {
+    local picker="" _d
+    _d="$(pwd)"
+    for _ in 1 2 3 4 5 6; do
+        if [ -f "$_d/tools/banque-images/bank-pick.py" ]; then picker="$_d/tools/banque-images/bank-pick.py"; break; fi
+        _d="$(dirname "$_d")"
+        [ "$_d" = "/" ] && break
+    done
+    [ -n "$picker" ] || return 1
+    echo "[fetch-image] banque centrale : $picker" >&2
+    local out
+    out=$(python3 "$picker" "$QUERY" "$SLUG" 2>/dev/null) || { echo "[fetch-image] banque : pas de match, palier suivant" >&2; return 1; }
+    IMAGE_URL=$(sed -n '1p' <<< "$out")
+    IMAGE_TITLE=$(sed -n '2p' <<< "$out")
+    IMAGE_CREDIT=$(sed -n '3p' <<< "$out")
+    IMAGE_ID="bank-$SLUG"
+    IMAGE_SOURCE="banque"
+    [ -n "$IMAGE_URL" ]
+}
+
 # --- Palier 1 : Pexels -------------------------------------------------------
 try_pexels() {
     [ -n "$PEXELS_KEY" ] || { echo "[fetch-image] Pexels : pas de cle, palier suivant" >&2; return 1; }
@@ -339,7 +366,7 @@ print(r.get('id') or '')
 }
 
 # --- Cascade -----------------------------------------------------------------
-try_pexels || try_unsplash || try_openverse || emit_placeholder "aucune-source"
+try_bank || try_pexels || try_unsplash || try_openverse || emit_placeholder "aucune-source"
 
 # --- Telechargement ----------------------------------------------------------
 TMP_FILE="/tmp/hero-${SLUG}.img"
