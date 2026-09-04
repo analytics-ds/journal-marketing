@@ -316,10 +316,10 @@ articles:
     volume: 1200
     kd: 28
     scheduled_date: "2026-09-04"
-    status: todo
-    published_date: null
-    published_url_fr: null
-    published_url_en: null
+    status: done
+    published_date: "2026-09-04"
+    published_url_fr: "https://journal-marketing.fr/blog/seo-local/"
+    published_url_en: "https://journal-marketing.fr/en/blog/local-seo/"
     error: null
 
   # ============ Semaine 37 (07/09 - 13/09) ============
