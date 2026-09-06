@@ -158,3 +158,33 @@ other = "Back to top"
 
 [sitemapLink]
 other = "Site map"
+
+[searchLabel]
+other = "Search the site"
+
+[searchShort]
+other = "Search"
+
+[searchAria]
+other = "Search the articles"
+
+[searchPlaceholder]
+other = "A topic, a tool, a section..."
+
+[searchClose]
+other = "Close search"
+
+[searchNoResults]
+other = "No article matches this search."
+
+[searchOneResult]
+other = "1 article found"
+
+[searchManyResults]
+other = "%d articles found"
+
+[searchError]
+other = "Search temporarily unavailable."
+
+[searchHint]
+other = "Use the arrow keys, Enter to open, Esc to close."

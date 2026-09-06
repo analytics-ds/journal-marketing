@@ -64,6 +64,17 @@ hugo -d /tmp/mag-build
 - **Plan du site** : `/plan-du-site/` (FR) et `/en/site-map/`, layout `layouts/_default/sitemap-html.html`, lié depuis le footer.
 - **Search Console** : fichier de vérification `static/googled8eabe3c50a839fc.html` (ne pas supprimer). Sitemap à soumettre : `https://journal-marketing.fr/sitemap.xml` (index FR + EN).
 
+## Recherche interne (2026-09-06)
+
+Barre de recherche client-side, sans dépendance ni service tiers (le repo est public et le site est statique sur GitHub Pages).
+
+- **Index** : `layouts/index.json` + `home = ["HTML", "RSS", "JSON"]` dans `hugo.toml`, ce qui génère `/index.json` (FR) et `/en/index.json` (EN). Un index par langue, ~100 Ko chacun pour 39 articles : titre, URL, description, catégories, tags, auteur, image, date localisée et les 2 000 premiers caractères du texte (`.Plain | truncate`). Les JSON n'entrent pas dans le sitemap.
+- **UI** : bouton loupe dans `layouts/partials/header.html` (classe `.search-toggle`), panneau modal dans `layouts/partials/search.html` monté par `baseof.html`, styles en fin de `static/css/main.css`, libellés dans `i18n/fr.toml` et `i18n/en.toml` (clés `search*`).
+- **JS** : `static/js/search.js`, chargé en `defer`. L'index n'est téléchargé qu'à la première ouverture (préchargé au survol du bouton), recherche insensible à la casse et **aux accents** (`normalize('NFD')`, donc "referencement" trouve "Référencement"), tous les mots de la requête doivent être présents, score titre > catégorie et tag > description > corps, 12 résultats max, termes surlignés en `<mark>`. Clavier : `/` ou Cmd+K pour ouvrir, flèches, Entrée, Échap.
+- **Ajouter un champ à l'index** : éditer `layouts/index.json` (clés courtes pour le poids) puis le pliage correspondant dans `load()` de `search.js`.
+- **Piège Hugo rencontré** : dans un template JSON, `.Date.Format ":date_medium"` sort la chaîne littérale `:date_medium`. Les layouts nommés sont une fonction Hugo, pas une méthode Go : utiliser `.Date | time.Format ":date_medium"`.
+- **Piège hugo server** : après modification de `layouts/index.json`, le serveur peut continuer à servir l'ancien JSON pour une seule des deux langues. Contrôler avec un build (`hugo -d /tmp/jm-build`), pas avec le serveur.
+
 ## Piège vécu : article écrit hors de `content/`
 
 Le 2026-08-03, l'article "Apparaître dans ChatGPT" (FR + EN) a été retrouvé dans `src/content/blog/` au lieu de `content/`, écrit là par un agent rédacteur qui avait mal interprété le `<racine>` du brief. Hugo ne buildait donc pas l'article : **404 en production pendant plusieurs jours, sans aucune erreur de build**. Il avait aussi échappé aux passes de contrôle (charte typo, extraction FAQ) qui ne scannaient que `content/`.

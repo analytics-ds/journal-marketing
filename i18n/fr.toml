@@ -158,3 +158,33 @@ other = "Remonter en haut de page"
 
 [sitemapLink]
 other = "Plan du site"
+
+[searchLabel]
+other = "Rechercher sur le site"
+
+[searchShort]
+other = "Rechercher"
+
+[searchAria]
+other = "Recherche dans les articles"
+
+[searchPlaceholder]
+other = "Un sujet, un outil, une rubrique..."
+
+[searchClose]
+other = "Fermer la recherche"
+
+[searchNoResults]
+other = "Aucun article ne correspond à cette recherche."
+
+[searchOneResult]
+other = "1 article trouvé"
+
+[searchManyResults]
+other = "%d articles trouvés"
+
+[searchError]
+other = "Recherche momentanément indisponible."
+
+[searchHint]
+other = "Naviguez avec les flèches, Entrée pour ouvrir, Échap pour fermer."
