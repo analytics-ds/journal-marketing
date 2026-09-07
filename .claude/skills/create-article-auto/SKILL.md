@@ -5,7 +5,7 @@ Cette skill produit **automatiquement** un article evergreen SEO, bilingue FR + 
 Elle est declenchee par une routine cloud planifiee (cron `0 1 * * 1-5`, du lundi au vendredi a 1h UTC, soit 5 articles par semaine). Elle peut aussi etre lancee manuellement pour tester.
 
 Ce blog est **Journal Marketing** (journal-marketing.fr), media debrande sur le marketing digital. Deux differences majeures avec la version reseau de cette skill :
-1. **L'analyse passe par l'API Datafer** (source nominale depuis le 2026-09-01), avec CrazySERP puis WebSearch en repli. Pas par SerpAPI, pas par un MCP. **Attention** : le prompt de la routine de ce blog vit sur le compte Claude Team Froggies (Theo) et porte encore la seule cle CrazySERP au 2026-09-01. Tant qu'il n'est pas patche, le cas 0 de l'etape 1.5 s'applique et les runs sortent en mode `crazyserp`, ce qui est un fonctionnement normal et non un incident.
+1. **L'analyse passe par l'API Datafer** (source nominale depuis le 2026-09-01), avec CrazySERP puis WebSearch en repli. Pas par SerpAPI, pas par un MCP. Le prompt de la routine de ce blog vit sur le compte Claude Team Froggies (Theo) et **porte les 4 cles depuis le 2026-09-07** : les runs sortent donc en mode `datafer`, avec le controle de score de l'etape 7bis.
 2. **Le contenu vit sous `content/fr/` et `content/en/`**, pas `content/blog/`.
 
 ## Quand l'utiliser
@@ -88,7 +88,7 @@ if [ -z "$DATAFER_API_KEY" ]; then
 fi
 ```
 
-Si elle est absente ou vide, **ne pas tenter Datafer du tout** : passer directement au mode `crazyserp` (1.5, cas 0). C'est la situation normale sur un blog dont le prompt de routine n'a pas encore ete patche, et ce n'est jamais un motif d'echec.
+Si elle est absente ou vide, **ne pas tenter Datafer du tout** : passer directement au mode `crazyserp` (1.5, cas 0). Ce n'est jamais un motif d'echec. **Au 2026-09-07, les 14 routines du parc portent toutes la cle** : si un run tombe malgre tout dans ce cas 0, ce n'est plus une situation normale mais le signe que son prompt a ete modifie ou restaure depuis, a signaler.
 
 ```bash
 export BASE="https://datafer.analytics-e0d.workers.dev"
