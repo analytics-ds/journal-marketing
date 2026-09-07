@@ -329,10 +329,10 @@ articles:
     volume: 1200
     kd: 30
     scheduled_date: "2026-09-07"
-    status: todo
-    published_date: null
-    published_url_fr: null
-    published_url_en: null
+    status: done
+    published_date: "2026-09-07"
+    published_url_fr: "https://journal-marketing.fr/blog/storytelling-marque/"
+    published_url_en: "https://journal-marketing.fr/en/blog/brand-storytelling/"
     error: null
 
   - kw: "retargeting définition"
