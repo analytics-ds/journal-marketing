@@ -7,7 +7,7 @@
 {{ $desc := or .Description .Site.Params.description }}
 <meta name="description" content="{{ $desc }}">
 <link rel="canonical" href="{{ .Permalink }}">
-<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+{{/* pbn-legal-noindex */}}{{- if .Params.noindex }}<meta name="robots" content="noindex, follow">{{ else }}<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">{{ end }}
 
 {{/* Open Graph */}}
 {{ $ogImg := "images/og-default.png" | absURL }}
