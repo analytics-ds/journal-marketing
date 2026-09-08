@@ -340,10 +340,10 @@ articles:
     volume: 320
     kd: 34
     scheduled_date: "2026-09-08"
-    status: todo
-    published_date: null
-    published_url_fr: null
-    published_url_en: null
+    status: done
+    published_date: "2026-09-08"
+    published_url_fr: "https://journal-marketing.fr/blog/retargeting-definition/"
+    published_url_en: "https://journal-marketing.fr/en/blog/retargeting-definition/"
     error: null
 
   - kw: "ai overview france"
