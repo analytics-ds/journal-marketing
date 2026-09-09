@@ -351,10 +351,10 @@ articles:
     volume: 320
     kd: 22
     scheduled_date: "2026-09-09"
-    status: todo
-    published_date: null
-    published_url_fr: null
-    published_url_en: null
+    status: done
+    published_date: "2026-09-09"
+    published_url_fr: "https://journal-marketing.fr/blog/ai-overview-france/"
+    published_url_en: "https://journal-marketing.fr/en/blog/ai-overview-in-france/"
     error: null
 
   - kw: "tableau de bord marketing"
