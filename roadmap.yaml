@@ -373,10 +373,10 @@ articles:
     volume: 700
     kd: null
     scheduled_date: "2026-09-11"
-    status: todo
-    published_date: null
-    published_url_fr: null
-    published_url_en: null
+    status: done
+    published_date: "2026-09-11"
+    published_url_fr: "https://journal-marketing.fr/blog/nano-influenceur/"
+    published_url_en: "https://journal-marketing.fr/en/blog/nano-influencer/"
     error: null
 
   # ============ Semaine 38 (14/09 - 20/09) ============
