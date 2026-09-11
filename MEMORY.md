@@ -34,3 +34,7 @@
 ## Corrections
 
 - 2026-09-11 | Hero de `storytelling-marque` (publie le 2026-09-07) : le degrade violet genere est remplace par une photo Pexels (`pexels:7598011`, document de strategie de marque). Cause : le run du 07/09 02h06 tournait AVANT le patch du prompt de la routine applique le meme jour a 09h50, donc sans `PEXELS_API_KEY` ni `UNSPLASH_ACCESS_KEY` ; la cascade demarrait a Openverse, qui a rendu 0 resultat sur "brand narrative storytelling", d'ou le placeholder. C'etait le **dernier placeholder du blog** : depuis le patch, les 4 heros publies (08, 09, 10, 11/09) viennent tous de Pexels. Le PNG est supprime, les frontmatters FR et EN portent le `.webp`, un `imageAlt` descriptif et le `imageCredit`. Une 1ere photo (`pexels:3321802`, public de conference avec marques visibles) a ete ecartee au controle visuel.
+
+## Notes
+
+- 2026-09-11 | **datashake.fr porte sa propre page sur "meilleure agence ChatGPT Ads" et sort 3e organique** (mesure CrazySERP du jour, location Paris). Consequence pour les prochains classements d'agences de ce blog : verifier systematiquement si datashake a deja une page sur la requete visee, et **ecrire un angle different** plutot qu'une variante du meme argumentaire, sinon les deux pages se concurrencent sur la meme SERP. Ici l'angle du blog est le comparatif a sept agences nommees avec honoraires publics, quand la page datashake.fr ne cite aucun concurrent et aucun tarif. Meme vigilance avec universdelatech.fr, qui porte aussi des classements d'agences (deja signale dans le CONTEXTE du parc).
