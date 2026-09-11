@@ -8,8 +8,9 @@ categories: ["Contenu"]
 tags: ["storytelling", "image de marque", "copywriting", "guide", "marketing digital"]
 author: "lea-fontaine"
 auteurs: ["lea-fontaine"]
-image: "/images/blog/storytelling-marque.png"
-imageAlt: "Illustration abstraite en dégradé violet évoquant le storytelling de marque"
+image: "/images/blog/storytelling-marque.webp"
+imageAlt: "Document de stratégie de marque posé sur un bureau, entouré d'un moodboard et de visuels de charte"
+imageCredit: "Photo par Leeloo The First via Pexels"
 faq:
   - question: "Qu'est-ce que le storytelling de marque ?"
     answer: "Le storytelling de marque désigne l'art de raconter une histoire pour communiquer sur une entreprise, un produit ou une mission, plutôt que de lister des arguments. Il structure des faits réels sous la forme d'un récit avec un point de départ, des obstacles et une évolution, afin de rendre le message plus mémorable. L'objectif est de créer une connexion émotionnelle avec l'audience, là où une simple liste de caractéristiques ne le permet pas."

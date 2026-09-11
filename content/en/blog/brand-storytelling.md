@@ -8,8 +8,9 @@ categories: ["Content"]
 tags: ["storytelling", "brand image", "copywriting", "guide", "digital marketing"]
 author: "lea-fontaine"
 auteurs: ["lea-fontaine"]
-image: "/images/blog/storytelling-marque.png"
-imageAlt: "Abstract purple gradient illustration evoking brand storytelling"
+image: "/images/blog/storytelling-marque.webp"
+imageAlt: "Brand strategy document on a desk surrounded by a moodboard and colour swatches"
+imageCredit: "Photo par Leeloo The First via Pexels"
 faq:
   - question: "What is brand storytelling?"
     answer: "Brand storytelling is the art of telling a story to communicate about a company, a product or a mission, rather than listing arguments. It structures real facts into a narrative with a starting point, obstacles and an evolution, to make the message more memorable. The goal is to create an emotional connection with the audience, which a simple list of features cannot achieve."
