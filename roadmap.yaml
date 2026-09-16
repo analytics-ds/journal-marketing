@@ -31,7 +31,7 @@
 #
 # ANALYSE SERP : CRAZYSERP (et pas SerpAPI)
 # -----------------------------------------
-# L'etape d'analyse concurrentielle passe par l'API CrazySERP de datashake
+# L'etape d'analyse concurrentielle passe par une API SERP
 # (cle CRAZYSERP_API_KEY). Elle renvoie dans un seul appel les resultats
 # organiques, les People Also Ask, les recherches associees, l'AI Overview et
 # le volume de recherche. Repli automatique sur WebSearch si l'egress du
