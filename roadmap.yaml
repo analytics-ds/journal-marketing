@@ -397,10 +397,10 @@ articles:
     volume: 720
     kd: 19
     scheduled_date: "2026-09-15"
-    status: todo
-    published_date: null
-    published_url_fr: null
-    published_url_en: null
+    status: done
+    published_date: "2026-09-18"
+    published_url_fr: "https://journal-marketing.fr/blog/audit-seo-technique/"
+    published_url_en: "https://journal-marketing.fr/en/blog/technical-seo-audit/"
     error: null
 
   - kw: "rédaction web"
