@@ -419,10 +419,10 @@ articles:
     volume: 300
     kd: 24
     scheduled_date: "2026-09-17"
-    status: todo
-    published_date: null
-    published_url_fr: null
-    published_url_en: null
+    status: done
+    published_date: "2026-09-22"
+    published_url_fr: "https://journal-marketing.fr/blog/publicite-en-ligne/"
+    published_url_en: "https://journal-marketing.fr/en/blog/online-advertising/"
     error: null
 
   - kw: "ia seo"
