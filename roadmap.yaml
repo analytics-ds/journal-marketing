@@ -487,10 +487,10 @@ articles:
     volume: 1000
     kd: 23
     scheduled_date: "2026-09-25"
-    status: todo
-    published_date: null
-    published_url_fr: null
-    published_url_en: null
+    status: done
+    published_date: "2026-09-30"
+    published_url_fr: "https://journal-marketing.fr/blog/tarif-redaction-web/"
+    published_url_en: "https://journal-marketing.fr/en/blog/web-writing-price/"
     error: null
 
   # ============ Semaine 40 (28/09 - 04/10) ============
